@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Автопомощь</title>
+    <link rel="stylesheet" href="style/FormStyle.css">
+    <link rel="stylesheet" href="fonts/gilroy/stylesheet.css">
+</head>
+<body>
+
+<div class="backgroundWrapperAutoHelp">
+   <div class="formWrapper">
+          <form action="#"
+          method="get"
+          name="autoHelpForm"
+          >
+        <div class="wrapperHead">
+            <div class="captionForm">
+               <p>Автопомощь</p>
+            </div>
+            <div class="descriptionAutoHelp">
+                <h4>Заявка</h4>
+            </div>
+            <p class="infoAutoHelp">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
+        </div>
+        <div>
+            <div>
+                <input type="text"
+                       id="autoHelpName"
+                       name="autoHelpName"
+                       placeholder="Фамилия и имя"
+                       autofocus
+                       class="DisainPlaceholder formName"
+                >
+            </div>
+            <div>
+                <input type="tel"
+                       id="autoHelpPhone"
+                       name="autoHelpPhone"
+                       placeholder="Номер телефона"
+                       required
+                       class="DisainPlaceholder formPhone"
+                >
+                <label class="controlLabel" for="autoHelpPhone">Обязательное поле для заполнения</label>
+            </div>
+            <div class="choiseTime">
+                <p>Выберите удобное время, когда вы сможете нам помочь</p>
+                <div class="flexaAgle">
+                    <div >
+                    <input  type="date" max="2021-31-12" min="2021-01-01" 
+                        value="Дата / Период"
+                        id="choiceDataForm"
+                        name="choiceDataForm"
+                        class="DisainPlaceholder wrapData"
+                        placeholder="Дата / Период"
+
+                    >
+                    </div>
+                     <div>
+                    <input
+                        type="time" 
+                        value="Дата / Период"
+                        id="choiceTimeForm"
+                        name="choiceTimeForm"
+                        class="DisainPlaceholder wrapTime"
+                    >
+                    </div>
+                </div>
+                <div>
+               <div class="addTime"><a href="">+</a> <span>Добавить дату и время</span></div>     
+                </div>
+            </div>
+            <div class="marginTop32px">
+                <div class="marginTop16px">
+                <input
+                        type="checkbox" 
+                        id="checkWorkDayForm"
+                        name="checkWorkDayForm"
+                        class="shapeCheck"
+                >
+                <p class="nameCheck">В любой будний день</p>
+                 </div>
+               <div class="marginTop16px">
+                 <input
+                type="checkbox" 
+                id="checkoОtputDayForm"
+                name="checkoОtputDayForm"
+                class="shapeCheck"
+                >
+                <p class="nameCheck">В любой выходной день</p>
+               </div>
+            </div>
+
+            <div class="checkOther marginTop32px">
+                <p>Выберите вид автопомощи</p>
+
+                    <div class="marginTop16px">
+                    <input
+                            type="checkbox" 
+                            id="checksmallThingForm"
+                            name="checksmallThingForm"
+                            class="shapeCheck"
+                    >
+                    <p class="nameCheck">Доставка еды, медикаментов и других небольших вещей</p>
+                    </div>
+
+                    <div class="marginTop16px">
+                    <input
+                            type="checkbox" 
+                            id="checkMaterialForm"
+                            name="checkMaterialForm"
+                            class="shapeCheck"
+                    >
+                    <p class="nameCheck">Доставка сена или соломы, строительных материлов<br>
+                                            для будок и других крупногабаритных вещей</p>
+                    </div>
+
+                    <div class="marginTop16px">
+                        <input
+                                type="checkbox" 
+                                id="checkSmallAnimalForm"
+                                name="checkSmallAnimalForm"
+                                class="shapeCheck"
+                        >
+                        <p class="nameCheck">Транспортировка небольших собак и котов</p>
+                    </div>
+
+                    <div class="marginTop16px">
+                        <input
+                                type="checkbox" 
+                                id="checksBigAnimalForm"
+                                name="checkBigAnimalForm"
+                                class="shapeCheck"
+                        >
+                        <p class="nameCheck">Транспортировка больших собак</p>
+                    </div>
+            
+            </div>
+
+
+            <div>
+                 <textarea id="autoHelpArea"
+                           name="autoHelpArea"
+                           placeholder="Замечания"
+                           class="DisainPlaceholder formArea"
+                 ></textarea>
+            </div>
+        </div>
+          <div class="flexaAgle marginTop32px">
+           <button id="takeHomeButton" class="formButton">
+                <span>Отправить</span>
+           </button>
+            <a class="exitForm" href="#"><span class="disainExit">Отмена</span></a> 
+        </div>       
+    </form>
+   </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

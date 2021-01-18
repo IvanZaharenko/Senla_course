@@ -1,0 +1,255 @@
+body{
+    font-family: Gilroy;
+}
+.margimLeft30px{
+    margin-left: 30px;
+}
+.margimLeft45px{
+    margin-left: 45px;
+}
+header{
+background: #f6f6f6;
+}
+.WrapperHead{
+    position: relative;
+    height: 820px;
+    width: 1258px;
+    margin: 0 auto 0 auto; 
+}
+.absolut{
+    position: inherit;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.styleList {
+    list-style: none;
+    margin: 54px 0 0 0 ;
+
+}
+.styleList li{
+    display: inline;
+}
+.styleList a {
+text-decoration: none;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #242424;
+}
+.styleList img {
+vertical-align: middle;
+}
+
+.circleSocial::before{
+content: '';
+display: block;
+width: 49px;
+height: 49px;
+border: 2px solid #FFFFFF;
+border-radius: 50%;
+position: absolute;
+top: 40px;
+left: 1041px;
+}
+.circleSocial::after{
+    content: '';
+    display: block;
+    width: 49px;
+    height: 49px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 1119px;
+    }
+.firstPictureHead{
+position: absolute;
+width: 718px;
+height: 713px;
+left: 540px;
+top: 0;
+border-radius: 0 0 8px 8px;
+background:url('../img/dog1.png') no-repeat ;
+}
+.secondPictureHead{
+position: absolute;
+width: 483px;
+height: 469px;
+left: 609px;
+top: 470px;
+background: url('../img/cat1.png') no-repeat;
+}
+h1 {
+width: 659px;
+height: 77px;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 87px;
+color: #242424;
+margin: 90px 0 0 112px;
+}
+.litleGrayHead{    
+width: 659px;
+height: 18px;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px;
+color: #6B6B6B;
+margin: 2px 0 0 112px;
+}
+.litleBoldBlackHead {
+width: 659px;
+height: 44px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+color: #474747;
+margin: 12px 0 0 112px;
+}
+.bigStyleHead{
+width: 428px;
+height: 116px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #C78100;
+margin: 43px 0 0 112px;
+}
+.WrapTextHead{
+    position: absolute;
+    z-index: 2;
+}
+.WrapTextHead a {
+height: 42px;
+width: 182px;
+text-decoration: none;
+background: #FBC832;
+border-radius: 58px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+color: #000000;
+display: block;
+text-align: center;
+margin: 49px 0 0 112px;
+cursor: pointer;
+}
+.opacityHead{
+    height: 406px;
+    width: 772px;
+    position: absolute;
+    top: 370px;
+}
+.opacityTextOne{
+width: 599px;
+height: 192px;
+background: #FFFFFF;
+opacity: 0.5;
+background: url('../img/can.png') no-repeat;
+}
+.opacityTextTwo{
+    width: 534px;
+    height: 107px;
+    background: #FFFFFF;
+    opacity: 0.6;
+    background: url('../img/best.png') no-repeat;
+}
+.opacityTextThree{
+    width: 474px;
+    height: 107px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    background: url('../img/friend.png') no-repeat;
+    margin: 0 0 0 298px;
+}
+.infoForVisitor{
+height: 650px;
+background-color: #FFFFFF;
+}
+.wrapInfoForVisitor{
+    position: absolute;
+    left: calc(100% + 342px);
+    top: 74px;
+    width: 465px;
+}
+.wrapInfoForVisitor h2{
+    height: 94px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+    color: #C78100;
+}
+.wrapInfoForVisitor p {
+   
+font-size: 16px;
+line-height: 140%;
+color: #242424;
+}
+.infoSectionImg1{
+    position: absolute;
+    width: 464px;
+    height: 464px;
+    border-radius: 50%;
+    background: url('../img/Ellipse 25.png') no-repeat #EEBF3A;
+    right: calc(-464px / 2);
+    top: 31px;
+    z-index: 2;
+}
+.infoSectionImg1Substrate{
+width: 521px;
+height: 521px;
+background: url('../img/EllipseInfo1.png') no-repeat; 
+position: absolute;
+left: calc(100% - 261px);
+}
+.WrapInfoIMG{
+height: 521px;
+max-width: 317px;
+width: 100%;
+background: #FAC832;
+margin: 54px 0 0 0;
+position: relative;
+z-index: 0;
+}
+.WrapInfoIMG::before{
+    content: '';
+    display: block;
+    width: 100vw;
+    height: 521px;
+    background: #FAC832;
+    position: absolute;
+    right: 100%;
+}
+.infoSectionCenter {
+    margin: 0 auto 0 auto;
+    width: 1258px;
+}
+.infoSectionImg2{
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    border-radius: 50%;
+    background: url('../img/Ellipse 39.png') no-repeat #EEBF3A;
+    z-index: 3;
+    top: calc(100% - 217px);
+    left: calc(100% + 41px);
+}
+.infoSectionImg2Substrate{
+    height: 245px;
+    width: 245px;
+    background: url('../img/EllipseInfo2.png') no-repeat; 
+    position: absolute;
+    z-index: 2;
+    left: calc(100% + 33px);
+    top: calc(100% - 225px);
+    }

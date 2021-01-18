@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Автопомощь</title>
+    <link rel="stylesheet" href="style/FormStyle.css">
+    <link rel="stylesheet" href="fonts/gilroy/stylesheet.css">
+</head>
+<body>
+
+<div class="backgroundWrapperVolunteer">
+   <div class="formWrapperVolunteer">
+          <form action="#"
+          method="get"
+          name="volunteerForm"
+          >
+        <div class="wrapperHead">
+            <div class="captionForm">
+               <p>Волонтерство</p>
+            </div>
+            <div class="descriptionAutoHelp">
+                <h4>Заявка</h4>
+            </div>
+            <p class="infoVolunteerHelp">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь, мы позвоним вам.</p>
+        </div>
+        <div>
+            <div>
+                <input type="text"
+                       id="volunteerName"
+                       name="volunteerName"
+                       placeholder="Фамилия и имя"
+                       autofocus
+                       class="DisainPlaceholder formName "
+                >
+            </div>
+            <div>
+                <input type="tel"
+                       id="volunteerPhone"
+                       name="volunteerPhone"
+                       placeholder="Номер телефона"
+                       required
+                       class="DisainPlaceholder formPhone "
+                >
+                <label class="controlLabel" for="volunteerPhone">Обязательное поле для заполнения</label>
+            </div>
+               
+            <div class="checkOther marginTop32px">
+
+                    <div class="marginTop16px">
+                    <input
+                            type="radio" 
+                            id="ksmallThingForm"
+                            name="checksmallThingForm"
+                            class="shapeCheck"
+                    >
+                    <p class="nameCheck">Хочу помогать на постоянной основе (расписание<br> можно подобрать так, как будет вам удобно)</p>
+                    </div>
+
+                    <div class="marginTop16px">
+                    <input
+                            type="radio" 
+                            id="checkMaterialForm"
+                            name="checkMaterialForm"
+                            class="shapeCheck"
+                    >
+                    <p class="nameCheck">Готов помогать иногда. Хочу выбрать удобное для меня<br> время</p>
+                    </div>           
+            </div>
+
+
+            <div>
+                 <textarea id="volunteerArea"
+                           name="volunteerArea"
+                           placeholder="Замечания"
+                           class="DisainPlaceholder formAreaVoluneer "
+                 ></textarea>
+            </div>
+        </div>
+          <div class="flexaAgle marginTop32px">
+           <button id="takeHomeButton" class="formButton">
+                <span>Отправить</span>
+           </button>
+            <a class="exitForm" href="#"><span class="disainExit">Отмена</span></a> 
+        </div>       
+    </form>
+   </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
