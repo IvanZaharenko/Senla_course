@@ -1,5 +1,6 @@
 body{
     font-family: Gilroy;
+    box-sizing: border-box;
 }
 .margimLeft30px{
     margin-left: 30px;
@@ -7,6 +8,13 @@ body{
 .margimLeft45px{
     margin-left: 45px;
 }
+.relative{
+    position: relative;
+}
+.justifyCenter{
+    justify-content: center;
+}
+
 header{
 background: #f6f6f6;
 }
@@ -230,7 +238,7 @@ z-index: 0;
     position: absolute;
     right: 100%;
 }
-.infoSectionCenter {
+.SectionCenter {
     margin: 0 auto 0 auto;
     width: 1258px;
 }
@@ -253,3 +261,190 @@ z-index: 0;
     left: calc(100% + 33px);
     top: calc(100% - 225px);
     }
+.howHelp {
+    min-height: 491px;
+    background: #f6f6f6;
+    border-bottom: 1px solid #eebf3a;
+}
+.howHelpHeading{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    text-align: center;
+    margin: 0;
+    padding: 64px 0 0 0 ;
+}
+.wrapperCard{
+    margin: 32px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.flexConteiner{
+    display: flex;
+}
+.howHelpCard{
+    height: 190px;
+    width: 140px;
+    margin-right: 56px;
+}
+.howHelpCard img{
+    margin: 0 0 0 15px;
+    width: 110px;
+    height: 110px;
+}
+.howHelpCard p {
+    margin: 20px 0 0 0 ;
+    width: 140px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #474747;
+}
+.howHelpCenterIMG{
+    position: relative;
+    height: 144px;
+    width: 265px;
+    background-color: #f6f6f6;
+    top: 116px;
+    left: calc(50% - 135px);
+}
+.petСhoice{
+    background: #f6f6f6;
+}
+.howHelpCenterIMG img {
+    margin: 23px 0 0 74px;
+}
+.petСhoiceOption{
+    height: 184px;
+    width: 389px;
+    margin: 142px 0 0 0;
+}
+.petСhoiceOption h3{
+    margin: 0;
+    width: 389px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+}
+.petСhoiceOption p{
+    margin: 0;
+    width: 389px;
+    height: 132px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+}
+.margiLeft90px{
+    margin-left: 90px;
+}
+.listPet h3{
+    width: 368px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
+    text-align: center;
+    color: #242424;
+    margin: 50px auto 0 auto;
+}
+.listPetCard{
+    width: 100%;
+    max-width: 368px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+    margin: 32px 0 0 0;
+    display: inline-block;
+}
+.listPetCard img{
+    height: 356px;
+    width: 335px;
+    margin: 16px 16px 0 16px;
+}
+.listPetCard h4{
+    height: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    text-align: center;
+    color: #242424;
+    margin: 8px 16px 0 16px;
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 10px
+}
+.blackColorListPet {
+    height: 95px;
+    width: 335px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #242424;
+    margin: 6px 16px 0 16px;
+}
+.grayColorListPet{
+    height: 20px;
+    color: #6B6B6B;
+    margin: 18px 16px 0 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.yellowButtomTake{
+    height: 42px;
+    width: 209px;
+    background: #FBC832;
+    border-radius: 58px;
+margin: 35px 80px 0 80px;
+}
+.yellowButtomTake a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #242424;
+    text-align: center;
+    display: block;
+}
+
+.whiteButtomTemporary{
+    height: 42px;
+    width: 296px;
+    border: 2px solid #FFC41E;
+    border-radius: 58px;
+    margin: 22px 36px 20px 36px;
+}
+.whiteButtomTemporary a {
+   text-decoration: none;
+    text-align: center;
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #242424;
+}
+.allPets{
+    height: 32px;
+    width: 204px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #AD7F00;
+    color: #AD7F00;
+    margin: 20px auto 0 auto;
+}
