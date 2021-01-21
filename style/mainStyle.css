@@ -11,6 +11,9 @@ body{
 .relative{
     position: relative;
 }
+.flexConteiner{
+    display: flex;
+}
 .justifyCenter{
     justify-content: center;
 }
@@ -281,9 +284,7 @@ z-index: 0;
     display: flex;
     justify-content: center;
 }
-.flexConteiner{
-    display: flex;
-}
+
 .howHelpCard{
     height: 190px;
     width: 140px;
@@ -316,8 +317,14 @@ z-index: 0;
 .petСhoice{
     background: #f6f6f6;
 }
-.howHelpCenterIMG img {
-    margin: 23px 0 0 74px;
+.howHelpCenterIMG:before {
+    content: '';
+    width: 265px;
+    height: 144px;
+    position: absolute;
+    top:0 ;
+    left: 0;
+    background: url('../img/Frame 111.png') no-repeat;
 }
 .petСhoiceOption{
     height: 184px;
@@ -438,6 +445,7 @@ margin: 35px 80px 0 80px;
     color: #242424;
 }
 .allPets{
+    position: relative;
     height: 32px;
     width: 204px;
     font-style: normal;
@@ -447,4 +455,96 @@ margin: 35px 80px 0 80px;
     border-bottom: 1px solid #AD7F00;
     color: #AD7F00;
     margin: 20px auto 0 auto;
+    cursor: pointer;
+}
+.allPets svg {
+    position: absolute;
+    top: 11px;
+    left: 218px;
+}
+.petChoiseLast p{
+    height: 48px;
+    width: 583px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+    margin: 65px 0 0 0;
+display: inline-block;
+}
+.choiseSocial{
+    width: 130px;
+    height: 49px;
+    display: flex;
+    margin: 65px 0 75px 38px;
+}
+.choiseSocial a{
+    width: 49px;
+    height: 49px;
+    display: block;
+    /* position: relative; */
+    /* top: -20px; */
+    box-sizing: border-box;
+    border: 2px solid #FFC41E;
+    border-radius: 50%;
+}
+.choiseVK{
+    position: relative;
+    top: 15px;
+    left: 8px;
+}
+.choiseINST{
+    position: relative;
+    top: 9px;
+    left: 10px;
+}
+.financeBottom{
+    min-height: 93px;
+    border-bottom: 1px solid #EEBF3A;
+}
+.financeWraper{
+   min-height: 429px;
+    max-width: 875px;
+    margin: 104px auto 0 auto;
+}
+.financeWraper h4{
+    width: 758px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+.financeWraper>p{
+    width: 758px;
+    height: 55px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6B6B6B;
+    margin: 24px auto 0 auto;
+    text-align: center;
+}
+.frontImgFinance{
+    width: 306px ;
+    height: 126px;
+    position: absolute;
+    top: 30px;
+    left: calc(50vw - 154px);
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+.frontImgFinance:before {
+    content: '';
+    width: 174px;
+    height: 129px;
+    position: absolute;
+    top:0 ;
+    left: 66px;
+    background: url('../img/Frame 11.png') no-repeat;
 }
