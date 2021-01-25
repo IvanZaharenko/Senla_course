@@ -319,11 +319,11 @@ z-index: 0;
 }
 .howHelpCenterIMG:before {
     content: '';
-    width: 265px;
+    width: 174px;
     height: 144px;
     position: absolute;
-    top:0 ;
-    left: 0;
+    top: 0px;
+    left: 44px;
     background: url('../img/Frame 111.png') no-repeat;
 }
 .petСhoiceOption{
@@ -547,4 +547,319 @@ display: inline-block;
     top:0 ;
     left: 66px;
     background: url('../img/Frame 11.png') no-repeat;
+}
+.financeListInfo{
+    width: 389px;
+    margin: 40px 0 56px 0 ;
+}
+.financeListInfo p{
+    height: 24px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin: 0 0 0 0;
+}
+.yellowButton{
+    cursor: pointer;
+    height: 32px;
+    max-width: 211px;
+    margin: 29px 0 0 0;
+    background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 58px;
+    position: relative;
+}
+.yellowButton:after{
+    content: '';
+    display: block;
+    width: 221px;
+    height: 42px;
+    cursor: pointer;
+    position: absolute;
+    background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
+    border-radius: 58px;
+    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+    top: -5px;
+    left: -5px;
+    z-index: -1;
+}
+.yellowButton a {
+    height: 42px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: center;
+display: block;
+    color: #242424;
+}
+.financeListAdress{
+    width: 390px;
+    margin: 40px 0 0 0 ;
+}
+.point{
+    height: 24px;
+    width: 389px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin: 0 0 0 0;
+
+}
+.financeListInfo ul{
+    height: 164px;
+    max-width:389px ;
+    margin: 24px 0 0 0;
+    padding-left: 0;
+    list-style: none;
+}
+.financeListInfo ul li{
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+      color: #242424;
+    padding-top: 5px;
+}
+.financeListAdress ul {
+    height: 218px;
+    max-width: 390px;
+    list-style: none;
+    padding-left: 0;
+    margin: 24px 0 0 0;
+}
+.financeListAdress ul li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    padding-top: 5px;
+}
+.wrapFinanceLists{
+    display: flex;
+    justify-content: space-around;
+}
+.things{
+    background: #f6f6f6;
+}
+.thingsBottom{
+    min-height: 96px;
+    border-bottom: 1px solid #EEBF3A;
+}
+.frontImgThings{
+    width: 214px;
+    height: 126px;
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 154px);
+    z-index: 2;
+    background-color: #f6f6f6;
+}
+.frontImgThings:before {
+    content: '';
+    width: 174px;
+    height: 129px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 87px);
+    background: url('../img/Frame 13.png') no-repeat;
+}
+.things article {
+    max-width: 680px;
+ margin:103px auto 0 auto;
+}
+.thingFeed {
+    min-height: 212px;
+    max-width: 680px;
+}
+.thingFeed h4 {
+    height: 32px;
+   font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+
+    margin: 0 0 0 0;
+}
+.decimal{
+    list-style-type: none;
+}
+.left-15px {
+    position: relative;
+    left: -15px;
+}
+.thingFeed ul {
+    max-width: 680px;
+    height: 156px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    padding: 0 0 0 15px;
+    margin: 24px 0 0 0;
+}
+.thingFeed ul li {
+    padding-top: 5px;
+}
+.thingMedicines{
+    min-height: 122px;
+    max-width: 680px;
+    margin: 40px 0 0 0;
+}
+.thingMedicines h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin: 0 0 0 0;
+}
+.thingMedicines p {
+    max-width: 680px;
+    height: 66px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    margin: 24px 0 0 0;
+}
+
+.thingOther{
+    min-height: 220px;
+    max-width: 680px;
+    margin: 40px 0 0 0;
+}
+.thingOther h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin: 0 0 0 0;
+}
+.thingOther ul{
+    max-width: 680px;
+    min-height: 164px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    padding: 0 0 0 15px;
+    margin: 24px 0 0 0;
+ }
+.thingOther ul li {
+    padding-top: 6px;
+}
+.thingTransfer{
+    height: 40px;
+    width: 217px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 58px;
+    border-bottom: 1px solid #AD7F00;
+    color: #AD7F00;
+    margin: 16px 0 0 0;
+    cursor: pointer;
+}
+.seeMap{
+    height: 40px;
+    width: 201px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 58px;
+    border-bottom: 1px solid #AD7F00;
+    color: #AD7F00;
+    margin: 24px 0 39px 0;
+    cursor: pointer;
+}
+.CarHelpBottom{
+     height: 135px;
+     border-bottom: 1px solid #EEBF3A;
+
+ }
+.frontImgCarHelp{
+    width: 214px;
+    height: 126px;
+    position: absolute;
+    top: 30px;
+    left: calc(50vw - 154px);
+    z-index: 2;
+    background-color: #f6f6f6;
+}
+.frontImgCarHelp:before {
+    content: '';
+    width: 174px;
+    height: 129px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 87px);
+    background: url('../img/Frame 14.png') no-repeat;
+}
+.carHelp{
+    background: #f6f6f6;
+    position: relative;
+    z-index: 0;
+}
+.carHelp article {
+    max-width: 680px;
+    margin:103px auto 0 auto;
+}
+.carHelpInfo {
+    min-width: 114px;
+}
+.carHelp h4{
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin: 0 0 0 0;
+}
+.carHelp p{
+    height: 66px;
+   font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    margin: 24px 0 0 0;
+}
+.Volunteering {
+    background: #f6f6f6;
+}
+.VolunteeringBottom{
+    min-height: 140px;
+    border-bottom: 1px solid #EEBF3A;
+}
+.frontImgVolunteering{
+    width: 214px;
+    height: 126px;
+    position: absolute;
+    top: 72px;
+    left: calc(50vw - 154px);
+    z-index: 2;
+    background-color: #f6f6f6;
+}
+.frontImgVolunteering:before {
+    content: '';
+    width: 174px;
+    height: 129px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 87px);
+    background: url('../img/Frame 15.png') no-repeat;
 }
