@@ -841,6 +841,11 @@ display: block;
 .Volunteering {
     background: #f6f6f6;
 }
+.Volunteering article {
+    max-width: 1064px;
+    border: 1px solid red;
+    margin: 53px auto 0 auto;
+}
 .VolunteeringBottom{
     min-height: 140px;
     border-bottom: 1px solid #EEBF3A;
@@ -862,4 +867,59 @@ display: block;
     top: 0;
     left: calc(50% - 87px);
     background: url('../img/Frame 15.png') no-repeat;
+}
+.VolunteeringText{
+    max-width: 466px;
+    min-height: 296px;
+margin: 113px 0 162px 598px;
+}
+.VolunteeringIMG1{
+    position: absolute;
+    width: 464px;
+    height: 464px;
+    border-radius: 50%;
+    background: url('../img/Ellipse 27.png') no-repeat #EEBF3A;
+    right: calc(-464px / 2);
+    top: 31px;
+    left: 34px;
+    z-index: 2;
+}
+.VolunteeringIMG1Substrate{
+    width: 521px;
+    height: 521px;
+    background: url('../img/EllipseInfo1.png') no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.VolunteeringIMG1Substrate:before{
+    content: '';
+    display: block;
+    width: 100vw;
+    height: 521px;
+    background: #FAC832;
+    position: absolute;
+    right: 260px;
+}
+.VolunteeringText h4 {
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin: 0;
+}
+.VolunteeringText p {
+    height: 182px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    margin: 24px 0 0 0 ;
+}
+.VolunteeringText span{
+    padding-top: 2px;
+    display: inline-block;
 }
