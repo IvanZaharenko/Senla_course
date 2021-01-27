@@ -5,8 +5,14 @@ body{
 .margimLeft30px{
     margin-left: 30px;
 }
+.margimLeft34px{
+    margin-left: 34px;
+}
 .margimLeft45px{
     margin-left: 45px;
+}
+.margimLeft7px {
+    margin-left: 7px;
 }
 .relative{
     position: relative;
@@ -316,6 +322,7 @@ z-index: 0;
 }
 .petСhoice{
     background: #f6f6f6;
+
 }
 .howHelpCenterIMG:before {
     content: '';
@@ -840,10 +847,12 @@ display: block;
 }
 .Volunteering {
     background: #f6f6f6;
+    position: relative;
+    z-index: -1;
 }
-.Volunteering article {
+.wrapVolunteering {
     max-width: 1064px;
-    border: 1px solid red;
+    min-height: 624px;
     margin: 53px auto 0 auto;
 }
 .VolunteeringBottom{
@@ -871,7 +880,8 @@ display: block;
 .VolunteeringText{
     max-width: 466px;
     min-height: 296px;
-margin: 113px 0 162px 598px;
+margin: 0 0 162px 525px;
+    padding-top: 113px;
 }
 .VolunteeringIMG1{
     position: absolute;
@@ -881,7 +891,7 @@ margin: 113px 0 162px 598px;
     background: url('../img/Ellipse 27.png') no-repeat #EEBF3A;
     right: calc(-464px / 2);
     top: 31px;
-    left: 34px;
+    left: -60px;
     z-index: 2;
 }
 .VolunteeringIMG1Substrate{
@@ -889,7 +899,7 @@ margin: 113px 0 162px 598px;
     height: 521px;
     background: url('../img/EllipseInfo1.png') no-repeat;
     position: absolute;
-    left: 0;
+    left: -94px;
     top: 0;
 }
 .VolunteeringIMG1Substrate:before{
@@ -920,6 +930,164 @@ margin: 113px 0 162px 598px;
     margin: 24px 0 0 0 ;
 }
 .VolunteeringText span{
-    padding-top: 2px;
+    padding-top: 1px;
     display: inline-block;
+}
+.news article{
+    max-width: 778px;
+    margin: 0 auto;
+}
+.news h4 {
+    height: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+       color: #242424;
+    margin: 54px 0 0 0 ;
+    text-align: center;
+}
+.novelty{
+    width: 100%;
+    min-height: 140px;
+    display: flex;
+    margin-top: 40px;
+}
+.novelty img {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+.novelty p{
+    height: 140px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    margin: 0 0 0 34px;
+}
+.novelty span {
+    padding-top: 14px;
+    display: inline-block;
+}
+.allNews{
+    height: 40px;
+    width: 207px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 58px;
+    border-bottom: 1px solid #AD7F00;
+    color: #AD7F00;
+    margin: 16px 0 56px 0;
+    cursor: pointer;
+}
+
+.we {
+    background: #f6f6f6;
+}
+.we article {
+    max-width: 680px;
+     position: relative;
+    z-index: 1;
+    margin: 0 auto 0 auto;
+    padding-top: 56px;
+}
+.we h4 {
+    width: 100%;
+    height: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+   text-align: center;
+    color: #242424;
+    margin: 0 0 0 0;
+}
+.weHead {
+    width: 100%;
+    height: 96px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+    margin: 24px 0 0 0;
+}
+.we h5 {
+    width: 100%;
+    height: 26px;
+   font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #242424;
+    margin: 24px 0 0 0;
+}
+.weBody {
+    width: 680px;
+    height: 131px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #242424;
+    margin: 24px 0 0 0;
+}
+.weBody span {
+    display: inline-block;
+    padding-top: 10px;
+}
+.weSocial{
+    margin-top: 40px;
+    padding-bottom: 45px;
+}
+.weSocial p {
+    width:100%;
+    height: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6B6B6B;
+    margin: 0 0 0 0;
+
+}
+.wrapSocialWe{
+    margin: 16px 0 0 0;
+}
+.circleSoch{
+    width: 49px;
+    height: 49px;
+    background: linear-gradient(145.67deg, #FFFFFF 15.39%, #E4E4E4 88.3%);
+    box-shadow: 3px 3px 13px #B1B1B1;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 23px;
+    display: inline-block;
+    cursor: pointer;
+}
+.VkLogo{
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+.circleSoch:after{
+    content: '';
+    display: block;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    left: -7px;
+    top: -7px;
+    z-index: -1;
+     background: linear-gradient(144.1deg, #FFFFFF 12.45%, #FBFBFB 89.31%);
+    box-shadow: 7px 7px 16px rgba(213, 213, 213, 0.6), -6px -6px 8px #FFFFFF, inset 13px 22px 8px #F3F3F3;
+    border-radius: 50%;
+}
+.instLogo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
