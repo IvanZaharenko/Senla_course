@@ -1068,6 +1068,11 @@ margin: 0 0 162px 525px;
     display: inline-block;
     cursor: pointer;
 }
+.circleSoch a {
+    display: block;
+    height: 49px;
+    width: 49px;
+}
 .VkLogo{
     position: absolute;
     top: 16px;
@@ -1090,4 +1095,100 @@ margin: 0 0 162px 525px;
     position: absolute;
     top: 10px;
     left: 10px;
+}
+.thank{
+width: 100%;
+    height: 741px;
+    background:url('../img/36164.jpg') no-repeat ;
+    background-size: cover;
+}
+.darkened{
+    position: absolute;
+    width: 615px;
+    height: 521px;
+    background:url('../img/Ellipsedarkened.png') no-repeat ;
+    mix-blend-mode: soft-light;
+    margin-top: 119px;
+}
+.thankText p{
+    position: absolute;
+    width: 346px;
+    height: 154px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    margin: 0;
+    top: 303px;
+    left: 134px;
+}
+.thankText:after{
+    content: '';
+    width: 71px;
+    height: 71px;
+    background: url(../img/foundation_paw.png) no-repeat;
+    position: absolute;
+    top: 370px;
+    left: 467px;
+}
+footer{
+    background-color: #f6f6f6;
+    width: 100%;
+    min-height: 117px;
+}
+.copy {
+    width: 184px;
+    height: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #B3B3B3;
+    margin: 24px auto 0 auto;
+    padding-bottom: 16px;
+}
+.inline-block {
+    display: inline-block;
+}
+.wrap-footer-list {
+    display: flex;
+    justify-content: center;
+}
+.wrap-footer-list ul {
+     list-style: none;
+    margin: 0;
+    padding: 40px 0 0 0;
+
+}
+.wrap-footer-list ul li {
+display: inline;
+    margin-left: 40px;
+}
+.bold-text-footer a {
+    width: 100%;
+    height: 17px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid #474747;
+    color: #474747;
+}
+.about-footer {
+    padding-left: 82px;
+}
+.about-footer a{
+    width: 100%;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid #242424;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #242424;
 }
