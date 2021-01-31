@@ -1,16 +1,45 @@
 @font-face {
     font-family: 'Gilroy';
     font-style: normal;
-    font-weight: 300;
-    src: local(''),
-         url('gilroy-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-weight: normal;
+    font-display: swap;
+    src:  local(''),
+          url('Gilroy-regular.woff2') format('woff2'),
+          url('Gilroy-regular.woff') format('woff');
   }
-  
+
   @font-face {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: bold;
     src: local(''),
-         url('gilroy-bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('Gilroy-bold.woff2') format('woff2'),
+         url('Gilroy-bold.woff') format('woff');
   }
 
+  @font-face {
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 600;
+     src: local(''),
+          url('Gilroy-SemiBold.woff2') format('woff2'),
+          url('Gilroy-SemiBold.woff') format('woff');
+   }
+
+   @font-face {
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 500;
+     src: local(''),
+          url('Gilroy-Medium.woff2') format('woff2'),
+          url('Gilroy-Medium.woff') format('woff');
+   }
+
+   @font-face {
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 300;
+     src: local(''),
+          url('Gilroy-Light.woff2') format('woff2'),
+          url('Gilroy-Light.woff') format('woff');
+   }
