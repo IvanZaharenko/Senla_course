@@ -1,0 +1,208 @@
+@media (max-width:1920px)	{
+
+
+}
+
+@media (max-width:1440px)	{
+
+
+}
+
+@media (max-width:1366px)	{
+
+
+}
+
+@media (max-width:1270px)	{
+    .firstPictureHead {
+        width: 504px;
+        height: 564px;
+        background-size: 100% 100%;
+        left: 410px;
+    }
+    h1 {
+        width: 461px;
+        font-size: 64px;
+        margin: 48px 0 0 112px;
+    }
+    .litleGrayHead {
+        width: 461px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .litleBoldBlackHead{
+        width: 461px;
+        height: 60px;
+        font-size: 14px;
+    }
+    .bigStyleHead{
+        width: 428px;
+        height: 116px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .opacityTextOne{
+        width: 445px;
+        height: 143px;
+        background-size: 100% 100%;
+    }
+    .opacityTextTwo{
+        width: 397px;
+        height: 80px;
+        background-size: 100% 100%;
+    }
+    .opacityTextThree {
+        width: 352px;
+        height: 80px;
+        background-size: 100% 100%;
+        margin: 0 0 0 220px;
+    }
+    .secondPictureHead{
+        height: 326px;
+        width: 344px;
+        background-size: 100% 100%;
+        left: 463px;
+        top: 374px;
+    }
+    .opacityHead{
+        top: 310px;
+    }
+    nav{
+        justify-content: end;
+    }
+    .first_nav_block{
+        margin-left: 110px;
+    }
+    .second_nav_block{
+        margin-left: 52px;
+    }
+    .three_nav_block{
+        margin-left: 117px;
+    }
+
+    /*Info section */
+    .infoForVisitor{
+        height: 568px;
+    }
+    .WrapperHead{
+    height: 642px;
+        width: 100%;
+    max-width: 1270px;
+        margin: 0px auto 0 60px;
+    }
+    .WrapInfoIMG{
+        margin: 36px 0 0 0;
+        height: 362px;
+    }
+    .WrapInfoIMG::before{
+        height: 362px;
+    }
+    .infoSectionImg1{
+        width: 323px;
+        height: 323px;
+        top: 21px;
+        right: calc(-323px / 2);
+    }
+    .infoSectionImg1Substrate{
+        width: 362px;
+        height: 362px;
+        left: calc(100% - 181px);
+    }
+    .infoSectionImg2{
+
+    }
+    .infoSectionImg2Substrate{
+        height: 170px;
+        width: 170px;
+        left: calc(100% + 35px);
+        top: calc(100% - 164px);
+    }
+    .infoSectionImg2{
+        width: 158px;
+        height: 158px;
+        top: calc(100% - 158px);
+        left: calc(100% + 41px);
+    }
+    .wrapInfoForVisitor{
+        width: 323px;
+        left:  calc(100vw - 480px);
+        top: 31px;
+    }
+    .wrapInfoForVisitor h2{
+        width: 323px;
+        height: 94px;
+        font-size: 24px;
+    }
+    .wrapInfoForVisitor p{
+        width: 323px;
+        margin: 24px 0 0 0;
+    }
+     /*howHelp section*/
+
+    .howHelpCard{
+        height: 190px;
+        width: 140px;
+    }
+    .how_help_img svg{
+        height: 60px;
+        width: 62px;
+        margin: 24px 0 0 24px;
+    }
+    .how_help_img{
+        width: 110px;
+        height: 110px;
+    }
+    .how_help_img a{
+        width: 110px;
+        height: 110px;
+    }
+    .howHelpCard p{
+        font-size: 16px;
+        line-height: 20px;
+        width: 140px;
+        height: 60px;
+    }
+    .howHelpHeading{
+        font-size: 24px;
+        padding: 64px 0 0 0;
+    }
+    .wrapperCard{
+        margin: 32px 0 0 0;
+    }
+    .howHelp{
+        min-height: 434px;
+    }
+    .howHelpCenterIMG{
+        height: 97px;
+        width: 158px;
+        left: calc(50% - 79px);
+    }
+    .howHelpCenterIMG:before{
+        width: 100px;
+        height: 97px;
+        left: calc(100% - 128px);
+    }
+
+}
+/*
+@media (max-width:1024px)	{
+
+
+}
+
+@media (max-width:768px)	{
+
+
+}
+
+@media (max-width:640px)	{
+
+
+}
+
+@media (max-width:360px)	{
+
+
+}
+*/

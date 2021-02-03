@@ -36,7 +36,6 @@ margin-top: 29px;
     position: relative;
 }
 .top37px{
-    top:37px;
 }
 .flexConteiner{
     display: flex;
@@ -53,21 +52,33 @@ z-index: 1;
 .WrapperHead{
     position: relative;
     height: 820px;
-    width: 1258px;
+    max-width: 1258px;
     margin: 0 auto 0 auto; 
 }
 .absolut{
     position: inherit;
     
 }
-nav{
+.second_nav_block{
+
+}
+.button_head_help_position{
+    margin-top: 49px;
+    margin-left: 115px;
+}
+.three_nav_block{
+    top:37px;
+}
+nav {
     display: flex;
     justify-content: space-around;
+}
+nav ul {
+    padding: 0;
 }
 .styleList {
     list-style: none;
     margin: 54px 0 0 0 ;
-
 }
 .styleList li{
     display: inline;
@@ -168,23 +179,6 @@ margin: 43px 0 0 112px;
     position: absolute;
     z-index: 2;
 }
-/*
-.WrapTextHead a {
-height: 42px;
-width: 182px;
-text-decoration: none;
-background: #FBC832;
-border-radius: 58px;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 40px;
-color: #000000;
-display: block;
-text-align: center;
-margin: 49px 0 0 112px;
-cursor: pointer;
-} */
 .opacityHead{
     height: 406px;
     width: 772px;
@@ -194,7 +188,6 @@ cursor: pointer;
 .opacityTextOne{
 width: 599px;
 height: 192px;
-background: #FFFFFF;
 opacity: 0.5;
 background: url('../img/can.png') no-repeat;
 }
@@ -230,12 +223,15 @@ background-color: #FFFFFF;
     line-height: 120%;
     text-align: center;
     color: #C78100;
+    margin: 0;
 }
 .wrapInfoForVisitor p {
    
 font-size: 16px;
 line-height: 140%;
 color: #242424;
+    margin: 28px 0 0 0;
+
 }
 .infoSectionImg1{
     position: absolute;
@@ -246,6 +242,7 @@ color: #242424;
     right: calc(-464px / 2);
     top: 31px;
     z-index: 2;
+    background-size: 100% 100%;
 }
 .infoSectionImg1Substrate{
 width: 521px;
@@ -253,6 +250,7 @@ height: 521px;
 background: url('../img/EllipseInfo1.png') no-repeat; 
 position: absolute;
 left: calc(100% - 261px);
+    background-size: 100% 100%;
 }
 .WrapInfoIMG{
 height: 521px;
@@ -274,7 +272,7 @@ z-index: 0;
 }
 .SectionCenter {
     margin: 0 auto 0 auto;
-    width: 1258px;
+    max-width: 1258px;
 }
 .infoSectionImg2{
     position: absolute;
@@ -285,6 +283,7 @@ z-index: 0;
     z-index: 3;
     top: calc(100% - 217px);
     left: calc(100% + 41px);
+    background-size: 100% 100%;
 }
 .infoSectionImg2Substrate{
     height: 245px;
@@ -294,9 +293,10 @@ z-index: 0;
     z-index: 2;
     left: calc(100% + 33px);
     top: calc(100% - 225px);
+    background-size: 100% 100%;
     }
 .howHelp {
-    min-height: 491px;
+    min-height: 541px;
     background: #f6f6f6;
     border-bottom: 1px solid #eebf3a;
 }
@@ -308,10 +308,10 @@ z-index: 0;
     color: #242424;
     text-align: center;
     margin: 0;
-    padding: 64px 0 0 0 ;
+    padding: 80px 0 0 0 ;
 }
 .wrapperCard{
-    margin: 32px 0 0 0;
+    margin: 47px 0 0 0;
     display: flex;
     justify-content: space-around;
 }
@@ -361,7 +361,7 @@ z-index: 0;
 
 }*/
 .howHelpCard p {
-    margin: 20px 0 0 0 ;
+    margin: 24px 0 0 0 ;
     width: 166px;
     height: 60px;
     font-style: normal;
@@ -379,6 +379,7 @@ z-index: 0;
     top: 75px;
     left: calc(50% - 135px);
     z-index: 2;
+
 }
 .petСhoice{
     background: #f6f6f6;
@@ -394,6 +395,8 @@ z-index: 0;
     top: 0px;
     left: 44px;
     background: url('../img/Frame 111.png') no-repeat;
+    background-size: 100% 100%;
+
 }
 .petСhoiceOption{
     height: 184px;
@@ -729,6 +732,22 @@ display: inline-block;
     display: block;
     color: #242424;
 }
+.white_Button:hover{
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 53.12%, #EFECEC 100%);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 3px 3px 13px rgba(128, 128, 128, 0.25);
+}
+.white_Button:active{
+    background: linear-gradient(180deg, #F1F1F1 1.56%, #FCFAFA 100%);
+    box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25), inset 0px 4px 13px rgba(0, 0, 0, 0.06);
+}
+.white_Button:disabled{
+    background: linear-gradient(180deg, #FBFBFB 0%, #F6F6F6 100%);
+    box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25);
+}
+.white_Button a:disabled{
+    color: #B3B3B3;
+}
+
 .yellowButton{
     cursor: pointer;
     height: 32px;

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a35c47d2-fa88-496e-8e3a-e865992e3c67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/style/adaptability.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Group 10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Group 14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Group 16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Group 352.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Group 353.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/mainStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/mainStyle.css" afterDir="false" />
     </list>
@@ -25,17 +21,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="307" column="30" lean-forward="true" selection-start-line="307" selection-start-column="30" selection-end-line="307" selection-end-column="30" />
+            <state relative-caret-position="282">
+              <caret line="207" column="39" selection-start-line="207" selection-start-column="23" selection-end-line="207" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/mainStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="707">
+              <caret line="398" lean-forward="true" selection-start-line="398" selection-end-line="398" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style/mainStyle.css">
+        <entry file="file://$PROJECT_DIR$/style/adaptability.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="509" column="33" selection-start-line="509" selection-start-column="33" selection-end-line="509" selection-end-column="33" />
+            <state relative-caret-position="333">
+              <caret line="178" column="8" selection-start-line="178" selection-start-column="8" selection-end-line="178" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -52,23 +57,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>infoSectionImg2Substrate</find>
-      <find>infoSectionImg1</find>
-      <find>VolunteeringIMG1Substrate</find>
-      <find>.VolunteeringText</find>
-      <find>thingTransfer</find>
-      <find>weBody</find>
-      <find>weSocial</find>
-      <find>pet</find>
-      <find>.we article</find>
-      <find>circleSoch</find>
-      <find>border</find>
-      <find>financeListAdress</find>
-      <find>.WrapTextHead a</find>
-      <find>howHelpCard</find>
-      <find>.howHelpCard</find>
       <find>before</find>
-      <find>wrapperCard</find>
       <find>.howHelpCenterIMG</find>
       <find>petСhoice</find>
       <find>.wrapperCard</find>
@@ -82,6 +71,22 @@
       <find>control_arrow</find>
       <find>.control_list_pet</find>
       <find>how_help_img</find>
+      <find>.SectionCenter</find>
+      <find>.opacityTextOne</find>
+      <find>nav</find>
+      <find>top37px</find>
+      <find>white_Button margin_auto</find>
+      <find>first_nav_block</find>
+      <find>marginTop49px</find>
+      <find>button_head_help_position</find>
+      <find>yellowButton marginTop49px margimLeft115px</find>
+      <find>infoSectionImg1</find>
+      <find>infoSectionImg1Substrate</find>
+      <find>.wrapInfoForVisitor h2</find>
+      <find>.howHelp</find>
+      <find>.howHelpCard p</find>
+      <find>wrapperCard</find>
+      <find>howHelpCenterIMG</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,6 +100,7 @@
         <option value="$PROJECT_DIR$/style/FormStyle.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/mainStyle.css" />
+        <option value="$PROJECT_DIR$/style/adaptability.css" />
       </list>
     </option>
   </component>
@@ -116,11 +122,6 @@
             <path>
               <item name="help-animals.-Senla" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-animals.-Senla" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="help-animals.-Senla" type="b2602c69:ProjectViewProjectNode" />
-              <item name="help-animals.-Senla" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="help-animals.-Senla" type="b2602c69:ProjectViewProjectNode" />
@@ -184,11 +185,12 @@
       <workItem from="1611745957351" duration="10555000" />
       <workItem from="1611834490417" duration="8120000" />
       <workItem from="1612180288586" duration="8449000" />
+      <workItem from="1612350676473" duration="12283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94399000" />
+    <option name="totallyTimeSpent" value="106682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -271,15 +273,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="307" column="30" lean-forward="true" selection-start-line="307" selection-start-column="30" selection-end-line="307" selection-end-column="30" />
+        <state relative-caret-position="282">
+          <caret line="207" column="39" selection-start-line="207" selection-start-column="23" selection-end-line="207" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/mainStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="509" column="33" selection-start-line="509" selection-start-column="33" selection-end-line="509" selection-end-column="33" />
+        <state relative-caret-position="707">
+          <caret line="398" lean-forward="true" selection-start-line="398" selection-end-line="398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/adaptability.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="178" column="8" selection-start-line="178" selection-start-column="8" selection-end-line="178" selection-end-column="8" />
         </state>
       </provider>
     </entry>
