@@ -69,7 +69,7 @@
         top: 310px;
     }
     nav{
-        justify-content: end;
+        justify-content: flex-start;
     }
     .first_nav_block{
         margin-left: 110px;
@@ -87,7 +87,6 @@
     }
     .WrapperHead{
     height: 642px;
-        width: 100%;
     max-width: 1270px;
         margin: 0px auto 0 60px;
     }
@@ -183,6 +182,8 @@
         height: 97px;
         left: calc(100% - 128px);
     }
+
+
 
 }
 /*
