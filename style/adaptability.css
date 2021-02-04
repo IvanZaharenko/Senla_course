@@ -151,6 +151,7 @@
     .how_help_img{
         width: 110px;
         height: 110px;
+        margin: 0 0 0 28px;
     }
     .how_help_img a{
         width: 110px;
@@ -176,15 +177,189 @@
         height: 97px;
         width: 158px;
         left: calc(50% - 79px);
+        top: 50px;
     }
     .howHelpCenterIMG:before{
         width: 100px;
         height: 97px;
         left: calc(100% - 128px);
     }
+    .pet_Сhoice_Option{
+        margin: 110px 0 0 0;
+        height: 266px;
+        width: 275px;
+    }
+    .petСhoice {
+        overflow-x: hidden;
+    }
+    .SectionCenter article{
+        justify-content: space-evenly;
+    }
+    .pet_Сhoice_Option h3{
+        width: 275px;
+        height: 64px;
+    }
+    .pet_Сhoice_Option p{
+        height: 198px;
+        width: 275px;
+    }
+    .listPet h3{
+        width: 254px;
+        font-size: 24px;
+        margin: 48px auto 0 auto;
+    }
+    .petChoiseLast p{
+        height: 44px;
+        font-size: 16px;
+        margin: 61px 0 75px 0;
+    }
+    .margin65-0-0-35{
+        margin: 55px 0 0 35px;
+    }
+
+    /*finance section*/
+    .financeBottom {
+        min-height: 77px;
+    }
+    .frontImgFinance {
+        width: 158px;
+        height: 126px;
+        top: 30px;
+        left: calc(50vw - 79px);
+    }
+    .frontImgFinance::before {
+        width: 118px;
+        height: 86px;
+        left: 26px;
+    }
+    .financeWraper {
+        margin: 87px auto 0 auto;
+    }
+    .financeWraper h4 {
+        width: 530px;
+        font-size: 24px;
+    }
+    .financeWraper > p {
+        width: 530px;
+        font-size: 16px;
+        margin: 16px auto 0 auto;
+    }
+    .financeListInfo {
+        width: 275px;
+        margin: 80px 0 0 0;
+    }
+    .financeListInfo p{
+        height: 24px;
+        width: 275px;
+        font-size: 24px;
+    }
+    .financeListInfo ul {
+        height: 141px;
+        max-width: 275px;
+        margin: 24px 0 0 0;
+    }
+    .financeListInfo ul li {
+        font-size: 14px;
+    }
+    .financeListAdress{
+        width: 275px;
+        margin: 80px 0 0 0;
+    }
+    .point {
+        height: 24px;
+        width: 274px;
+        font-size: 24px;
+    }
+    .financeListAdress ul li {
+        font-size: 14px;
+    }
+    .financeListAdress ul {
+        height: 300px;
+        max-width: 275px;
+        list-style: none;
+        padding-left: 0;
+        margin: 24px 0 0 0;
+    }
+    .seeMap {
+        margin: 40px 0 41px 0;
+    }
+
+    /* Things Section*/
+    .frontImgThings {
+        width: 158px;
+        left: calc(50% - 79px);
+        top: 45px;
+    }
+    .frontImgThings::before {
+        width: 118px;
+        height: 86px;
+        top: calc(50% - 55px);
+        left: calc(50% - 59px);
+    }
+    .things article {
+        max-width: 490px;
+        margin: 87px auto 0 auto;
+    }
+    .thingFeed h4 {
+        font-size: 24px;
+    }
+    .thingFeed ul {
+        max-width: 4810px;
+        height: 178px;
+    }
+    .thingMedicines h4{
+        font-size: 24px;
+    }
+    .thingOther h4 {
+        font-size: 24px;
+    }
+
+    .thingsBottom {
+        min-height: 102px;
+    }
+
+    /* AutoHelp Section*/
+
+    .frontImgCarHelp{
+        left: calc(50vw - 79px);
+        width: 158px;
+    }
+    .frontImgCarHelp::before {
+        width: 110px;
+        height: 110px;
+        top: 0;
+        left: calc(50% - 50px);
+    }
+    .carHelp article {
+        max-width: 481px;
+        margin: 68px auto 0 auto;
+    }
+    .carHelp h4 {
+        font-size: 24px;
+    }
+    .car_help_position_button {
+        margin-top: 38px;
+    }
+
+    /* Volunteering Section*/
 
 
-
+    .VolunteeringBottom {
+        min-height: 80px;
+        border-bottom: 1px solid #EEBF3A;
+    }
+    .frontImgVolunteering {
+        width: 158px;
+        height: 126px;
+        top: 30px;
+        left: calc(50vw - 79px);
+    }
+    .frontImgVolunteering::before{
+        width: 100px;
+        height: 108px;
+        background-size: 100% 100%;
+        left: calc(50% - 55px);
+    }
 }
 /*
 @media (max-width:1024px)	{

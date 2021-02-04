@@ -27,7 +27,6 @@ body{
 margin: 65px 0 0 35px;
 }
 .marginTop29px{
-margin-top: 29px;
 }
 .marginTop49px{
     margin-top: 49px;
@@ -43,7 +42,9 @@ margin-top: 29px;
 .justifyCenter{
     justify-content: center;
 }
-
+.car_help_position_button{
+    margin-top: 29px;
+}
 header{
 background: #f6f6f6;
 position: relative;
@@ -310,13 +311,13 @@ z-index: 0;
     margin: 0;
     padding: 80px 0 0 0 ;
 }
-.wrapperCard{
+.wrapper_card{
     margin: 47px 0 0 0;
     display: flex;
     justify-content: space-around;
 }
 
-.howHelpCard{
+.how_help_card{
     height: 240px;
     width: 166px;
     position: relative;
@@ -352,15 +353,7 @@ z-index: 0;
     height: 150px;
     border-radius: 50%;
 }
-/*.howHelpCard img{
-    margin: 0 0 0 15px;
-    width: 110px;
-    height: 110px;
-}
-.how_help_img{
-
-}*/
-.howHelpCard p {
+.how_help_card p {
     margin: 24px 0 0 0 ;
     width: 166px;
     height: 60px;
@@ -398,12 +391,12 @@ z-index: 0;
     background-size: 100% 100%;
 
 }
-.petСhoiceOption{
+.pet_Сhoice_Option{
     height: 184px;
     width: 389px;
     margin: 142px 0 0 0;
 }
-.petСhoiceOption h3{
+.pet_Сhoice_Option h3{
     margin: 0;
     width: 389px;
     height: 32px;
@@ -413,7 +406,7 @@ z-index: 0;
     line-height: 24px;
     color: #242424;
 }
-.petСhoiceOption p{
+.pet_Сhoice_Option p{
     margin: 0;
     width: 389px;
     height: 132px;
@@ -651,6 +644,7 @@ display: inline-block;
     top:0 ;
     left: 66px;
     background: url('../img/Frame 11.png') no-repeat;
+    background-size: 100% 100%;
 }
 .financeListInfo{
     width: 389px;
@@ -836,14 +830,14 @@ display: block;
     background: #f6f6f6;
 }
 .thingsBottom{
-    min-height: 96px;
+    min-height: 135px;
     border-bottom: 1px solid #EEBF3A;
 }
 .frontImgThings{
     width: 214px;
     height: 126px;
     position: absolute;
-    top: 30px;
+    top: 63px;
     left: calc(50% - 154px);
     z-index: 2;
     background-color: #f6f6f6;
@@ -856,6 +850,7 @@ display: block;
     top: 0;
     left: calc(50% - 87px);
     background: url('../img/Frame 13.png') no-repeat;
+    background-size: 100% 100%;
 }
 .things article {
     max-width: 680px;
@@ -911,7 +906,6 @@ display: block;
 }
 .thingMedicines p {
     max-width: 680px;
-    height: 66px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -980,7 +974,7 @@ display: block;
     width: 214px;
     height: 126px;
     position: absolute;
-    top: 30px;
+    top: calc(100% - 62px);
     left: calc(50vw - 154px);
     z-index: 2;
     background-color: #f6f6f6;
@@ -993,6 +987,7 @@ display: block;
     top: 0;
     left: calc(50% - 87px);
     background: url('../img/Frame 14.png') no-repeat;
+    background-size: 100% 100%;
 }
 .carHelp{
     background: #f6f6f6;
@@ -1008,7 +1003,6 @@ display: block;
     min-width: 114px;
 }
 .carHelp h4{
-    height: 24px;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -1017,7 +1011,6 @@ display: block;
     margin: 0 0 0 0;
 }
 .carHelp p{
-    height: 66px;
    font-style: normal;
     font-weight: normal;
     font-size: 16px;
