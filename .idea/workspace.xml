@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="430" column="18" lean-forward="true" selection-start-line="430" selection-start-column="18" selection-end-line="430" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/mainStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="646" column="14" selection-start-line="646" selection-end-line="647" />
+            <state relative-caret-position="575">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="66" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/adaptability.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="360" lean-forward="true" selection-start-line="360" selection-end-line="360" />
+            <state relative-caret-position="520">
+              <caret line="591" column="22" selection-start-line="591" selection-start-column="22" selection-end-line="591" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -57,36 +57,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>WrapperHead</find>
-      <find>wrapperCard</find>
-      <find>.wrapperCard</find>
-      <find>howHelpCard</find>
-      <find>how_help_card</find>
-      <find>.how_help_img</find>
-      <find>wrapper_card</find>
-      <find>petСhoiceOption</find>
-      <find>.howHelpCenterIMG</find>
-      <find>listPetCard</find>
-      <find>.listPetCard</find>
-      <find>SectionCenter</find>
-      <find>frontImgFinance</find>
-      <find>SectionCenter</find>
-      <find>Thin</find>
-      <find>&lt;br&gt;</find>
-      <find>.thingMedicines p</find>
-      <find>.thingsBottom</find>
-      <find>.financeListInfo</find>
-      <find>before</find>
-      <find>bef</find>
-      <find>.frontImgThings</find>
-      <find>.frontImgCarHelp</find>
-      <find>.frontImgCarHelp:</find>
       <find>yellowButton marginTop29px</find>
       <find>.carHelp h4</find>
       <find>.frontImgCarHelp::before</find>
       <find>sizi</find>
       <find>siz</find>
       <find>befo</find>
+      <find>Volunteering</find>
+      <find>VolunteeringText h4</find>
+      <find>VolunteeringText p</find>
+      <find>VolunteeringIMG1</find>
+      <find>.VolunteeringIMG1Substrate</find>
+      <find>VolunteeringText</find>
+      <find>.financeListInfo ul</find>
+      <find>.wrapVolunteering</find>
+      <find>wrapVolunteering</find>
+      <find>wrapVolunteering</find>
+      <find>.VolunteeringText span</find>
+      <find>.VolunteeringText p</find>
+      <find>news h4</find>
+      <find>we h4</find>
+      <find>weHead</find>
+      <find>weBody</find>
+      <find>.thankText p</find>
+      <find>novelty</find>
+      <find>overflow</find>
+      <find>ul</find>
+      <find>overflow</find>
+      <find>.opacityHead</find>
+      <find>overflow flexConteiner justifyCenter</find>
+      <find>.WrapperHead</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,8 +98,9 @@
         <option value="$PROJECT_DIR$/FormStyle.css" />
         <option value="$PROJECT_DIR$/form.html" />
         <option value="$PROJECT_DIR$/style/FormStyle.css" />
-        <option value="$PROJECT_DIR$/style/mainStyle.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa22932.15659/24/basic/Vector.svg" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/mainStyle.css" />
         <option value="$PROJECT_DIR$/style/adaptability.css" />
       </list>
     </option>
@@ -186,12 +187,13 @@
       <workItem from="1611834490417" duration="8120000" />
       <workItem from="1612180288586" duration="8449000" />
       <workItem from="1612350676473" duration="13708000" />
-      <workItem from="1612426725690" duration="14911000" />
+      <workItem from="1612426725690" duration="15663000" />
+      <workItem from="1612523342195" duration="13679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123018000" />
+    <option name="totallyTimeSpent" value="137449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -272,24 +274,27 @@
     <entry file="file://$USER_HOME$/Downloads/bi_arrow-right-circle.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa22932.15659/24/basic/Vector.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="430" column="18" lean-forward="true" selection-start-line="430" selection-start-column="18" selection-end-line="430" selection-end-column="18" />
+        <state relative-caret-position="153">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/mainStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="646" column="14" selection-start-line="646" selection-end-line="647" />
+        <state relative-caret-position="575">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="66" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/adaptability.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="360" lean-forward="true" selection-start-line="360" selection-end-line="360" />
+        <state relative-caret-position="520">
+          <caret line="591" column="22" selection-start-line="591" selection-start-column="22" selection-end-line="591" selection-end-column="22" />
         </state>
       </provider>
     </entry>

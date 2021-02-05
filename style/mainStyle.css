@@ -52,13 +52,22 @@ z-index: 1;
 }
 .WrapperHead{
     position: relative;
-    height: 820px;
+    min-height: 820px;
     max-width: 1258px;
-    margin: 0 auto 0 auto; 
+    margin: 0 auto 0 auto;
 }
 .absolut{
     position: inherit;
-    
+}
+.burger{
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 115px;
+}
+.burger svg{
+    width: 30px;
+    height: 20px;
 }
 .second_nav_block{
 
@@ -181,8 +190,7 @@ margin: 43px 0 0 112px;
     z-index: 2;
 }
 .opacityHead{
-    height: 406px;
-    width: 772px;
+
     position: absolute;
     top: 370px;
 }
@@ -794,7 +802,7 @@ display: block;
 .financeListInfo ul{
     height: 164px;
     max-width:389px ;
-    margin: 24px 0 0 0;
+    margin: 24px 0 24px 0;
     padding-left: 0;
     list-style: none;
 }
@@ -1053,7 +1061,7 @@ display: block;
 .VolunteeringText{
     max-width: 466px;
     min-height: 296px;
-margin: 0 0 162px 525px;
+margin: 0 0 162px 693px;
     padding-top: 113px;
 }
 .VolunteeringIMG1{
@@ -1066,6 +1074,7 @@ margin: 0 0 162px 525px;
     top: 31px;
     left: -60px;
     z-index: 2;
+    background-size: 100% 100%;
 }
 .VolunteeringIMG1Substrate{
     width: 521px;
@@ -1074,6 +1083,7 @@ margin: 0 0 162px 525px;
     position: absolute;
     left: -94px;
     top: 0;
+    background-size: 100% 100%;
 }
 .VolunteeringIMG1Substrate:before{
     content: '';
@@ -1085,7 +1095,6 @@ margin: 0 0 162px 525px;
     right: 260px;
 }
 .VolunteeringText h4 {
-    height: 24px;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -1094,13 +1103,12 @@ margin: 0 0 162px 525px;
     margin: 0;
 }
 .VolunteeringText p {
-    height: 182px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
     color: #242424;
-    margin: 24px 0 0 0 ;
+    margin: 24px 0 24px 0 ;
 }
 .VolunteeringText span{
     padding-top: 1px;
@@ -1111,7 +1119,6 @@ margin: 0 0 162px 525px;
     margin: 0 auto;
 }
 .news h4 {
-    height: 32px;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -1127,10 +1134,10 @@ margin: 0 0 162px 525px;
     margin-top: 40px;
 }
 .novelty img {
-    border: 1px solid white;
     border-radius: 50%;
     width: 140px;
     height: 140px;
+
 }
 .novelty p{
     height: 140px;
@@ -1170,7 +1177,6 @@ margin: 0 0 162px 525px;
 }
 .we h4 {
     width: 100%;
-    height: 32px;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -1181,7 +1187,6 @@ margin: 0 0 162px 525px;
 }
 .weHead {
     width: 100%;
-    height: 96px;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1200,8 +1205,7 @@ margin: 0 0 162px 525px;
     margin: 24px 0 0 0;
 }
 .weBody {
-    width: 680px;
-    height: 131px;
+    max-width: 680px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1287,7 +1291,7 @@ margin: 0 0 162px 525px;
     width: 49px;
     height: 49px;
     background: linear-gradient(150.26deg, #FFE28F 6.75%, #ECBD37 91.17%);
-    ox-shadow: 3px 3px 13px #C18F00;
+    box-shadow: 3px 3px 13px #C18F00;
     border-radius: 50%;
     position: relative;
     display: inline-block;
@@ -1317,8 +1321,6 @@ box-shadow: 7px 7px 16px rgba(204, 151, 0, 0.6), -4px -4px 8px #FFDB7E, inset 13
     border-radius: 50%;
 }
 
-
-
 .thank{
 width: 100%;
     height: 741px;
@@ -1335,8 +1337,6 @@ width: 100%;
 }
 .thankText p{
     position: absolute;
-    width: 346px;
-    height: 154px;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -1467,7 +1467,6 @@ box-shadow: 7px 7px 16px #E0E0E0, -3px -4px 8px #FFFFFF, inset 13px 22px 8px rgb
     background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
     box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
 }
-
 .yellowButton:after:disabled{
     background: #FFE7A2;
     box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);

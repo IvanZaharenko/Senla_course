@@ -86,9 +86,8 @@
         height: 568px;
     }
     .WrapperHead{
-    height: 642px;
-    max-width: 1270px;
-        margin: 0px auto 0 60px;
+        margin: 0 auto ;
+        max-width: 1024px;
     }
     .WrapInfoIMG{
         margin: 36px 0 0 0;
@@ -256,7 +255,6 @@
     .financeListInfo ul {
         height: 141px;
         max-width: 275px;
-        margin: 24px 0 0 0;
     }
     .financeListInfo ul li {
         font-size: 14px;
@@ -360,13 +358,245 @@
         background-size: 100% 100%;
         left: calc(50% - 55px);
     }
+    .wrapVolunteering {
+        margin: 87px auto 0 auto;
+        min-height: 431px;
+    }
+    .VolunteeringText {
+        max-width: 323px;
+        padding-top: 0px;
+        margin: 0 0 162px 525px;
+    }
+    .VolunteeringText h4 {
+        font-size: 28px;
+    }
+    .VolunteeringText span {
+        padding: 1px 0 29px 0;
+    }
+    .VolunteeringIMG1 {
+        width: 348px;
+        height: 348px;
+        right: calc(-348px / 2);
+        top: 23px;
+        left: 88px;
+    }
+    .VolunteeringIMG1Substrate {
+        width: 390px;
+        height: 390px;
+        left: 70px;
+    }
+    .VolunteeringIMG1Substrate::before {
+        height: 390px;
+        right: 50%;
+    }
+
+    /* News Section*/
+
+    .news h4 {
+        font-size: 24px;
+        margin: 36px 0 0 0;
+    }
+    .novelty {
+        margin-top: 26px;
+    }
+    .novelty img {
+        width: 130px;
+        height: 130px;
+    }
+    .allNews {
+        margin: 25px 0 36px 0;
+    }
+
+    /* News Section*/
+
+    .we article {
+        padding-top: 48px;
+    }
+    .we h4 {
+        font-size: 24px;
+    }
+    .weHead {
+        font-size: 16px;
+    }
+    .weBody {
+        max-width:481px;
+
+        font-size: 14px;
+    }
+    .weSocial {
+        margin-top: 32px;
+        padding-bottom: 40px;
+    }
+    .weHead {
+       max-width:481px;
+    }
+    /* thank Section*/
+
+    .thank {
+        height: 555px;
+    }
+    .darkened {
+        width: 460px;
+        height: 390px;
+        margin-top: 89px;
+        background-size: 100% 100%;
+    }
+    .thankText p {
+        width: 259px;
+        height: 118px;
+        font-size: 48px;
+        line-height: 58px;
+        top: 227px;
+        left: 100px;
+    }
+    .thankText::after {
+        width: 67px;
+        height: 67px;
+        top: 279px;
+        left: 368px;
+        background-size: 100% 100%;
+    }
+
+
+    /* footer Section*/
+
+    footer {
+        min-height: 101px;
+    }
+    .wrap-footer-list {
+        flex-direction: column;
+    }
+    .about-footer {
+        padding-left: 0;
+    }
+    .wrap-footer-list ul {
+        padding: 24px 0 0 0;
+    }
+    .bold-text-footer{
+        margin-left: 89px;
+    }
+    .wrap-footer-list ul li {
+        margin-left: 29px;
+    }
+    .about-footer{
+        margin-left: 89px;
+    }
+    .copy {
+        padding-bottom: 0;
+        margin: 0;
+        position: absolute;
+        top: 67px;
+        left: 75%;
+    }
+
+}
+
+@media (max-width:1024px)	{
+    h1 {
+        width: 311px;
+        font-size: 42px;
+        margin: 3px 0 0 110px;
+    }
+    .litleGrayHead {
+        width: 311px;
+        height: 32px;
+        font-size: 14px;
+        margin: 6px 0 0 110px;
+    }
+    .litleBoldBlackHead {
+        width: 311px;
+        height: 80px;
+        font-size: 14px;
+        margin: 8px 0 0 110px;
+    }
+    .bigStyleHead {
+        width: 204px;
+        height: 114px;
+        font-size: 16px;
+        margin: 40px 0 0 110px;
+        line-height: 19px;
+    }
+    .opacityHead {
+        top: 193px;
+    }
+    .opacityTextOne {
+        width: 340px;
+        height: 110px;
+        background-size: 100% 100%;
+    }
+    .opacityTextTwo {
+        width: 304px;
+        height: 61px;
+        background-size: 100% 100%;
+    }
+    .opacityTextThree {
+        width: 270px;
+        height: 61px;
+        background-size: 100% 100%;
+        margin: 0 0 0 151px;
+    }
+    .firstPictureHead {
+        width: 344px;
+        height: 385px;
+        background-size: 100% 100%;
+        left: 314px;
+    }
+    .secondPictureHead {
+        height: 222px;
+        width: 235px;
+        background-size: 100% 100%;
+        left: 350px;
+        top: 256px;
+    }
+    .WrapperHead {
+        min-height: 535px;
+        max-width: 768px;
+    }
+    nav {
+        justify-content: end;
+    }
+    .second_nav_block{
+        display: none;
+    }
+    .first_nav_block{
+        display: none;
+    }
+    .three_nav_block {
+        top: 24px;
+        margin: 0 157px 0 0;
+    }
+    .circleSochNav {
+        width: 40px;
+        height: 40px;
+    }
+    .VkLogoNav {
+        top: 12px;
+        left: 7px;
+        width: 25px;
+        height: 15px;
+    }
+    .instLogoNav {
+        position: absolute;
+        top: 8px;
+        left: 9px;
+        width: 22px;
+        height: 22px;
+    }
+    .circleSochNav::after {
+        width: 50px;
+        height: 50px;
+        left: -5px;
+        top: -5px;
+    }
+    .burger{
+        display:block;
+        position: absolute;
+        top: 34px;
+        left: 115px;
+    }
+
 }
 /*
-@media (max-width:1024px)	{
-
-
-}
-
 @media (max-width:768px)	{
 
 
