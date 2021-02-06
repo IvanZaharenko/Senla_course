@@ -23,7 +23,7 @@ body{
 .marginTop23px{
     margin-top: 23px;
 }
-.margin65-0-0-35 {
+.pet_choise_Soc_control {
 margin: 65px 0 0 35px;
 }
 .marginTop29px{
@@ -226,7 +226,6 @@ background-color: #FFFFFF;
     width: 465px;
 }
 .wrapInfoForVisitor h2{
-    height: 94px;
     font-weight: 600;
     font-size: 28px;
     line-height: 120%;
@@ -320,7 +319,7 @@ z-index: 0;
     padding: 80px 0 0 0 ;
 }
 .wrapper_card{
-    margin: 47px 0 0 0;
+    margin: 32px 0 0 0;
     display: flex;
     justify-content: space-around;
 }
@@ -417,7 +416,6 @@ z-index: 0;
 .pet_Сhoice_Option p{
     margin: 0;
     width: 389px;
-    height: 132px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -626,7 +624,6 @@ display: inline-block;
 }
 .financeWraper>p{
     width: 758px;
-    height: 55px;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1090,7 +1087,7 @@ margin: 0 0 162px 693px;
     display: block;
     width: 100vw;
     height: 521px;
-    background: #FAC832;
+    background: #ffc41e;
     position: absolute;
     right: 260px;
 }

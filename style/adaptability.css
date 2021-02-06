@@ -88,6 +88,7 @@
     .WrapperHead{
         margin: 0 auto ;
         max-width: 1024px;
+        min-height: 642px;
     }
     .WrapInfoIMG{
         margin: 36px 0 0 0;
@@ -129,7 +130,6 @@
     }
     .wrapInfoForVisitor h2{
         width: 323px;
-        height: 94px;
         font-size: 24px;
     }
     .wrapInfoForVisitor p{
@@ -199,7 +199,6 @@
         height: 64px;
     }
     .pet_Сhoice_Option p{
-        height: 198px;
         width: 275px;
     }
     .listPet h3{
@@ -368,7 +367,7 @@
         margin: 0 0 162px 525px;
     }
     .VolunteeringText h4 {
-        font-size: 28px;
+        font-size: 24px;
     }
     .VolunteeringText span {
         padding: 1px 0 29px 0;
@@ -553,7 +552,7 @@
         max-width: 768px;
     }
     nav {
-        justify-content: end;
+        justify-content: flex-end;
     }
     .second_nav_block{
         display: none;
@@ -594,6 +593,355 @@
         top: 34px;
         left: 115px;
     }
+
+/*InfoForVisitor section*/
+
+    .WrapInfoIMG {
+        margin: 24px 0 0 0;
+        height: 273px;
+        max-width: 204px;
+    }
+    .wrapInfoForVisitor {
+        width: 264px;
+        left: 408px;
+        top: 0;
+    }
+    .wrapInfoForVisitor h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .wrapInfoForVisitor p {
+        width: 100%;
+        margin: 24px 0 0 0;
+        font-size: 14px;
+    }
+    .infoForVisitor {
+        height: 500px;
+    }
+    .infoSectionImg1 {
+        width: 244px;
+        height: 244px;
+        top: 16px;
+        right: calc(-244px / 2);
+    }
+    .infoSectionImg1Substrate {
+        width: 273px;
+        height: 273px;
+        left: calc(100% - 137px);
+    }
+    .infoSectionImg2Substrate {
+        height: 129px;
+        width: 129px;
+        left: 226px;
+        top: 148px;
+    }
+    .infoSectionImg2 {
+        width: 120px;
+        height: 120px;
+        top: calc(100% - 120px);
+        left: calc(100% + 26px);
+    }
+
+    /*howHelp section*/
+
+
+    .howHelp {
+        min-height: 617px;
+    }
+    .wrapper_card {
+        margin: 32px 0 0 0;
+
+    }
+    .wrapper_card {
+        width: 518px;
+        margin: 32px auto 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .howHelpCenterIMG {
+        height: 97px;
+        width: 114px;
+        left: calc(50vw - 57px);
+        top: 44px;
+    }
+    .howHelpCenterIMG:before {
+        width: 74px;
+        height: 62px;
+        left: calc(100% - 92px);
+        top: calc(50% - 30px);
+    }
+
+    /*pet_Сhoice section*/
+    .pet_Сhoice_Option {
+        margin: 71px 0 0 0;
+        height: 302px;
+        width: 275px;
+    }
+    .pet_Сhoice_Option h3 {
+        width: 189px;
+        height: 54px;
+        font-size: 24px;
+        margin: 4px 0 0 0;
+    }
+    .pet_Сhoice_Option p {
+        width: 190px;
+        font-size: 14px;
+    }
+    .petChoiseLast p {
+        width: 379px;
+        height: 60px;
+        font-size: 14px;
+        margin: 53px 0 74px 0;
+        line-height: 20px;
+    }
+    .circleSoch {
+        width: 32px;
+        height: 32px;
+    }
+    .circleSoch a {
+        height: 32px;
+        width: 32px;
+    }
+    .VkLogo {
+        top: 11px;
+        left: 5px;
+        width: 20px;
+        height: 12px;
+    }
+    .circleSoch::after {
+        width: 40px;
+        height: 40px;
+        left: -4px;
+        top: -4px;
+    }
+    .instLogo {
+        top: 6px;
+        left: 6px;
+        width: 20px;
+        height: 20px;
+    }
+    .pet_choise_Soc_control{
+        margin: 64px 0 0 0px;
+
+    }
+    /*finance section*/
+
+    .financeBottom {
+        min-height: 43px;
+    }
+    .frontImgFinance {
+        width: 114px;
+        height: 74px;
+        top: 0;
+        left: calc(50vw - 57px);
+    }
+    .frontImgFinance::before {
+        width: 55px;
+        height: 40px;
+        left: 30px;
+        top: 20px;
+    }
+    .financeWraper {
+        margin: 51px auto 0 auto;
+    }
+    .financeWraper h4 {
+        width: 358px;
+        font-size: 20px;
+    }
+    .financeWraper > p {
+        width: 358px;
+        font-size: 16px;
+    }
+    .financeListInfo {
+        width: 237px;
+        margin: 40px 0 0 0;
+    }
+    .financeListInfo p {
+        height: 24px;
+        width: 237px;
+        font-size: 20px;
+    }
+    .financeListInfo ul {
+        height: 151px;
+        max-width: 275px;
+    }
+    .financeListInfo ul {
+        height: 164px;
+        max-width: 237px;
+        margin: 24px 0 29px 0;
+    }
+    .financeListAdress {
+        width: 237px;
+        margin: 40px 0 0 0;
+    }
+    .point {
+        height: 24px;
+        width: 337px;
+        font-size: 20px;
+    }
+    .financeListAdress ul {
+        height: 320px;
+        max-width: 237px;
+    }
+    .seeMap {
+        margin: 32px 0 20px 0;
+    }
+
+    /*things section*/
+
+    .thingsBottom {
+        min-height: 63px;
+    }
+    .frontImgThings {
+        width: 114px;
+        left: calc(50% - 57px);
+        top: 45px;
+        height: 50px;
+    }
+    .frontImgThings::before {
+        width: 54px;
+        height: 44px;
+        top: calc(50% - 34px);
+        left: calc(50% - 25px);
+    }
+    .thingFeed h4 {
+        font-size: 20px;
+    }
+    .thingFeed {
+        min-height: 216px;
+        max-width: 399px;
+    }
+    .thingFeed ul {
+        max-width: 4810px;
+        height: 160px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .thingFeed ul li {
+        padding-top: 0;
+    }
+    .thingMedicines h4 {
+        font-size: 20px;
+    }
+    .thingMedicines p {
+        max-width: 398px;
+        font-size: 14px;
+    }
+    .thingOther h4 {
+        font-size: 20px;
+    }
+    .thingOther ul {
+        max-width: 398px;
+        font-size: 14px;
+    }
+    .thingsBottom {
+        min-height: 85px;
+    }
+    .thingsBottom {
+        min-height: 85px;
+    }
+    .frontImgCarHelp {
+        left: calc(50vw - 57px);
+        width: 114px;
+    }
+    .frontImgCarHelp::before {
+        width: 74px;
+        height: 55px;
+        top: 30px;
+        left: calc(50% - 36px);
+    }
+    .carHelp article {
+        max-width: 398px;
+        margin: 52px auto 0 auto;
+    }
+    .carHelp h4 {
+        font-size: 20px;
+    }
+    .carHelp p {
+        font-size: 14px;
+    }
+
+    /*Volunteering section*/
+
+    .VolunteeringBottom {
+        min-height: 62px;
+    }
+
+    .frontImgVolunteering {
+        width: 114px;
+        left: calc(50vw - 55px);
+        height: 70px;
+    }
+    .frontImgVolunteering::before {
+        width: 76px;
+        height: 62px;
+        background-size: 100% 100%;
+        left: calc(50% - 37px);
+    }
+
+    .wrapVolunteering {
+        margin: 67px auto 0 auto;
+        min-height: 536px;
+        max-width: 768px;
+    }
+    .VolunteeringIMG1 {
+        width: 270px;
+        height: 270px;
+        right: 0;
+        top: 17px;
+        left: 88px;
+    }
+    .VolunteeringIMG1Substrate {
+        width: 300px;
+        height: 300px;
+        left: 70px;
+    }
+    .VolunteeringIMG1Substrate::before {
+        height: 300px;
+        right: 50%;
+    }
+    .VolunteeringText h4 {
+        font-size: 20px;
+    }
+    .VolunteeringText p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 140%;
+        color: #242424;
+        margin: 24px 0 24px 0;
+    }
+    .VolunteeringText {
+        max-width: 217px;
+        margin: 0 0 0px 398px;
+    }
+
+
+
+    .news h4 {
+        margin: 24px 0 0 0;
+    }
+    .novelty {
+        justify-content: center;
+    }
+    .novelty p {
+        font-size: 14px;
+        margin: 0 0 0 16px;
+        width: 304px;
+    }
+    .novelty span {
+        padding-top: 0px;
+    }
+    .novelty img {
+        width: 104px;
+        height: 104px;
+        margin: 18px 0 0 0 ;
+    }
+    .news article {
+        max-width: 426px;
+    }
+
+
 
 }
 /*
