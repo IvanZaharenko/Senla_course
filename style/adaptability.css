@@ -1021,8 +1021,177 @@
 
 @media (max-width:768px)	{
 
+    /*Head section*/
+    .circleSochNav a {
+        display: block;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+    .VkLogoNav {
+        top: 8px;
+        left: 5px;
+        width: 15px;
+        height: 9px;
+    }
+    .margimLeft34px {
+        margin-left: 22px;
+    }
+    .WrapTextHead {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+    }
+    .three_nav_block {
+        margin: 0px 127px 0 0;
+    }
+    .burger svg {
+        width: 24px;
+        height: 16px;
+    }
+    .circleSochNav::after {
+        width: 32px;
+        height: 32px;
+        left: -4px;
+        top: -4px;
+    }
+    .circleSochNav {
+        width: 24px;
+        height: 24px;
+    }
+    .instLogoNav {
+        top: 5px;
+        left: 5px;
+        width: 14px;
+        height: 14px;
+    }
+    .burger {
+        top: 32px;
+        left: 133px;
+    }
+    .WrapperHead {
+        min-height: 566px;
+        max-width: 768px;
+    }
+    .firstPictureHead {
+        width: 312px;
+        height: 357px;
+        background-size: 100% 100%;
+        left: 328px;
+    }
+    .secondPictureHead {
+        height: 165px;
+        width: 157px;
+        background-size: 100% 100%;
+        left: 380px;
+        top: 251px;
+    }
+    h1 {
+        width: 282px;
+        font-size: 30px;
+        margin: 3px 0 0 129px;
+    }
+    .litleGrayHead {
+        width: 282px;
+        height: 28px;
+        font-size: 12px;
+        margin: -15px 0 0 129px;
+        line-height: 14px;
+    }
+    .litleBoldBlackHead {
+        width: 269px;
+        height: 100px;
+        font-size: 14px;
+        margin: 20px 0 0 129px;
+    }
+    .bigStyleHead {
+        width: 381px;
+        height: 57px;
+        margin: 175px auto 0 130px;
+        text-align: center;
+    }
+    /*infoForVisitor section*/
+
+    .infoForVisitor {
+        height: 552px;
+    }
+    .WrapInfoIMG {
+        margin: 16px 0 0 0;
+        height: 193px;
+        max-width: 303px;
+        width: 100%;
+        background: #ffc41e;
+    }
+    .infoSectionImg1 {
+        width: 173px;
+        height: 173px;
+        top: 11px;
+        right: -85px;
+    }
+    .infoSectionImg1Substrate {
+        width: 193px;
+        height: 193px;
+        left: 206px;
+    }
+    .infoSectionImg2 {
+        width: 85px;
+        height: 85px;
+        top: 113px;
+        left: 323px;
+    }
+    .infoSectionImg2Substrate {
+        height: 91px;
+        width: 91px;
+        left: 320px;
+        top: 110px;
+    }
+    .WrapInfoIMG::before {
+        display: none
+    }
+    .wrapInfoForVisitor {
+        width: 382px;
+        left: 0;
+        top: 0;
+        margin: 221px 129px 0 206px;
+    }
 
 
+        /*howHelp section*/
+    .howHelpHeading {
+        font-size: 18px;
+        padding: 32px 0 0 0;
+    }
+    .wrapper_card {
+        width: 580px;
+        margin: 10px auto 0 auto;
+    }
+    .how_help_card {
+        height: 148px;
+        width: 142px;
+        position: relative;
+        margin: 24px 0 0 16px;
+    }
+    .how_help_img {
+        width: 80px;
+        height: 80px;
+        margin: 0 0 0 30px;
+    }
+    .how_help_img a {
+        width: 80px;
+        height: 80px;
+    }
+    .how_help_img svg {
+        height: 44px;
+        width: 45px;
+        margin: 16px 0 0 18px;
+    }
+    .how_help_card p {
+         margin: 8px 0 0 0;
+         width: 142px;
+     }
+    .howHelp {
+        min-height: 476px;
+    }
 
 
     .pet_choise_info {
@@ -1463,7 +1632,11 @@ line-height: 100%;    }
         flex-direction: column;
     }
 }
-
+@media (max-width:670px)	{
+    .wrapInfoForVisitor {
+        margin: 221px 0 0 129px;
+    }
+}
 /*
 @media (max-width:640px)	{
 
