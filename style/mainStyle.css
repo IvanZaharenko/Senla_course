@@ -20,7 +20,7 @@ body{
 .margimLeft7px {
     margin-left: 7px;
 }
-.marginTop23px{
+.we_control_cociabottom{
     margin-top: 23px;
 }
 .pet_choise_Soc_control {
@@ -477,6 +477,14 @@ z-index: 0;
    color:  #523C00;
     border-bottom: 1px solid #523C00;
 
+}
+.pet_choise_info{
+    display: flex;
+    justify-content: center;
+}
+.petChoiseLast {
+    display: flex;
+    justify-content: center;
 }
 .listPetCard a:active{
     color: #F6B400;
@@ -1342,6 +1350,7 @@ width: 100%;
     margin: 0;
     top: 303px;
     left: 134px;
+    max-width: 346px;
 }
 .thankText:after{
     content: '';

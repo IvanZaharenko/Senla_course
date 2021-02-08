@@ -771,12 +771,10 @@
         margin: 24px 0 29px 0;
     }
     .financeListAdress {
-        width: 237px;
         margin: 40px 0 0 0;
     }
     .point {
         height: 24px;
-        width: 337px;
         font-size: 20px;
     }
     .financeListAdress ul {
@@ -835,11 +833,9 @@
         font-size: 14px;
     }
     .thingsBottom {
-        min-height: 85px;
+        min-height: 63px;
     }
-    .thingsBottom {
-        min-height: 85px;
-    }
+
     .frontImgCarHelp {
         left: calc(50vw - 57px);
         width: 114px;
@@ -915,9 +911,6 @@
         max-width: 217px;
         margin: 0 0 0px 398px;
     }
-
-
-
     .news h4 {
         margin: 24px 0 0 0;
     }
@@ -941,15 +934,537 @@
         max-width: 426px;
     }
 
+    /*we section*/
 
+    .we article {
+        max-width: 446px;
+        padding-top: 48px;
+    }
+    .we h4 {
+        font-size: 20px;
+    }
+    .weHead {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .we h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .weBody {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .weBody span {
+        padding-top: 3px;
+    }
+
+    /*thank section*/
+
+    .thank {
+        height: 416px;
+    }
+
+    .darkened {
+        width: 345px;
+        height: 292px;
+        margin-top: 67px;
+        background-size: 100% 100%;
+    }
+    .thankText p {
+        width: 194px;
+        height: 86px;
+        font-size: 36px;
+        line-height: 44px;
+        top: 170px;
+        left: 74px;
+    }
+    .thankText::after {
+        width: 50px;
+        height: 50px;
+        top: 209px;
+        left: 268px;
+        background-size: 100% 100%;
+    }
+
+
+
+        /*footer section*/
+
+    .copy {
+        padding-bottom: 0;
+        margin: 24px auto 0 auto;
+       position: initial;
+    }
+
+    .wrap-footer-list ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrap-footer-list ul li {
+        margin: 0 56px 15px 0;
+    }
+    .wrap-footer-list {
+        flex-direction: row;
+    }
+
+    .wrap-footer-list {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
 }
-/*
+
+
+
 @media (max-width:768px)	{
 
 
+
+
+
+    .pet_choise_info {
+       
+        max-width: 470px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .pet_Сhoice_Option {
+        margin: 50px 0 0 0;
+        height: 100%;
+        width: 100%;
+    }
+    .pet_Сhoice_Option h3 {
+        width: 100%;
+        height: 24px;
+        font-size: 16px;
+        margin: 4px 0 0 0;
+        text-align: center;
+    }
+    .pet_Сhoice_Option p {
+        width: 100%;
+        font-size: 14px;
+        margin: 16px auto 0 auto;
+        height: 100%;
+    }
+
+    /*listPet section*/
+
+
+
+    .howHelpCenterIMG::before {
+        width: 54px;
+        height: 52px;
+        left: calc(100% - 96px);
+        top: calc(50% - 28px);
+    }
+    .howHelpCenterIMG {
+        height: 58px;
+        width: 142px;
+        left: calc(50vw - 71px);
+        top: 29px;
+    }
+    .pet_choise_Soc_control {
+        margin: 17px auto 25px auto;
+        width: 120px;
+    }
+    .petChoiseLast {
+        flex-direction: column;
+    }
+    .petChoiseLast p {
+        width: 382px;
+        margin: 40px auto 0 auto;
+    }
+    .control_list_pet{
+        height: 100%;
+    }
+    .white_Button {
+        height: 22px;
+        max-width: 232px;
+        margin: 27px auto 0 auto;
+    }
+    .white_Button::after {
+        width: 242px;
+        height: 30px;    
+        top: -4px;
+        left: -4px;
+    }
+    .white_Button a {
+        height: 30px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .control_arrow {
+        display: none;
+    }
+    .blackColorListPet {
+        height: 84px;
+        width: 272px;
+       
+    }
+    .grayColorListPet {
+        margin: 6px 16px 0 16px;
+        width: 273px;
+        height: 16px;
+    }
+    .listPetCard h4 {
+        height: 18px;
+        margin: 12px 16px 0 16px;
+        padding-bottom: 6px;
+        width: 273px;
+    }
+    .listPetCard img {
+        height: 284px;
+        width: 272px;
+        margin: 14px 14px 0 14px;
+    }
+    .listPetCard {
+        margin: 20px 20px 0 0;
+        width: 100%;
+max-width: 300px;
+min-height: 495px;
+    }
+    .allPets {
+        height: 40px;
+        margin: 16px auto 0 auto;
+    }
+    .listPet h3 {
+        width: 382px;
+        font-size: 19px;
+        margin: 36px auto 0 auto;
+    }
+
+
+    /*finance section*/
+    .seeMap {
+        margin: 8px auto 20px auto;
+    }
+    .financeListAdress ul {
+        height: 160px;
+        max-width: 100%;
+        margin: 16px 0 0 0;
+    }
+    .point {
+        width: 100%;
+    }
+    .financeListAdress {
+        margin: 32px 0 0 0;
+        width: 382px;
+    }
+    .financeListInfo ul {
+        height: 151px;
+        max-width: 100%;
+        margin: 16px 0 29px 0;
+    }
+    .financeListAdress ul li {
+line-height: 100%;    }
+    .financeListInfo p {
+        width: 100%;
+    }
+    .financeListInfo {
+        width: 382px;
+    }
+    .wrapFinanceLists {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .financeWraper > p {
+        width: 382px;
+        font-size: 16px;
+        height: 89px;
+    }
+    .financeWraper h4 {
+        width: 382px;
+        font-size: 16px;
+        height: 24px;
+    }
+    .financeWraper {
+        margin: 47px auto 0 auto;
+        max-width: 382px;
+    }
+    .frontImgFinance::before {
+        width: 63px;
+        height: 47px;
+        left: 41px;
+        top: 16px;
+    }
+    .financeBottom {
+        min-height: 39px;
+    }
+    .frontImgFinance {
+        width: 142px;
+        height: 69px;
+        top: 0;
+        left: calc(50% - 70px);
+    }
+ 
+ 
+ 
+    /*things section*/
+
+ .thingOther ul {
+    max-width: 382px;
+    font-size: 14px;
+    height: 142px;
+    margin: 16px 0 0 0;
+}
+ .thingOther h4 {
+    font-size: 16px;
+    height: 20px;
+}
+ .thingMedicines p {
+    max-width: 383px;
+    font-size: 14px;
+    height: 100px;
+}
+ .thingMedicines h4 {
+    font-size: 16px;
+    height: 20px;
+}
+ .thingFeed ul {
+    max-width: 389px;
+    height: 180px;
+}
+ .thingFeed h4 {
+    font-size: 16px;
+    height: 20px;
+}
+ .things article {
+    max-width: 381px;
+    margin: 84px auto 0 auto;
+}
+ .frontImgThings::before {
+    width: 63px;
+    height: 47px;
+    top: calc(50% - 37px);
+    left: calc(50% - 30px);
+}
+.frontImgThings {
+    width: 142px;
+    left: calc(50% - 71px);
+    top: 53px;
+    height: 28px;
+}
+    .thingsBottom {
+        min-height: 55px;
+    }
+
+
+ /*carHelp section*/
+
+ .thingTransfer {
+    margin: 10px auto 0 auto;
+   
+}
+ .frontImgCarHelp::before {
+    width: 63px;
+    height: 47px;
+    top: 35px;
+    left: calc(50% - 27px);
+}
+ .frontImgCarHelp {
+    left: calc(50vw - 71px);
+    width: 142px;
+    height: 73px;
+    top: 6px;
 }
 
+ .carHelp article {
+    max-width: 382px;
+    margin: 48px auto 0 auto;
+}
+    .carHelp h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .yellowButton::after {
+        width: 174px;
+        height: 30px;
+        top: -4px;
+        left: -5px;
+    }
+    .yellowButton a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .yellowButton {
+     
+        height: 22px;
+        max-width: 164px;
+        width: 164px;
+    }
+
+
+ /*Volunteering section*/
+ .VolunteeringText {
+    max-width: 385px;
+    margin: 70px auto 0 129px;
+    width: 387px;
+    min-height: 231px;
+}
+.VolunteeringText h4 {
+    font-size: 18px;
+    text-align: center;
+}
+.VolunteeringText p {
+    margin: 16px 0 0 0;
+    max-width: 382px;
+}
+.yellowButton{
+    margin: 16px auto 0 auto;
+}
+.VolunteeringText span {
+    padding: 1px 0 0 0;
+}
+
+ .VolunteeringIMG1 {
+    position: relative;
+    width: 189px;
+    height: 189px;
+    right: 0;
+    top: 12px;
+    left: 190px;
+}
+.VolunteeringIMG1Substrate {
+    width: 212px;
+    height: 212px;
+    left: 178px;
+}
+.VolunteeringIMG1Substrate::before {
+    height: 212px;
+}
+ .wrapVolunteering {
+    margin: 47px auto 0 auto;
+    min-height: 561px;
+    max-width: 640px;
+}
+ .frontImgVolunteering {
+    width: 142px;
+    left: calc(50vw - 71px);
+    height: 25px;
+}
+ .frontImgVolunteering::before {
+    width: 63px;
+    height: 43px;
+    background-size: 100% 100%;
+    left: calc(50% - 29px);
+    top: -10px;
+}
+    .VolunteeringBottom {
+        min-height: 43px;
+    }
+
+    .frontImgVolunteering {
+        width: 142px;
+        left: calc(50vw - 71px);
+        height: 25px;
+    }
+ /*news section*/
+
+
+ .allNews {
+    margin: 16px 0 16px 120px;
+}
+ .news article {
+        max-width: 382px;
+    }
+
+ /*we section*/
+
+ .we_control_cociabottom {
+    margin-top: 9px;
+}
+ .instLogo {
+    top: 5px;
+    left: 5px;
+    width: 14px;
+    height: 14px;
+}
+ .circleSoch {
+    width: 24px;
+    height: 24px;
+}
+ .circleSoch::after {
+    width: 32px;
+    height: 32px;
+    left: -4px;
+    top: -4px;
+}
+ .VkLogo {
+    top: 8px;
+    left: 4px;
+    width: 15px;
+    height: 9px;
+}
+.weSocial p {
+    width: 282px;
+    height: 42px;
+}
+ .weSocial {
+    margin-top: 24px;
+    padding-bottom: 24px;
+    width: 382px;
+    height: 42px;
+    display: flex;
+}
+ .weBody {
+    margin: 18px 0 0 0;
+}
+ .we h5 {
+    line-height: 21px;
+    margin: 32px 0 0 0;
+}
+ .we h4 {
+    font-size: 16px;
+}
+    .we article {
+        max-width: 382px;
+        padding-top: 32px;
+    }
+
+    /*thank section*/
+    .thankText::after {
+        width: 42px;
+        height: 42px;
+        top: 176px;
+        left: 188px;
+        background-size: 100% 100%;
+    }
+    .thank {
+        height: 360px;
+    }
+    .darkened {
+        width: 250px;
+        height: 217px;
+        margin-top: 74px;
+        background-size: 100% 100%;
+    }
+    .thankText p {
+        width: 158px;
+        height: 78px;
+        font-size: 30px;
+        line-height: 36px;
+        top: 142px;
+        left: 30px;
+    }
+
+    /*footer section*/
+
+    .footer_two_item{
+    padding: 1px 0 0 0 !important;
+    }
+
+    .bold-text-footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*
 @media (max-width:640px)	{
 
 
