@@ -11,6 +11,9 @@ body{
 .margimLeft34px{
     margin-left: 34px;
 }
+.we_soch_conrol{
+    margin-left: 34px;
+}
 .margimLeft45px{
     margin-left: 45px;
 }
@@ -64,6 +67,8 @@ z-index: 1;
     position: absolute;
     top: 34px;
     left: 115px;
+    z-index: 3;
+    cursor: pointer;
 }
 .burger svg{
     width: 30px;
@@ -1145,7 +1150,7 @@ margin: 0 0 162px 693px;
 
 }
 .novelty p{
-    height: 140px;
+    height: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1516,18 +1521,19 @@ color: #000000;
     color: #B3B3B3;
     border-bottom: none;
 }
-
-.circleSochNav:hover {
+.circleSochNav a {
+    display: block;
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 3;
+}
+.circleSochNav a:hover {
 background: linear-gradient(150.26deg, #FFE28F 6.75%, #ECBD37 91.17%);
 box-shadow: 3px 3px 13px #C18F00;
 }
 .circleSochNav:active{
 background: linear-gradient(150.26deg, #FFDA71 6.75%, #FFCD40 43.24%, #FBC11B 91.17%);
 box-shadow: 2px 2px 6px #C18F00, inset 3px 3px 10px rgba(199, 129, 0, 0.59);
-}
-
-
-.instLogoNav path:active, .VkLogoNav path:active{
-    background: #F2F2F2;
-    box-shadow: 0px 0px 5px #D19B00;    
 }
