@@ -1,10 +1,14 @@
- * {
-     transition: .3s cubic-bezier(.47,-.44,.49,1.46);
+ *:hover {
+     transition: .5s cubic-bezier(.47,-.44,.49,1.46);
    }
 
 body{
     font-family: "Gilroy","Arial", sans-serif;
     box-sizing: border-box;
+}
+
+.filter_opacity{
+filter: opacity(50%);
 }
 .margin_auto {
     margin: 0 auto;
@@ -305,7 +309,7 @@ z-index: 0;
 .infoSectionImg2Substrate{
     height: 245px;
     width: 245px;
-    background: url('../img/EllipseInfo2.png') no-repeat; 
+    background: url('../img/EllipseInfo1.png') no-repeat;
     position: absolute;
     z-index: 2;
     left: calc(100% + 33px);
