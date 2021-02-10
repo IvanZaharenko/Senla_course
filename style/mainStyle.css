@@ -1,5 +1,9 @@
+ * {
+     transition: .3s cubic-bezier(.47,-.44,.49,1.46);
+   }
+
 body{
-    font-family: Gilroy;
+    font-family: "Gilroy","Arial", sans-serif;
     box-sizing: border-box;
 }
 .margin_auto {
@@ -397,7 +401,7 @@ z-index: 0;
     width: 174px;
     height: 144px;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 44px;
     background: url('../img/Frame 111.png') no-repeat;
     background-size: 100% 100%;
@@ -441,6 +445,10 @@ z-index: 0;
     color: #242424;
     margin: 50px auto 0 auto;
 }
+.wrap_listPetCard{
+    display: flex;
+    justify-content: space-evenly;
+}
 .listPetCard{
     width: 100%;
     max-width: 368px;
@@ -448,7 +456,7 @@ z-index: 0;
     background: #F6F6F6;
     box-shadow: 6px 6px 16px rgba(163, 163, 163, 0.6), -8px -8px 16px #FFFFFF, inset 4px 4px 16px rgba(203, 203, 203, 0.25);
     border-radius: 5px;
-    margin: 32px 21px 0 0;
+    margin: 32px 0 0 0;
 }
 .listPetCard img{
     height: 356px;
@@ -695,7 +703,7 @@ display: inline-block;
     box-sizing: border-box;
     box-shadow: 6px 6px 16px rgba(224, 224, 224, 0.6), -6px -6px 16px rgba(255, 255, 255, 0.77);
     border-radius: 50%;
-    margin: 0 0 0 0px;
+    margin: 0;
 }
 
 .control_arrow a{
@@ -746,11 +754,11 @@ display: inline-block;
 }
 .white_Button:hover{
     background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 53.12%, #EFECEC 100%);
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 3px 3px 13px rgba(128, 128, 128, 0.25);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25), 3px 3px 13px rgba(128, 128, 128, 0.25);
 }
 .white_Button:active{
     background: linear-gradient(180deg, #F1F1F1 1.56%, #FCFAFA 100%);
-    box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25), inset 0px 4px 13px rgba(0, 0, 0, 0.06);
+    box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25), inset 0 4px 13px rgba(0, 0, 0, 0.06);
 }
 .white_Button:disabled{
     background: linear-gradient(180deg, #FBFBFB 0%, #F6F6F6 100%);
@@ -1294,7 +1302,7 @@ margin: 0 0 162px 693px;
     left: 10px;
 }
 .instLogoNav path, .VkLogoNav path {
-    box-shadow: 0px 0px 6px #d19b00;
+    box-shadow: 0 0 6px #d19b00;
 }
 
 .circleSochNav{

@@ -363,7 +363,7 @@
     }
     .VolunteeringText {
         max-width: 323px;
-        padding-top: 0px;
+        padding-top: 0;
         margin: 0 0 162px 525px;
     }
     .VolunteeringText h4 {
@@ -489,6 +489,16 @@
     }
 
 }
+
+@media (max-width: 1130px) {
+    .listPetCard{
+        margin: 32px 21px 0 0;
+    }
+    .wrap_listPetCard {
+        justify-content: center;
+    }
+}
+
 
 @media (max-width:1024px)	{
     h1 {
@@ -681,6 +691,10 @@
         height: 302px;
         width: 275px;
     }
+
+    .listPetCard{
+        margin: 32px 21px 0 0;
+    }
     .pet_Сhoice_Option h3 {
         width: 189px;
         height: 54px;
@@ -725,7 +739,7 @@
         height: 20px;
     }
     .pet_choise_Soc_control{
-        margin: 64px 0 0 0px;
+        margin: 64px 0 0 0;
 
     }
     /*finance section*/
@@ -913,7 +927,7 @@
     }
     .VolunteeringText {
         max-width: 217px;
-        margin: 0 0 0px 398px;
+        margin: 0 0 0 398px;
     }
     .news h4 {
         margin: 24px 0 0 0;
@@ -927,7 +941,7 @@
         width: 304px;
     }
     .novelty span {
-        padding-top: 0px;
+        padding-top: 0;
     }
     .novelty img {
         width: 104px;
@@ -1051,7 +1065,7 @@
         width: 100%;
     }
     .three_nav_block {
-        margin: 0px 127px 0 0;
+        margin: 0 127px 0 0;
     }
     .burger svg {
         width: 24px;
@@ -1717,7 +1731,7 @@ line-height: 100%;    }
         left: 34px;
     }
     .three_nav_block {
-        margin: 0px 30px 0 0;
+        margin: 0 30px 0 0;
     }
     /*infoForVisitor section*/
 
@@ -1764,13 +1778,16 @@ line-height: 100%;    }
         max-width: 360px;
     }
     .pet_Сhoice_Option h3 {
-        margin: 0px 0 0 0;
+        margin: 0 0 0 0;
     }
     .pet_Сhoice_Option p {
         width: 300px;
     }
     .pet_Сhoice_Option{
         margin: 41px 0 0 0;
+    }
+    .listPetCard{
+        margin: 20px 6px 0 0 ;
     }
     .listPet h3 {
         width: 192px;

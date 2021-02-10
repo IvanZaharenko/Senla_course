@@ -18,6 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,15 +33,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
               <caret line="1152" column="16" selection-start-line="1152" selection-start-column="16" selection-end-line="1152" selection-end-column="16" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/mainStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="447" column="17" selection-start-line="447" selection-start-column="1" selection-end-line="447" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style/adaptability.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="1789" column="29" selection-start-line="1789" selection-start-column="29" selection-end-line="1789" selection-end-column="29" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/adaptability.css">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="282">
               <caret line="498" column="22" selection-start-line="498" selection-start-column="22" selection-end-line="498" selection-end-column="22" />
+=======
+            <state relative-caret-position="248">
+              <caret line="246" column="45" selection-start-line="246" selection-start-column="45" selection-end-line="246" selection-end-column="45" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -52,6 +74,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -82,11 +105,11 @@
       <find>.novelty</find>
       <find>.weSocial</find>
       <find>margimLeft34px</find>
-      <find>margimLeft34px</find>
       <find>.circleSochNav</find>
-      <find>1024</find>
       <find>.novelty p</find>
       <find>Быстрый платеж</find>
+      <find>1024</find>
+      <find>listPetCard</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,9 +122,11 @@
         <option value="$PROJECT_DIR$/form.html" />
         <option value="$PROJECT_DIR$/style/FormStyle.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa22932.15659/24/basic/Vector.svg" />
-        <option value="$PROJECT_DIR$/style/adaptability.css" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/style/mainStyle.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/adaptability.css" />
       </list>
     </option>
   </component>
@@ -123,11 +148,6 @@
             <path>
               <item name="help-animals.-Senla" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-animals.-Senla" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="help-animals.-Senla" type="b2602c69:ProjectViewProjectNode" />
-              <item name="help-animals.-Senla" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,18 +212,34 @@
       <workItem from="1612607074131" duration="11291000" />
       <workItem from="1612783847465" duration="599000" />
       <workItem from="1612785124296" duration="5842000" />
+<<<<<<< Updated upstream
       <workItem from="1612863546542" duration="9898000" />
+=======
+      <workItem from="1612863546542" duration="10573000" />
+      <workItem from="1612875512486" duration="812000" />
+      <workItem from="1612876493215" duration="1706000" />
+      <workItem from="1612879974951" duration="6000" />
+      <workItem from="1612955373083" duration="3616000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="165079000" />
+=======
+    <option name="totallyTimeSpent" value="171894000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< Updated upstream
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.046389036" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1270427" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -215,7 +251,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -281,24 +321,73 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa22932.15659/24/basic/Vector.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/style/adaptability.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="498" column="22" selection-start-line="498" selection-start-column="22" selection-end-line="498" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2917" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js" />
+    <entry file="file://$PROJECT_DIR$/../test/index.txt" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/mainStyle.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="299">
           <caret line="1152" column="16" selection-start-line="1152" selection-start-column="16" selection-end-line="1152" selection-end-column="16" />
+=======
+        <state relative-caret-position="333">
+          <caret line="447" column="17" selection-start-line="447" selection-start-column="1" selection-end-line="447" selection-end-column="17" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
+<<<<<<< Updated upstream
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="360" column="96" selection-start-line="360" selection-start-column="96" selection-end-line="360" selection-end-column="96" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="246" column="45" selection-start-line="246" selection-start-column="45" selection-end-line="246" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/adaptability.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="1789" column="29" selection-start-line="1789" selection-start-column="29" selection-end-line="1789" selection-end-column="29" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
