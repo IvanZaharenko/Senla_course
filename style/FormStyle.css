@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 
 body{
-    font-family: Gilroy;
+    font-family: "Gilroy","Arial", sans-serif;
 }
 .clearfix { clear: both; }
 
@@ -14,7 +14,7 @@ body{
         margin: 0 auto 0 auto;
 }
 .captionForm {
-    border-bottom: 1px solid #B3B3B3;
+    border-bottom: 1px solid #EEBF3A;
     padding: 30px 97px 0 0;
    }
 
@@ -56,7 +56,10 @@ border-radius: 5px;
 width: 582px;
 background: #FFFFFF;
 box-shadow: 0 0 22px rgba(161, 161, 161, 0.25);
-border-radius: 5px;}
+border-radius: 5px;
+position: relative;
+    z-index: 1;
+}
 /*
 background: #FFFFFF;
 box-shadow: 0px 0px 22px rgba(161, 161, 161, 0.25);
@@ -177,6 +180,9 @@ margin: 8px 0 0 0 ;
     color: #B3B3B3;
     margin: 2px 0 0 16px;
 }
+
+
+
 .choiseTime p{
        height: 20px;
     
@@ -286,31 +292,74 @@ margin: 16px 0 0 0 ;
     display: block;
 }
 .formButton {
-    height: 42px;
-    width: 192px;  
-    background: #18A0FB;
-    border-radius: 6px;
+    height: 32px;
+    width: 224px;
     border: 1px none white;
     cursor: pointer;
+    position: relative;
+    background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 58px;
 }
 .formButton span {
-    font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 17px;
-line-height: 38px;
-letter-spacing: -0.015em;
-color: #FFFFFF;
-text-decoration: none; 
-margin: auto ;  
+font-size: 20px;
+line-height: 32px;
+margin: auto ;
+}
+.formButton:after{
+    content: '';
+    display: block;
+    width: 234px;
+    height: 42px;
+    cursor: pointer;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: -1;
+    background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
+    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+    border-radius: 58px;
+}
+.formButton:after:hover{
+    background: linear-gradient(180deg, #FFDC81 0%, #E6AA00 100%);
+    box-shadow: 7px 7px 16px #E0E0E0, -3px -4px 8px #FFFFFF, inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+}
+.formButton:hover{
+    background: linear-gradient(180deg, #FFEEBC 0%, #FFE69F 36.46%, #FFCF48 68.23%, #FFC317 100%);
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+}
+.formButton:after:active{
+    background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
+    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+}
+.formButton:active {
+    background: linear-gradient(180deg, #FFE69F 0.01%, #E3B940 0.02%, #FFD24E 100%);
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+}
+.formButton:disabled {
+    background: #FFE7A2;
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+}
+.formButton:after:disabled{
+    background: #FEE39E;
+    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+}
+.formButton span:disabled{
+    color: #6B6B6B;
+    opacity: 0.7;
 }
 .shapeCheck{
-    width: 16px;
-    height: 16px; 
+    width: 18px;
+    height: 18px;
     background: #FFFFFF;    
     border: 1px solid #B3B3B3;
     border-radius: 2px;
-    margin: 0 0 0 0;
+    margin: 11px 0 0 1px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
 }
 .nameCheck{
     display: inline-block;
@@ -322,30 +371,46 @@ line-height: 100%;
 color: #6B6B6B;
 vertical-align: text-top;
 }
-.checkOther > p{
-    width: 179px;
-    height: 20px;
-      font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    align-items: center;  
-    color: #242424;
-}
+
 .exitForm{
-height: 42px;
-width: 136px;
-background: #FFFFFF;
-border: 1px solid #18A0FB;
-border-radius: 6px;
-display: block;
-text-decoration: none; 
-line-height: 42px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-letter-spacing: -0.015em;
-color: #18A0FB;
+    height: 32px;
+    width: 133px;
+    border: 1px none white;
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(180deg, #FBFBFB 0%, #F6F6F6 100%);
+    box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25);
+    border-radius: 58px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+.exitForm:after{
+    content: '';
+    display: block;
+    width: 143px;
+    height: 42px;
+    cursor: pointer;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: -1;
+    background: #F6F6F6;
+    box-shadow: 7px 7px 16px #E3E3E3, -4px -4px 8px rgba(255, 255, 255, 0.7), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+    border-radius: 58px;
+}
+.exitForm:hover{
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 53.12%, #EFECEC 100%);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 3px 3px 13px rgba(128, 128, 128, 0.25);
+}
+.exitForm:active{
+    background: linear-gradient(180deg, #F1F1F1 1.56%, #FCFAFA 100%);
+    box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25), inset 0px 4px 13px rgba(0, 0, 0, 0.06);
+}
+.exitForm:disabled{
+    background: linear-gradient(180deg, #FBFBFB 0%, #F6F6F6 100%);
+    box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25);
 }
 .disainExit {
 padding: 0 0 0 44px;
@@ -361,6 +426,78 @@ padding: 0 0 0 44px;
 .marginTop41px {
     margin-top: 41px;
 }
-.marginTop16px{
-    margin: 16px 0 0 0 ;
+.form_radio{
+    margin: 7px 0 0 0 ;
 }
+.checkOther{
+    margin: 19px 0 0 0;
+}
+
+.form_radio label {
+    height: 40px;
+    width: 375px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #6B6B6B;
+    margin: 0;
+    display: inline-flex;
+    user-select: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+/* создание в label псевдоэлемента  before со следующими стилями */
+.control_label_check::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #F9B800;
+    border-radius: 50%;
+    margin-right: 11px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.shapeCheck:not(:disabled):not(:checked)+label:hover::before {
+    border: 1px solid #F9B800;
+    box-shadow: 3px 3px 4px rgba(113, 113, 113, 0.05), inset 3px 3px 2px rgba(189, 188, 188, 0.24);
+}
+
+/* стили для активной радиокнопки (при нажатии на неё) */
+.form_radio:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.shapeCheck:focus+label::before {
+    border: 1px solid #F9B800;
+    box-shadow: 3px 3px 4px rgba(113, 113, 113, 0.05), inset 3px 3px 2px rgba(189, 188, 188, 0.24);
+}
+
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.shapeCheck:focus:not(:checked)+label::before {
+    border: 1px solid #F9B800;
+    box-shadow: 3px 3px 4px rgba(113, 113, 113, 0.05), inset 3px 3px 2px rgba(189, 188, 188, 0.24);
+}
+
+/* стили для радиокнопки, находящейся в состоянии checked */
+
+.shapeCheck:checked + label::before {
+    background: linear-gradient(149.04deg, #F9B800 22.92%, #FFD45B 81.94%);
+    border: 1px solid #F9B800;
+    box-shadow: 2px 2px 4px rgba(201, 201, 201, 0.25), inset 3px 3px 4px #ECAF01;
+    background-image: radial-gradient(circle closest-side at center, #fff 5px, #F9B800 1px, #FFD45B 81.94%);
+}
+
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.shapeCheck:disabled+label::before {
+    background-color: #e9ecef;
+}
+
+

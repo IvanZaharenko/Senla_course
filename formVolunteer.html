@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Автопомощь</title>
     <link rel="stylesheet" href="style/FormStyle.css">
+    <link rel="stylesheet" href="style/mainStyle.css">
     <link rel="stylesheet" href="fonts/gilroy/stylesheet.css">
 </head>
 <body>
@@ -14,7 +15,7 @@
           method="get"
           name="volunteerForm"
           >
-        <div class="wrapperHead">
+        <div class="wrapper_head_form">
             <div class="captionForm">
                <p>Волонтерство</p>
             </div>
@@ -44,29 +45,31 @@
                 <label class="controlLabel" for="volunteerPhone">Обязательное поле для заполнения</label>
             </div>
                
-            <div class="checkOther marginTop32px">
+            <div class="checkOther ">
 
-                    <div class="marginTop16px">
+                    <div class="form_radio">
                     <input
+                            id="volunteer_chek_1"
                             type="radio" 
-                            id="ksmallThingForm"
-                            name="checksmallThingForm"
+                            name="check_thing_form"
                             class="shapeCheck"
+                            value="1"
+                            checked
                     >
-                    <p class="nameCheck">Хочу помогать на постоянной основе (расписание<br> можно подобрать так, как будет вам удобно)</p>
+                        <label  class="control_label_check" for="volunteer_chek_1">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</label>
                     </div>
 
-                    <div class="marginTop16px">
+                    <div class="form_radio">
                     <input
+                            id="volunteer_chek_2"
                             type="radio" 
-                            id="checkMaterialForm"
-                            name="checkMaterialForm"
+                            name="check_thing_form"
+                            value="2"
                             class="shapeCheck"
                     >
-                    <p class="nameCheck">Готов помогать иногда. Хочу выбрать удобное для меня<br> время</p>
-                    </div>           
+                        <label  class="control_label_check" for="volunteer_chek_2">Готов помогать иногда. Хочу выбрать удобное для меня время</label>
+                    </div>
             </div>
-
 
             <div>
                  <textarea id="volunteerArea"
@@ -77,11 +80,24 @@
             </div>
         </div>
           <div class="flexaAgle marginTop32px">
-           <button id="takeHomeButton" class="formButton">
-                <span>Отправить</span>
+           <button type="submit"
+                   id="takeHomeButton"
+                   class="formButton">
+                <span>Отправить заявку</span>
            </button>
-            <a class="exitForm" href="#"><span class="disainExit">Отмена</span></a> 
-        </div>       
+
+              <button
+                type="button"
+                class="exitForm"
+
+              >
+                  <span>Отмена</span>
+
+              </button>
+
+
+
+        </div>
     </form>
    </div>
 </div>
