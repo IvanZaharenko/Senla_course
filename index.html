@@ -6,11 +6,15 @@
         name="viewport"
         content="width=device-width,initial-scale=1"
     >
-    <title>Title</title>
-    <link rel="stylesheet" href="fonts/gilroy/stylesheet.css">
+    <title>Помощь животным</title>
     <link rel="stylesheet" href="style/Normalize.css">
+    <link rel="stylesheet" href="fonts/gilroy/stylesheet.css">
     <link rel="stylesheet" href="style/mainStyle.css">
     <link rel="stylesheet" href="style/adaptability.css">
+    <link rel="stylesheet" href="style/FormStyle.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <script defer type="text/javascript" src="script/open_modal.js"></script>
 </head>
 <body>
 <header >
@@ -291,10 +295,10 @@
                     </div>
                     <div class="wrap_conrol_buton">
                         <div class="yellowButton margin_auto">
-                            <a href="#">Забрать домой</a>
+                            <a href="#" class="js-open-modal" data-modal="take_Home">Забрать домой</a>
                         </div>
                         <div class="white_Button margin_auto">
-                            <a href="#" >Забрать на передержку</a>
+                            <a href="#" class="js-open-modal" data-modal="temporary">Забрать на передержку</a>
                         </div>
                     </div>
                    <div class="control_arrow">
@@ -414,7 +418,7 @@
                     <li>Будки.</li>
                 </ul>
             </div>
-            <p class="thingTransfer">Кому и куда передать?</p>
+            <p class="thingTransfer js-open-modal" data-modal= "reference" >Кому и куда передать?</p>
         </article>
     </section>
 
@@ -434,7 +438,7 @@
                 </p>
 
                 <div class="yellowButton car_help_position_button">
-                    <a href="#" >Оставить заявку </a>
+                    <a href="#" class="js-open-modal" data-modal="auto_help">Оставить заявку </a>
                 </div>
 
             </div>
@@ -464,8 +468,8 @@
                     проведите его с пользой! Главное условие - это Ваше совершеннолетие и любовь к животным!<br>
                     <span>Часто животным не хватает обычных прогулок и игры, они сидят в клетках и грустят.</span>
                 </p>
-                <div class="yellowButton Volunteering_control_button">
-                    <a href="#" >Оставить заявку </a>
+                <div class="yellowButton Volunteering_control_button " >
+                    <a href="#" class="js-open-modal" data-modal="volunteering">Оставить заявку </a>
                 </div>
             </div>
         </article>
@@ -575,5 +579,500 @@
 
     <p class="copy">© 2020 БООЗЖ "СПАСИ ЖИЗНЬ"</p>
 </footer>
+
+                    <!-- Подложка под модальным окном -->
+                    <div class="overlay js-overlay-modal">   </div>
+                    <!-- модальное окно волонтёрства  -->
+                    <div class="backgroundWrapperVolunteer modal" data-modal="volunteering">
+                        <div class="formWrapperVolunteer">
+
+
+                                <div class="wrapper_head_form">
+                                    <div class="captionForm">
+                                        <p>Волонтерство</p>
+                                        <svg  class="js-modal-close" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99956 6.58603L14.3635 0.22207L15.7777 1.63628L9.41377 8.00024L15.7777 14.3642L14.3635 15.7784L7.99956 9.41446L1.6356 15.7784L0.221383 14.3642L6.58534 8.00024L0.221383 1.63628L1.6356 0.22207L7.99956 6.58603Z" fill="#81869C"/>
+                                        </svg>
+                                    </div>
+                                    <div class="descriptionAutoHelp">
+                                        <h4>Заявка</h4>
+
+
+                                    </div>
+                                    <p class="infoVolunteerHelp">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь, мы позвоним вам.</p>
+                                </div>
+
+                                <form action="#"
+                                      method="get"
+                                      name="volunteerForm"
+                                >
+                                <div>
+                                    <div>
+                                        <input type="text"
+                                               id="volunteerName"
+                                               name="volunteerName"
+                                               placeholder="Фамилия и имя"
+                                               autofocus
+                                               class="DisainPlaceholder formName "
+                                        >
+                                    </div>
+                                    <div>
+                                        <input type="tel"
+                                               id="volunteerPhone"
+                                               name="volunteerPhone"
+                                               placeholder="Номер телефона"
+                                               required
+                                               class="DisainPlaceholder formPhone "
+                                        >
+                                        <label class="controlLabel" for="volunteerPhone">Обязательное поле для заполнения</label>
+                                    </div>
+
+                                    <div class="checkOther ">
+
+                                        <div class="form_radio">
+                                            <input
+                                                    id="volunteer_chek_1"
+                                                    type="radio"
+                                                    name="volunteer_chek_1"
+                                                    class="shapeCheck"
+                                                    value="1"
+                                                    tabindex="-1"
+                                                    checked
+                                            >
+                                            <label  class="control_label_check" for="volunteer_chek_1" tabindex="0">
+                                                Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)
+                                            </label>
+                                        </div>
+
+                                        <div class="form_radio">
+                                            <input
+                                                    id="volunteer_chek_2"
+                                                    type="radio"
+                                                    name="volunteer_chek_1"
+                                                    value="2"
+                                                    class="shapeCheck"
+                                                    tabindex="-1"
+
+                                            >
+                                            <label  class="control_label_check" for="volunteer_chek_2" tabindex="0">
+                                                Готов помогать иногда. Хочу выбрать удобное для меня время
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                     <textarea id="volunteerArea"
+                                               name="volunteerArea"
+                                               placeholder="Замечания"
+                                               class="DisainPlaceholder formAreaVoluneer "
+                                     ></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="flexaAgle marginTop32px">
+                                    <button type="submit"
+                                            id="start_volunteer_button"
+                                            class="formButton">
+                                        <span>Отправить заявку</span>
+                                    </button>
+
+                                    <button
+                                            type="button"
+                                            class="exitForm js-modal-close"
+                                            id="finish_volunteer_button"
+                                    >
+                                        <span>Отмена</span>
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <!-- модальное окно Авто помощи  -->
+                    <div class="backgroundWrapperAutoHelp modal" data-modal="auto_help">
+                        <div class="formWrapper">
+
+                                <div class="wrapper_head_form">
+
+                                    <div class="captionForm">
+
+                                        <p>Автопомощь</p>
+                                        <svg class="js-modal-close" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99956 6.58603L14.3635 0.22207L15.7777 1.63628L9.41377 8.00024L15.7777 14.3642L14.3635 15.7784L7.99956 9.41446L1.6356 15.7784L0.221383 14.3642L6.58534 8.00024L0.221383 1.63628L1.6356 0.22207L7.99956 6.58603Z" fill="#81869C"/>
+                                        </svg>
+                                    </div>
+
+                                    <div class="descriptionAutoHelp">
+                                        <h4>Заявка</h4>
+                                    </div>
+                                    <p class="infoAutoHelp">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
+                                </div>
+
+                            <form action="#"
+                                  method="get"
+                                  name="autoHelpForm"
+                            >
+                                <div>
+                                    <div>
+                                        <input type="text"
+                                               id="autoHelpName"
+                                               name="autoHelpName"
+                                               placeholder="Фамилия и имя"
+                                               autofocus
+                                               class="DisainPlaceholder formName"
+                                        >
+                                    </div>
+                                    <div>
+                                        <input type="tel"
+                                               id="autoHelpPhone"
+                                               name="autoHelpPhone"
+                                               placeholder="Номер телефона"
+                                               required
+                                               class="DisainPlaceholder formPhone"
+                                        >
+                                        <label class="controlLabel" for="autoHelpPhone">Обязательное поле для заполнения</label>
+                                    </div>
+                                    <div class="choiseTime">
+                                        <p>Выберите удобное время, когда вы сможете нам помочь</p>
+                                        <div class="flexaAgle">
+                                            <div >
+                                                <input  type="date" max="2021-31-12" min="2021-01-01"
+                                                        value="Дата / Период"
+                                                        id="choiceDataForm"
+                                                        name="choiceDataForm"
+                                                        class="DisainPlaceholder wrapData"
+                                                        placeholder="Дата / Период"
+
+                                                >
+                                            </div>
+                                            <div>
+                                                <input
+                                                        type="time"
+                                                        value="Дата / Период"
+                                                        id="choiceTimeForm"
+                                                        name="choiceTimeForm"
+                                                        class="DisainPlaceholder wrapTime"
+                                                >
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="addTime"><a href="" tabindex="0">+</a> <span>Добавить дату и время</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="wrap_check_auto">
+
+                                        <div class="form_check_auto_1">
+                                                <input
+                                                        id="auto_help__day_chek_1"
+                                                        type="checkbox"
+                                                        name="auto_help_chek_1"
+                                                        class="shapeCheck_auto"
+                                                        value="1"
+                                                        tabindex="-1"
+                                                >
+                                                    <label  class="control_label_check_auto" for="auto_help__day_chek_1" tabindex="0">
+                                                        В любой будний день
+                                                    </label>
+                                        </div>
+
+                                        <div class="form_check_auto_1 marginTop10px">
+                                            <input
+                                                    id="auto_help__day_chek_2"
+                                                    type="checkbox"
+                                                    name="auto_help_chek_1"
+                                                    class="shapeCheck_auto"
+                                                    value="2"
+                                                    tabindex="-1"
+                                            >
+                                                <label  class="control_label_check_auto" for="auto_help__day_chek_2" tabindex="0">
+                                                    В любой выходной день
+                                                </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="wrap_check_auto_other">
+                                        <p>Выберите вид автопомощи</p>
+
+                                        <div class="form_check_auto_2">
+                                            <input
+                                                    type="checkbox"
+                                                    id="auto_help__type_chek_1"
+                                                    name="auto_help_chek_2"
+                                                    class="shapeCheck_auto"
+                                                    value="1"
+                                                    tabindex="-1"
+                                            >
+                                            <label  class="control_label_check_auto" for="auto_help__type_chek_1" tabindex="0">
+                                                Доставка еды, медикаментов и других небольших вещей
+                                            </label>
+                                        </div>
+
+                                        <div class="form_check_auto_2">
+                                            <input
+                                                    type="checkbox"
+                                                    id="auto_help__type_chek_2"
+                                                    name="auto_help_chek_2"
+                                                    class="shapeCheck_auto"
+                                                    value="2"
+                                                    tabindex="-1"
+                                            >
+                                            <label  class="control_label_check_auto height40px" for="auto_help__type_chek_2" tabindex="0">
+                                                Доставка сена или соломы, строительных материлов<br>
+                                                для будок и других крупногабаритных вещей
+                                            </label>
+                                        </div>
+
+                                        <div class="form_check_auto_2">
+                                            <input
+                                                    type="checkbox"
+                                                    id="auto_help__type_chek_3"
+                                                    name="auto_help_chek_2"
+                                                    class="shapeCheck_auto"
+                                                    value="3"
+                                                    tabindex="-1"
+                                            >
+                                            <label  class="control_label_check_auto" for="auto_help__type_chek_3" tabindex="0">
+                                                Транспортировка небольших собак и котов
+                                            </label>
+                                        </div>
+
+                                        <div class="form_check_auto_2">
+                                            <input
+                                                    type="checkbox"
+                                                    id="auto_help__type_chek_4"
+                                                    name="auto_help_chek_2"
+                                                    class="shapeCheck_auto"
+                                                    value="4"
+                                                    tabindex="-1"
+                                            >
+                                            <label  class="control_label_check_auto" for="auto_help__type_chek_4" tabindex="0">
+                                                Транспортировка больших собак
+                                            </label>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div>
+                                     <textarea id="autoHelpArea"
+                                               name="autoHelpArea"
+                                               placeholder="Замечания"
+                                               class="DisainPlaceholder formArea"
+                                     ></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="flexaAgle control_button_auto">
+                                    <button type="submit"
+                                            class="formButton">
+                                        <span>Отправить заявку</span>
+                                    </button>
+
+                                    <button
+                                            type="button"
+                                            class="exitForm js-modal-close"
+                                    >
+                                        <span>Отмена</span>
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <!-- модальное окно забрать домой  -->
+                    <div class="backgroundWrapper modal" data-modal="take_Home">
+                        <div class="formWrapper">
+
+                            <div class="wrapper_head_form">
+
+                                <div class="captionForm">
+                                    <p>Забрать домой</p>
+                                    <svg class="js-modal-close" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99956 6.58603L14.3635 0.22207L15.7777 1.63628L9.41377 8.00024L15.7777 14.3642L14.3635 15.7784L7.99956 9.41446L1.6356 15.7784L0.221383 14.3642L6.58534 8.00024L0.221383 1.63628L1.6356 0.22207L7.99956 6.58603Z" fill="#81869C"/>
+                                    </svg>
+                                </div>
+
+                                <div class="descriptionAnimal">
+                                    <img alt="" src="">
+                                    <h4>Моник</h4>
+                                    <p  > Мальчик, 7 месяцев</p>
+                                </div>
+                                <p class="clearfix infoHelp">Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать себе питомца.</p>
+                            </div>
+
+                            <form action="#"
+                                  method="get"
+                                  name="takeHomeForm"
+                            >
+                                <div>
+                                    <div>
+                                        <input type="text"
+                                               id="takeHomeName"
+                                               name="takeHomeForm"
+                                               placeholder="Фамилия и имя"
+                                               autofocus
+                                               class="DisainPlaceholder formName"
+                                        >
+                                    </div>
+                                    <div>
+                                        <input type="tel"
+                                               id="takeHomePhone"
+                                               name="takeHomeForm"
+                                               placeholder="Номер телефона"
+                                               required
+                                               class="DisainPlaceholder formPhone"
+                                        >
+                                        <label class="controlLabel" for="takeHomePhone">Обязательное поле для заполнения</label>
+                                    </div>
+                                    <div>
+                                     <textarea id="takeHomeArea"
+                                               name="takeHomeForm"
+                                               placeholder="Замечания"
+                                               class="DisainPlaceholder formArea"
+                                     ></textarea>
+                                    </div>
+                                </div>
+                                <div class ="infoForm" >
+                                    <p>
+                                        Если у вас есть вопросы, можете позвонить нам:<br>
+                                        +375 (33) 6237879  Лена<br>
+                                        +375 (29) 7877791  Ольга<br>
+                                        +375 (29) 5837015  Рита
+                                    </p>
+                                </div>
+
+                                <div class="flexaAgle marginTop32px">
+                                    <button type="submit"
+                                            id="start_take_home_button"
+                                            class="form_button_take_home">
+                                        <span>Отправить </span>
+                                    </button>
+
+                                    <button
+                                            type="button"
+                                            class="exitForm js-modal-close"
+                                            id="finish_take_home_button"
+                                    >
+                                        <span>Отмена</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- модальное окно забрать на передержку  -->
+                    <div class="backgroundWrapperTemporary modal" data-modal="temporary">
+            <div class="formWrapper">
+
+                <div class="wrapper_head_form">
+                    <div class="captionForm">
+                        <p>Забрать на передержку</p>
+
+                        <svg  class="js-modal-close" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99956 6.58603L14.3635 0.22207L15.7777 1.63628L9.41377 8.00024L15.7777 14.3642L14.3635 15.7784L7.99956 9.41446L1.6356 15.7784L0.221383 14.3642L6.58534 8.00024L0.221383 1.63628L1.6356 0.22207L7.99956 6.58603Z" fill="#81869C"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="descriptionAnimal">
+                        <img alt="" src="">
+                        <h4>Моник</h4>
+                        <p  > Мальчик, 7 месяцев</p>
+                    </div>
+                    <p class="clearfix infoHelp">Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать себе питомца на передержку.</p>
+                </div>
+
+                <form action="#"
+                      method="get"
+                      name="temporaryForm"
+                >
+                    <div>
+                        <div>
+                            <input type="text"
+                                   id="temporaryFormName"
+                                   name="temporaryFormName"
+                                   placeholder="Фамилия и имя"
+                                   autofocus
+                                   class="DisainPlaceholder formName"
+                            >
+                        </div>
+                        <div>
+                            <input type="tel"
+                                   id="temporaryFormPhone"
+                                   name="temporaryFormPhone"
+                                   placeholder="Номер телефона"
+                                   required
+                                   class="DisainPlaceholder formPhone"
+                            >
+                            <label class="controlLabel" for="temporaryFormName">Обязательное поле для заполнения</label>
+                        </div>
+                        <div>
+                         <textarea id="temporaryFormArea"
+                                   name="temporaryFormArea"
+                                   placeholder="Замечания"
+                                   class="DisainPlaceholder formArea"
+                         ></textarea>
+                        </div>
+                    </div>
+                    <div  >
+                        <p class ="infoTel">
+                            Если у вас есть вопросы, можете позвонить нам:<br>
+                            +375 (33) 6237879  Лена<br>
+                            +375 (29) 7877791  Ольга<br>
+                            +375 (29) 5837015  Рита
+                        </p>
+                        <p class ="info"> Наши волонтеры будут активно искать будущий дом хвостику, пока вы помогаете нам с передержкой.<br>
+                            <span>Cпасибо за помощь!</span></p>
+                    </div>
+
+                    <div class="flexaAgle marginTop32px">
+                        <button type="submit"
+                                id="start_temporary_home_button"
+                                class="form_button_take_home">
+                            <span>Отправить </span>
+                        </button>
+
+                        <button
+                                type="button"
+                                class="exitForm js-modal-close"
+                                id="finish_temporary_home_button"
+                        >
+                            <span>Отмена</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+                    <!-- модальное окно справки  -->
+                    <div class="background_Wrapper_reference modal" data-modal="reference">
+
+                                    <div class="form_wrapper_reference">
+
+                                            <div class="captionForm">
+                                                <p>Кому и куда передать?</p>
+                                                <svg  class="js-modal-close" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99956 6.58603L14.3635 0.22207L15.7777 1.63628L9.41377 8.00024L15.7777 14.3642L14.3635 15.7784L7.99956 9.41446L1.6356 15.7784L0.221383 14.3642L6.58534 8.00024L0.221383 1.63628L1.6356 0.22207L7.99956 6.58603Z" fill="#81869C"/>
+                                                </svg>
+                                            </div>
+
+                                            <p class="info_reference">
+                                                Чтобы передать купленные вещи, свяжитесь с нашими
+                                                волонтерами. Вы сможете договориться о времени и месте встречи.
+                                                <br><span>Если доставить сами не сможете - волонтеры вам помогут в доставке.</span>
+                                            </p>
+
+                                            <div class="tel_reference">
+                                                <p> <b>+375 (33) 6237879</b>  &nbsp;Лена </p>
+                                                <p> <b>+375 (29) 7877791</b>   &nbsp;Ольга </p>
+                                                <p> <b>+375 (29) 5837015</b>   &nbsp;Рита</p>
+                                            </div>
+
+
+
+
+                                    </div>
+                            </div>
+
+
+
 </body>
 </html>

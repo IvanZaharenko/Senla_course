@@ -1,6 +1,3 @@
- *:hover {
-     transition: .5s cubic-bezier(.47,-.44,.49,1.46);
-   }
 
 body{
     font-family: "Gilroy","Arial", sans-serif;
@@ -746,7 +743,7 @@ display: inline-block;
     z-index: -1;
 }
 .white_Button a {
-    height: 42px;
+    height: 32px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -796,7 +793,7 @@ display: inline-block;
     z-index: -1;
 }
 .yellowButton a {
-    height: 42px;
+    height: 32px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;

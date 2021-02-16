@@ -9,9 +9,13 @@ body{
     width: 445px;
     margin: 0 auto 0 auto;
 }
+
 .formWrapperVolunteer{
     width: 502px;
         margin: 0 auto 0 auto;
+}
+.marginTop10px{
+    margin-top: 10px;
 }
 .captionForm {
     border-bottom: 1px solid #EEBF3A;
@@ -57,28 +61,31 @@ z-index: 1;
     z-index: 1;
 }
 .backgroundWrapperAutoHelp{
- min-height: 962px;
+ height: 700px;
+overflow-y: scroll;
 width: 525px;
 background: #FFFFFF;
 box-shadow: 0 0 22px rgba(161, 161, 161, 0.25);
 border-radius: 5px;
-position: relative;
-z-index: 1;
 }
-.backgroundWrapperVolunteer{
-    height: 634px;
-width: 582px;
-background: #FFFFFF;
-box-shadow: 0 0 22px rgba(161, 161, 161, 0.25);
-border-radius: 5px;
-position: relative;
-    z-index: 1;
+.modal{
+    opacity: 0;
+    display: none;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 30;
 }
-/*
-background: #FFFFFF;
-box-shadow: 0px 0px 22px rgba(161, 161, 161, 0.25);
-border-radius: 5px;
-}*/
+.backgroundWrapperVolunteer {
+    min-height: 634px;
+    max-width: 582px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 0 22px rgba(161, 161, 161, 0.25);
+    border-radius: 5px;
+}
 .descriptionAnimal{
     padding-top: 18px;
 }
@@ -122,7 +129,7 @@ border-radius: 5px;
 
 }
 .infoVolunteerHelp{
-width: 502px;
+max-width: 502px;
 height: 42px;
 font-size: 16px;
 line-height: 140%;
@@ -162,7 +169,7 @@ margin: 8px 0 0 0 ;
     padding: 10px 17px 10px 16px;
 }
 #volunteerArea, #volunteerPhone, #volunteerName {
-    width: 502px;
+    max-width: 502px;
  }
 .DisainPlaceholder::placeholder   {
     height: 20px;
@@ -185,8 +192,6 @@ margin: 8px 0 0 0 ;
     padding: 10px 17px 10px 16px;
 }
 .controlLabel{
-    height: 20px;
-    width: 237px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -194,6 +199,7 @@ margin: 8px 0 0 0 ;
     color: #B3B3B3;
     margin: 2px 0 0 16px;
 }
+
 
 
 
@@ -501,16 +507,30 @@ padding: 0 0 0 44px;
 .marginTop32px {
     margin-top: 32px;
 }
+.control_button_auto{
+margin: 32px 0 35px 0;
+}
 .marginTop41px {
     margin-top: 41px;
 }
 .form_radio{
     margin: 7px 0 0 0 ;
 }
+
 .checkOther{
     margin: 19px 0 0 0;
 }
-
+.shapeCheck_auto{
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    border-radius: 2px;
+    margin: 11px 0 0 1px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
 .form_radio label {
     height: 40px;
     width: 375px;
@@ -525,9 +545,47 @@ padding: 0 0 0 44px;
     cursor: pointer;
     align-items: center;
 }
+.form_radio label:focus, .form_check_auto_1 label:focus, .addTime a:focus, .control_label_check_auto:focus {
+    outline: 2px solid #6B6B6B;;
+}
+.wrap_check_auto{
+    margin: 20px 0 0 0;
+}
 
-.control_label_check:focus{
-    outline: 3px solid red;  
+.wrap_check_auto_other{
+    margin: 32px 0 0 0 ;
+}
+.wrap_check_auto_other p {
+    margin: 0 0 16px 0;
+}
+.control_label_check_auto{
+    height: 20px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #6B6B6B;
+    margin: 7px 0 0 0;
+    display: inline-flex;
+    user-select: none;
+    cursor: pointer;
+    align-items: center;
+}
+.control_label_check_auto:before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #F9B800;
+    margin-right: 11px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(206, 206, 206, 0.25);
 }
 /* создание в label псевдоэлемента  before со следующими стилями */
 .control_label_check::before {
@@ -569,11 +627,55 @@ padding: 0 0 0 44px;
 
 /* стили для радиокнопки, находящейся в состоянии checked */
 
-.shapeCheck:checked + label::before {
+.shapeCheck:checked + label::before, .shapeCheck_auto:checked + label::before {
     background: linear-gradient(149.04deg, #F9B800 22.92%, #FFD45B 81.94%);
     border: 1px solid #F9B800;
     box-shadow: 2px 2px 4px rgba(201, 201, 201, 0.25), inset 3px 3px 4px #ECAF01;
     background-image: radial-gradient(circle closest-side at center, #fff 5px, #F9B800 1px, #FFD45B 81.94%);
+}
+
+.shapeCheck_auto:checked + label::before {
+    background: #F4B500;
+    border: 1px solid #F9B800;
+    box-shadow: 2px 2px 4px rgba(201, 201, 201, 0.25), inset 3px 3px 4px #ECAF01;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABVSURBVHgBfcyxDQAhDANApF/gR6H8klF+M0ZhBEahpTNGEInCIZKF5BwJ4TIAXqYw8bkhPoX5mG6/orhUsSZbOYtmWKK9+Hc5cZJIYLhIYB8dOHm7AaGqd/wyMEWzAAAAAElFTkSuQmCC");
+    background-repeat: no-repeat;
+    background-size: 60% 55%;
+    background-position-x: 4px;
+    background-position-y: 4px;
+}
+
+.height40px{
+    height: 40px;
+}
+.background_Wrapper_reference{
+    background: #FFFFFF;
+    box-shadow: 0 0 22px rgba(161, 161, 161, 0.25);
+    border-radius: 5px;
+    max-width: 525px;
+    width: 100%;
+    min-height: 363px;
+}
+.form_wrapper_reference{
+    max-width: 405px;
+    width: 100%;
+    margin: 0 auto;
+}
+.info_reference {
+    max-width: 445px;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6B6B6B;
+    margin: 16px 0 0 0;
+}
+.info_reference span{
+    padding: 2px 0 0 0;
+    display: inline-block;
+}
+.tel_reference{
+    max-width: 445px;
+    width: 100%;
+    margin: 32px auto 30px auto;
 }
 
 /* стили для радиокнопки, находящейся в состоянии disabled */
@@ -581,4 +683,26 @@ padding: 0 0 0 44px;
     background-color: #e9ecef;
 }
 
+.overlay {
+    /* Скрываем подложку  */
+    opacity: 0;
+    display: none;
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+}
+
+.modal.active,
+.overlay.active{
+    opacity: 1;
+    display: block;
+}
+
+.hidden_body{
+    overflow-y: hidden;
+}
