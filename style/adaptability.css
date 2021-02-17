@@ -1,7 +1,4 @@
-@media (max-width:1920px)	{
 
-
-}
 
 @media (max-width:1440px)	{
 
@@ -1286,7 +1283,7 @@
         left: -4px;
     }
     .white_Button a {
-        height: 30px;
+        height: 22px;
         font-size: 16px;
         line-height: 23px;
     }
@@ -1304,7 +1301,7 @@
         height: 16px;
     }
     .listPetCard h4 {
-        height: 18px;
+        height: 28px;
         margin: 12px 16px 0 16px;
         padding-bottom: 6px;
         width: 273px;
@@ -1323,6 +1320,7 @@ min-height: 495px;
     .allPets {
         height: 40px;
         margin: 16px auto 0 auto;
+        width: 223px;
     }
     .listPet h3 {
         width: 382px;
@@ -1602,7 +1600,7 @@ line-height: 100%;    }
     margin-top: 24px;
     padding-bottom: 24px;
     width: 100%;
-    height: 42px;
+    height: 65px;
     display: flex;
 }
  .weBody {
@@ -1823,7 +1821,8 @@ line-height: 100%;    }
         height: 240px;
     }
     .seeMap {
-        margin: -20px auto 20px auto;
+        margin: 5px auto 20px auto;
+        width: 212px;
     }
     .things article {
         max-width: 300px;

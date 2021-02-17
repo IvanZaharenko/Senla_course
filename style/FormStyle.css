@@ -12,7 +12,7 @@ body{
 
 .formWrapperVolunteer{
     width: 502px;
-        margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 .marginTop10px{
     margin-top: 10px;
@@ -46,19 +46,33 @@ body{
     background: #FFFFFF;
     box-shadow: 0 0 22px rgba(161, 161, 161, 0.25);
     border-radius: 5px;
-    height: 735px;
+    height: 600px;
     width: 525px;
     position: relative;
 z-index: 1;
+    overflow-y: scroll;
 }
 .backgroundWrapperTemporary{
     background: #FFFFFF;
     box-shadow: 0 0 22px rgba(161, 161, 161, 0.25);
     border-radius: 5px;
-    height: 834px;
+    height: 600px;
     width: 525px;
     position: relative;
     z-index: 1;
+    overflow-y: scroll;
+}
+.conrol_btn_temporary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px 0 20px 0;
+}
+.control_btn_taleHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px 0 20px 0;
 }
 .backgroundWrapperAutoHelp{
  height: 700px;
@@ -78,10 +92,18 @@ border-radius: 5px;
     transform: translate(-50%,-50%);
     z-index: 30;
 }
+
+.control_button_volunter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px 0 35px 0;
+}
 .backgroundWrapperVolunteer {
-    min-height: 634px;
+    height: 600px;
     max-width: 582px;
     width: 100%;
+    overflow-y: scroll;
     background: #FFFFFF;
     box-shadow: 0 0 22px rgba(161, 161, 161, 0.25);
     border-radius: 5px;
@@ -126,6 +148,7 @@ border-radius: 5px;
     align-items: center;
     color: #242424;
     margin: 0;
+    width: 300px;
 
 }
 .infoVolunteerHelp{
@@ -295,7 +318,7 @@ line-height: 140%;
 color: #474747;
 margin: 24px 0 0 0;
 }
-.info{
+.info_temporary{
 width: 445px;
 height: 73px;
 left: 40px;
@@ -307,7 +330,7 @@ line-height: 140%;
 color: #B3B3B3;
 margin: 16px 0 0 0 ;
 }
-.info span {
+.info_temporary span {
     margin: 5px 0 0 0;
     display: block;
 }
@@ -455,7 +478,29 @@ line-height: 100%;
 color: #6B6B6B;
 vertical-align: text-top;
 }
-
+.captionForm_reference svg{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.captionForm_reference{
+    border-bottom: 1px solid #EEBF3A;
+    padding: 30px 0 8px 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.captionForm_reference p{
+    margin: 0;
+    height: 36px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B3B3B3;
+}
 .exitForm{
     height: 32px;
     width: 133px;
@@ -499,7 +544,58 @@ vertical-align: text-top;
 .disainExit {
 padding: 0 0 0 44px;
 }
+.capiton_temporary{
+    border-bottom: 1px solid #EEBF3A;
+    padding: 30px 0 8px 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.capiton_temporary p{
+    margin: 0;
+    height: 36px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B3B3B3;
+}
+.capiton_temporary svg{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.capiton_takeHome{
+    border-bottom: 1px solid #EEBF3A;
+    padding: 30px 0 8px 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.capiton_takeHome p{    margin: 0;
+    height: 36px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #B3B3B3;
+}
+.capiton_takeHome svg{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
 .flexaAgle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cotrol_time_auto{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -508,7 +604,10 @@ padding: 0 0 0 44px;
     margin-top: 32px;
 }
 .control_button_auto{
-margin: 32px 0 35px 0;
+    margin: 32px 0 35px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .marginTop41px {
     margin-top: 41px;
@@ -559,7 +658,6 @@ margin: 32px 0 35px 0;
     margin: 0 0 16px 0;
 }
 .control_label_check_auto{
-    height: 20px;
     width: 100%;
     font-style: normal;
     font-weight: normal;
@@ -571,6 +669,12 @@ margin: 32px 0 35px 0;
     user-select: none;
     cursor: pointer;
     align-items: center;
+}
+.size_check1{
+    height: 20px;
+}
+.size_check2{
+    height: 20px;
 }
 .control_label_check_auto:before{
     content: '';
@@ -706,3 +810,305 @@ margin: 32px 0 35px 0;
 .hidden_body{
     overflow-y: hidden;
 }
+
+/* adaptability form*/
+
+@media (max-width:1366px)	{
+    .backgroundWrapperAutoHelp{
+        height: 500px;
+    }
+    .backgroundWrapper{
+        height: 500px;
+    }
+    .backgroundWrapperTemporary{
+        height: 500px;
+    }
+}
+
+@media (max-width:1024px)	{
+    .backgroundWrapperAutoHelp{
+        height: 450px;
+    }
+    .backgroundWrapperVolunteer{
+        height: 450px;
+    }
+    .backgroundWrapper{
+        height: 450px;
+    }
+    .backgroundWrapperTemporary{
+        height: 450px;
+
+    }
+}
+
+@media (max-width:640px)	{
+    .backgroundWrapperAutoHelp{
+        height: 400px;
+        max-width: 360px;
+    }
+    .formWrapper{
+        max-width: 360px;
+    }
+    .captionForm {
+        margin: 0 30px 0 30px;
+        max-width: 300px;
+    }
+    .captionForm p {
+        font-size: 22px;
+    }
+    .captionForm_reference{
+        border-bottom: 1px solid #EEBF3A;
+        padding: 30px 0 8px 0;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .captionForm_reference p{
+        margin: 0;
+        height: 36px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #B3B3B3;
+    }
+    .captionForm_reference svg{
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+    .descriptionAutoHelp {
+        margin: 0 0 0 30px;
+    }
+    .infoAutoHelp {
+        max-width: 300px;
+        height: 87px;
+        margin: 4px 30px 0 30px;
+    }
+    .formName {
+        margin: 32px 30px 0 30px;
+        max-width: 300px;
+           }
+    .formPhone{
+        margin: 16px 30px 0 30px;
+        max-width: 300px;
+    }
+    .controlLabel {
+        margin: 2px 0 0 46px;
+    }
+    .choiseTime p {
+        height: 40px;
+        margin: 22px 30px 0 30px;
+        max-width: 300px;
+    }
+   .cotrol_time_auto{
+    flex-direction: column;
+    }
+    .wrapData {
+        height: 40px;
+        max-width: 300px;
+        margin: 16px 30px 0 30px;
+    }
+    .wrapTime {
+        height: 40px;
+        max-width: 300px;
+        margin: 8px 30px 0 30px;
+    }
+    .addTime {
+        margin: 16px 0 0 0;
+    }
+    .addTime a {
+        margin: 0 0 0 30px;
+    }
+    .wrap_check_auto {
+        margin: 30px 0 0 0;
+    }
+    .control_label_check_auto::before {
+        margin: 0 12px 0 0;
+    }
+    .wrap_check_auto_other p {
+        margin: 0 0 16px 30px;
+    }
+    .margintop20px{
+        margin: 20px 0 0 0;
+    }
+    .control_label_check_auto {
+        max-width: 330px;
+        padding: 0 0 0 30px;
+    }
+    .size_check1{
+        height: 20px;
+    }
+    .size_check2{
+        height: 45px;
+    }
+    .height40px{
+      height: 80px;
+      margin: 12px 0 0 0;
+    }
+    .formArea {
+        height: 76px;
+        width: 300px;
+        max-width: 300px;
+        min-width: 300px;
+        margin: 25px 30px 0 30px;
+    }
+    .control_button_auto{
+        margin: 28px 0 35px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .formButton {
+        height: 22px;
+        margin: 0 auto;
+    }
+    .formButton span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .formButton::after {
+        height: 32px;
+    }
+    .exitForm{
+        height: 22px;
+    }
+    .exitForm {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 24px auto 0 auto;
+    }
+    .exitForm::after {
+        height: 32px;
+
+    }
+    .formWrapperVolunteer{
+        width: 360px;
+    }
+    .backgroundWrapperVolunteer{
+        max-width: 360px;
+    }
+    .infoVolunteerHelp {
+        max-width: 300px;
+        height: 67px;
+        margin: 4px 0 0 30px;
+    }
+    #volunteerArea, #volunteerPhone, #volunteerName {
+        max-width: 300px;
+    }
+    .form_radio label {
+        height: 57px;
+        width: 330px;
+
+    }
+    .control_label_check::before {
+        width: 18px;
+        margin: 0 11px 0 30px;
+    }
+    .formAreaVoluneer {
+        height: 76px;
+        margin: 22px 30px 0 30px;
+        max-width: 300px;
+        min-width: 300px;
+    }
+    .control_button_volunter {
+        flex-direction: column;
+    }
+
+
+    .backgroundWrapper{
+        width: 360px;
+    }
+    .formWrapper {
+        max-width: 300px;
+        margin: 0 auto 0 auto;
+        width: 300px;
+    }
+    .capiton_takeHome p{
+        font-size: 20px;
+    }
+    .descriptionAnimal {
+        padding-top: 15px;
+    }
+    .descriptionAnimal img {
+        height: 80px;
+        width: 80px;
+    }
+    .descriptionAnimal h4 {
+        font-size: 20px;
+        padding: 15px 0 0 104px;
+    }
+    .infoHelp {
+        margin: 43px auto 0 auto;
+        height: 67px;
+        width: 300px;
+    }
+    .formName {
+        margin: 32px 0 0 0;
+        max-width: 300px;
+    }
+    .formPhone {
+        margin: 16px 0 0 0;
+        max-width: 300px;
+    }
+    .controlLabel {
+        margin: 2px 0 0 0;
+    }
+    .formArea {
+        height: 120px;
+        width: 300px;
+        max-width: 300px;
+        min-width: 300px;
+        margin: 25px 0 0 0;
+    }
+    .infoForm {
+        width: 300px;
+        height: 100px;
+    }
+    .control_btn_taleHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 32px 0 20px 0;
+    }
+    .form_button_take_home {
+        margin: 0 auto;
+    }
+
+
+
+    .backgroundWrapperTemporary{
+        width: 360px;
+    }
+    .capiton_temporary p {
+        font-size: 20px;
+    }
+    .info_temporary {
+        width: 300px;
+        height: 100px;
+    }
+    .conrol_btn_temporary {
+
+        flex-direction: column;
+
+    }
+
+    .background_Wrapper_reference {
+        max-width: 360px;
+        width: 100%;
+    }
+    .form_wrapper_reference {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .captionForm_reference p {
+        height: 30px;
+        font-size: 20px;
+
+    }
+}
+
+
+
