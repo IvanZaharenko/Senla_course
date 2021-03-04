@@ -3,6 +3,20 @@ body{
     font-family: "Gilroy","Arial", sans-serif;
     box-sizing: border-box;
 }
+@keyframes animation_cat {
+    0% {transform: translateY(100vh)}
+    100% {transform: translateY(0vh)}
+}
+@keyframes animation_dog {
+    0% {transform: translateX(100vw)}
+    100% {transform: translateX(0vw)}
+}
+@keyframes animation_text_btn {
+    0% {transform: translateX(-100vw)}
+    100% {transform: translateX(0vw)}
+}
+
+
 
 .filter_opacity{
 filter: opacity(50%);
@@ -72,19 +86,75 @@ z-index: 1;
     position: absolute;
     top: 34px;
     left: 115px;
-    z-index: 3;
-    cursor: pointer;
+    z-index: 31;
 }
-.burger svg{
+.close_nav{
     width: 30px;
     height: 20px;
+    border-bottom: 3px solid black;
+    box-sizing: border-box;
+    transition: all .5s;
+    cursor: pointer;
+    overflow: hidden;
 }
-.second_nav_block{
+    .close_nav:before{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        content: "";
+        display: block;
+        height: 3px;
+        background: black;
+        transition: all .5s;
+    }
+    .close_nav:after{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        content: "";
+        display: block;
+        height: 3px;
+        background: black;
+        transition: transform .5s, width 2s;
+    }
 
+    .close_nav:active, .close_nav.activ_burger{
+        border: 0;
+        height: 30px;
+    }
+ .burger.activ_burger{
+    top: 24px;
 }
+ .close_nav:active:before, .close_nav.activ_burger:before{
+         content: "";
+         display: block;
+         width: 100%;
+         transform: rotate(45deg);
+         background: black;
+         top: 100%;
+         margin-top: -55%;
+         left: 0;
+         margin-left: -0%;
+     }
+ .close_nav:active:after, .close_nav.activ_burger:after{
+         content: "";
+         display: block;
+         width: 100%;
+         transform: rotate(-45deg);
+         background: black;
+         top: 100%;
+         margin-top: -55%;
+         left: 0;
+         margin-left: 0%;
+}
+
 .button_head_help_position{
     margin-top: 49px;
     margin-left: 115px;
+    animation: animation_text_btn 6s 1 cubic-bezier(.86,.05,.13,.9) ;
+    animation-delay:0s;
 }
 .three_nav_block{
     top:37px;
@@ -146,6 +216,8 @@ top: 0;
 border-radius: 0 0 8px 8px;
 background:url('../img/dog1.png') no-repeat ;
 z-index: -1;
+    animation: animation_dog 1s 1 cubic-bezier(0,1.1,.72,.9) ;
+overflow-x: hidden;
 }
 .secondPictureHead{
 position: absolute;
@@ -154,7 +226,10 @@ height: 469px;
 left: 609px;
 top: 470px;
 background: url('../img/cat1.png') no-repeat;
+    animation: animation_cat 3s 1 ease ;
+    z-index: 3;
 }
+
 h1 {
 width: 659px;
 height: 77px;
@@ -200,10 +275,13 @@ margin: 43px 0 0 112px;
     z-index: 2;
 }
 .opacityHead{
-
     position: absolute;
     top: 370px;
+    animation: animation_text_btn 6s 1 cubic-bezier(.86,.05,.13,.9) ;
+    animation-delay:0s;
+    /*transform: translate(-50%,-50%)*/
 }
+
 .opacityTextOne{
 width: 599px;
 height: 192px;
@@ -370,6 +448,10 @@ z-index: 0;
     height: 150px;
     border-radius: 50%;
 }
+.how_help_card:hover{
+    animation: animation_card 2s 1 cubic-bezier(.86,.05,.13,.9) ;
+    animation-delay:0s;
+}
 .how_help_card p {
     margin: 24px 0 0 0 ;
     width: 166px;
@@ -381,6 +463,7 @@ z-index: 0;
     text-align: center;
     color: #474747;
 }
+
 .howHelpCenterIMG{
     position: relative;
     height: 144px;
@@ -720,7 +803,7 @@ display: inline-block;
 .white_Button{
     cursor: pointer;
     height: 32px;
-    max-width: 286px;
+    width: 286px;
     background: linear-gradient(180deg, #FBFBFB 0%, #F6F6F6 100%);
     box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25);
     border-radius: 58px;
@@ -771,7 +854,7 @@ display: inline-block;
 .yellowButton{
     cursor: pointer;
     height: 32px;
-    max-width: 211px;
+    width: 211px;
     background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
     box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
     border-radius: 58px;

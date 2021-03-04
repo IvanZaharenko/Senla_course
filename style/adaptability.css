@@ -1088,6 +1088,22 @@
         top: 32px;
         left: 133px;
     }
+    .close_nav{
+        width: 24px;
+        height: 16px;
+        border-bottom: 2px solid black;
+    }
+    .close_nav:active, .close_nav.activ_burger{
+        border: 0;
+        height: 26px;
+    }
+    .close_nav:before{
+        height: 2px;
+    }
+    .close_nav:after{
+        height: 2px;
+    }
+
     .WrapperHead {
         min-height: 566px;
         max-width: 768px;
@@ -1667,6 +1683,9 @@ line-height: 100%;    }
 
 @media (max-width:640px)	{
     /*head section*/
+
+
+
     .WrapperHead {
         max-width: 360px;
         min-height: 553px;

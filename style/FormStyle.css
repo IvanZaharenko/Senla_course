@@ -9,7 +9,50 @@ body{
     width: 445px;
     margin: 0 auto 0 auto;
 }
+.wrap_drop_nav {
+    top: 0 !important;
+    left: 0 !important;
+    transform: translate(0%,0%) !important;
+}
+.dropp_nav_head{
+    width: 100vw;
+    height: 64px;
+    background: #FFC41E;
+}
+.dropp_nav_body{
+    width: 100vw;
+    background: #fff;
+}
+.dropp_nav_body ul{
+    list-style: none;
+    margin: 0px 0 20px 0;
+    padding: 0;
+}
+.dropp_nav_body ul li:last-child{
+    border-bottom: none;
 
+}
+.dropp_nav_body ul li {
+    max-width: 568px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0 20px 0;
+    border-bottom: 1px #ffe18d solid;
+}
+.dropp_nav_body a{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #242424;
+    text-decoration: none;
+}
+.dropp_nav_body a:hover{
+    border-bottom: 1px solid #000000;
+    color: #000000;
+}
 .formWrapperVolunteer{
     width: 502px;
     margin: 0 auto 0 auto;
@@ -334,7 +377,9 @@ margin: 16px 0 0 0 ;
     margin: 5px 0 0 0;
     display: block;
 }
-
+.wrap_margin_petMore{
+    margin: 0 40px;
+}
 
 /*   */
 .form_button_take_home {
@@ -781,12 +826,103 @@ padding: 0 0 0 44px;
     width: 100%;
     margin: 32px auto 30px auto;
 }
+.background_wrapper_pet_more{
+    height: 634px;
+    width: 875px;
+    background: #E5E5E5;
+    box-shadow: 0 0 22px rgba(161, 161, 161, 0.25);
+    border-radius: 5px;
+    overflow-x: hidden;
+}
+.wrapper_pet_more{
+margin: 0 auto;
+    max-width:770px ;
+}
+.capiton_pet_more{
+    height: 74px;
+    border-bottom: solid 1px #D6D6D6;
+    padding: 30px 0 8px 0;
+    margin: 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.capiton_pet_more p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 24px;
+    text-align: center;
+    color: #242424;
+    margin: 0 auto;
+    height: 36px;
+}
+.capiton_pet_more svg {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.description_pet_more{
+    max-width: 494px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #242424;
+}
+.description_gray{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B6B6B;
+    margin: 16px 0 0 0 ;
+}
+.image_pet_more{
+    min-height: 262px;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image_pet_more img{
+    width: 236px;
+    height: 262px;
+    margin: 0 30px 0 0;
+}
+.image_pet_more img:last-child{
+    margin: 0;
+}
+.conrol_btn_pet_more{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 32px 0 0 0;
+    padding: 0 0 35px 0;
+}
+.white_Button.white_pet_more{
+    margin: 0 0 0 30px;
+}
+
 
 /* стили для радиокнопки, находящейся в состоянии disabled */
 .shapeCheck:disabled+label::before {
     background-color: #e9ecef;
 }
-
+.overlay_nav{
+    /* Скрываем подложку   */
+    opacity: 0;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+}
 .overlay {
     /* Скрываем подложку  */
     opacity: 0;
@@ -801,8 +937,8 @@ padding: 0 0 0 44px;
     z-index: 20;
 }
 
-.modal.active,
-.overlay.active{
+
+.modal.active, .overlay.active, .overlay_nav.active{
     opacity: 1;
     display: block;
 }
@@ -810,6 +946,7 @@ padding: 0 0 0 44px;
 .hidden_body{
     overflow-y: hidden;
 }
+
 
 /* adaptability form*/
 
@@ -826,6 +963,11 @@ padding: 0 0 0 44px;
 }
 
 @media (max-width:1024px)	{
+
+
+    .background_wrapper_pet_more{
+        width: 600px;
+    }
     .backgroundWrapperAutoHelp{
         height: 450px;
     }
@@ -839,9 +981,70 @@ padding: 0 0 0 44px;
         height: 450px;
 
     }
+.description_pet_more{
+    max-width: 444px;
+}
+    .image_pet_more {
+        min-height: 262px;
+        margin: 0 auto 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        max-width: 444px;
+    }
+    .image_pet_more img {
+        width: 207px;
+    }
+    .image_pet_more img:last-child {
+        margin: 30px 30px 0 0;
+    }
+    .image_pet_more img:nth-child(even){
+        margin: 0;
+    }
+
+}
+@media (max-width: 768px) {
+.capiton_pet_more{
+    padding: 30px 0 14px 0;
+}
+
+    .background_wrapper_pet_more{
+        width: 450px;
+    }
+    .capiton_pet_more p{
+        font-size: 22px;
+    }
+    .description_pet_more{
+            max-width: 368px;
+    }
+    .image_pet_more img {
+        width: 172px;
+        height: 217px;
+        margin: 0 9px 0 0;
+    }
+    .image_pet_more {
+        max-width: 368px;
+    }
+    .image_pet_more img:last-child {
+        margin: 23px 0 0 0;
+    }
+    .conrol_btn_pet_more {
+        flex-direction: column;
+        margin: 28px 0 0 0;
+    }
+    .white_Button.white_pet_more {
+        margin: 24px auto 0 auto;
+    }
+    .yellow_pet_more{
+      margin: 0 auto;
+    }
 }
 
 @media (max-width:640px)	{
+
+    .dropp_nav_body ul li {
+        max-width: 414px;
+    }
     .backgroundWrapperAutoHelp{
         height: 400px;
         max-width: 360px;
@@ -880,12 +1083,12 @@ padding: 0 0 0 44px;
         cursor: pointer;
     }
     .descriptionAutoHelp {
-        margin: 0 0 0 30px;
+        margin: 0 ;
     }
     .infoAutoHelp {
         max-width: 300px;
         height: 87px;
-        margin: 4px 30px 0 30px;
+        margin: 4px 0 0 0;
     }
     .formName {
         margin: 32px 30px 0 30px;
@@ -900,7 +1103,7 @@ padding: 0 0 0 44px;
     }
     .choiseTime p {
         height: 40px;
-        margin: 22px 30px 0 30px;
+        margin: 22px 0 0 0;
         max-width: 300px;
     }
    .cotrol_time_auto{
@@ -909,18 +1112,20 @@ padding: 0 0 0 44px;
     .wrapData {
         height: 40px;
         max-width: 300px;
-        margin: 16px 30px 0 30px;
+        width: 300px;
+        margin: 16px 0 0 0;
     }
     .wrapTime {
         height: 40px;
         max-width: 300px;
-        margin: 8px 30px 0 30px;
+        width: 300px;
+        margin: 8px 0 0 0;
     }
     .addTime {
         margin: 16px 0 0 0;
     }
     .addTime a {
-        margin: 0 0 0 30px;
+        margin: 0 ;
     }
     .wrap_check_auto {
         margin: 30px 0 0 0;
@@ -929,14 +1134,14 @@ padding: 0 0 0 44px;
         margin: 0 12px 0 0;
     }
     .wrap_check_auto_other p {
-        margin: 0 0 16px 30px;
+        margin: 0 0 16px 0;
     }
     .margintop20px{
         margin: 20px 0 0 0;
     }
     .control_label_check_auto {
         max-width: 330px;
-        padding: 0 0 0 30px;
+        padding: 0 0 0 0;
     }
     .size_check1{
         height: 20px;
@@ -960,6 +1165,9 @@ padding: 0 0 0 44px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+    .descriptionAutoHelp.caption_voluntureenig_600px{
+    margin: 0 0 0 30px;
     }
     .formButton {
         height: 22px;
@@ -1049,6 +1257,15 @@ padding: 0 0 0 44px;
         margin: 32px 0 0 0;
         max-width: 300px;
     }
+    #volunteerName{
+        margin: 32px 0 0 30px;
+    }
+    #volunteerPhone{
+        margin: 16px 0 0 30px;
+    }
+    .controlLabel.controlLabel600px{
+        margin: 2px 0 0 30px;
+    }
     .formPhone {
         margin: 16px 0 0 0;
         max-width: 300px;
@@ -1077,7 +1294,9 @@ padding: 0 0 0 44px;
         margin: 0 auto;
     }
 
-
+    .captionForm.caption_form_auto600px{
+        margin: 0;
+    }
 
     .backgroundWrapperTemporary{
         width: 360px;
@@ -1110,5 +1329,35 @@ padding: 0 0 0 44px;
     }
 }
 
+@media (max-width: 450px) {
+    .dropp_nav_body ul li {
+        max-width: 300px;
+    }
+    .image_pet_more img:last-child {
+        margin: 23px auto 0 auto;
+    }
+    .wrap_margin_petMore{
+        margin: 0 30px;
+    }
 
+    .background_wrapper_pet_more{
+        width: 360px;
+    }
+    .capiton_pet_more {
+        padding: 24px 0 14px 0;
+        margin: 0 ;
+    }
+    .description_pet_more {
+        max-width: 300px;
+    }
+    .image_pet_more {
+        max-width: 300px;
+        flex-direction: column
+    }
+    .image_pet_more img, .image_pet_more img:nth-child(2n) {
+        width: 264px;
+        height: 333px;
+        margin: 16px auto 0 auto;
+    }
+}
 
