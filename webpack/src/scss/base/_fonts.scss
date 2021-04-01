@@ -1,0 +1,57 @@
+/**
+ * Fonts
+*/
+@font-face {
+    font-family: "DINP-R";
+    src: url("../fonts/DINPro-Regular.eot?") format("eot"),
+    url("../fonts/DINPro-Regular.woff") format("woff"),
+    url("../fonts/DINPro-Regular.ttf") format("truetype"),
+    url("../fonts/DINPro-Regular.svg#DINPro-Regular") format("svg");
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src:  local(''),
+    url('../fonts/Gilroy-regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    src: local(''),
+    url('../fonts/Gilroy-bold.woff2') format('woff2'),
+    url('../fonts/Gilroy-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('../fonts/Gilroy-Light.woff2') format('woff2'),
+    url('../fonts/Gilroy-Light.woff') format('woff');
+}
+
