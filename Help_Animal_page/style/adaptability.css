@@ -1,0 +1,1992 @@
+
+
+@media (max-width:1440px)	{
+
+
+}
+
+@media (max-width:1366px)	{
+
+
+}
+
+@media (max-width:1270px)	{
+    .firstPictureHead {
+        width: 504px;
+        height: 564px;
+        background-size: 100% 100%;
+        left: 410px;
+    }
+    h1 {
+        width: 461px;
+        font-size: 64px;
+        margin: 48px 0 0 112px;
+    }
+    .litleGrayHead {
+        width: 461px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .litleBoldBlackHead{
+        width: 461px;
+        height: 60px;
+        font-size: 14px;
+    }
+    .bigStyleHead{
+        width: 428px;
+        height: 116px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .opacityTextOne{
+        width: 445px;
+        height: 143px;
+        background-size: 100% 100%;
+    }
+    .opacityTextTwo{
+        width: 397px;
+        height: 80px;
+        background-size: 100% 100%;
+    }
+    .opacityTextThree {
+        width: 352px;
+        height: 80px;
+        background-size: 100% 100%;
+        margin: 0 0 0 220px;
+    }
+    .secondPictureHead{
+        height: 326px;
+        width: 344px;
+        background-size: 100% 100%;
+        left: 463px;
+        top: 374px;
+    }
+    .opacityHead{
+        top: 310px;
+    }
+    nav{
+        justify-content: flex-start;
+    }
+    .first_nav_block{
+        margin-left: 110px;
+    }
+    .second_nav_block{
+        margin-left: 52px;
+    }
+    .three_nav_block{
+        margin-left: 117px;
+    }
+
+    /*Info section */
+    .infoForVisitor{
+        height: 568px;
+    }
+    .WrapperHead{
+        margin: 0 auto ;
+        max-width: 1024px;
+        min-height: 642px;
+    }
+    .WrapInfoIMG{
+        margin: 36px 0 0 0;
+        height: 362px;
+    }
+    .WrapInfoIMG::before{
+        height: 362px;
+    }
+    .infoSectionImg1{
+        width: 323px;
+        height: 323px;
+        top: 21px;
+        right: calc(-323px / 2);
+    }
+    .infoSectionImg1Substrate{
+        width: 362px;
+        height: 362px;
+        left: calc(100% - 181px);
+    }
+    .infoSectionImg2{
+
+    }
+    .infoSectionImg2Substrate{
+        height: 170px;
+        width: 170px;
+        left: calc(100% + 35px);
+        top: calc(100% - 164px);
+    }
+    .infoSectionImg2{
+        width: 158px;
+        height: 158px;
+        top: calc(100% - 158px);
+        left: calc(100% + 41px);
+    }
+    .wrapInfoForVisitor{
+        width: 323px;
+        left:  calc(100vw - 480px);
+        top: 31px;
+    }
+    .wrapInfoForVisitor h2{
+        width: 323px;
+        font-size: 24px;
+    }
+    .wrapInfoForVisitor p{
+        width: 323px;
+        margin: 24px 0 0 0;
+    }
+     /*howHelp section*/
+
+    .howHelpCard{
+        height: 190px;
+        width: 140px;
+    }
+    .how_help_img svg{
+        height: 60px;
+        width: 62px;
+        margin: 24px 0 0 24px;
+    }
+    .how_help_img{
+        width: 110px;
+        height: 110px;
+        margin: 0 0 0 28px;
+    }
+    .how_help_img a{
+        width: 110px;
+        height: 110px;
+    }
+    .howHelpCard p{
+        font-size: 16px;
+        line-height: 20px;
+        width: 140px;
+        height: 60px;
+    }
+    .howHelpHeading{
+        font-size: 24px;
+        padding: 64px 0 0 0;
+    }
+    .wrapperCard{
+        margin: 32px 0 0 0;
+    }
+    .howHelp{
+        min-height: 434px;
+    }
+    .howHelpCenterIMG{
+        height: 97px;
+        width: 158px;
+        left: calc(50% - 79px);
+        top: 50px;
+    }
+    .howHelpCenterIMG:before{
+        width: 100px;
+        height: 97px;
+        left: calc(100% - 128px);
+    }
+    .pet_Сhoice_Option{
+        margin: 110px 0 0 0;
+        height: 266px;
+        width: 275px;
+    }
+    .petСhoice {
+        overflow-x: hidden;
+    }
+    .SectionCenter article{
+        justify-content: space-evenly;
+    }
+    .pet_Сhoice_Option h3{
+        width: 275px;
+        height: 64px;
+    }
+    .pet_Сhoice_Option p{
+        width: 275px;
+    }
+    .listPet h3{
+        width: 254px;
+        font-size: 24px;
+        margin: 48px auto 0 auto;
+    }
+    .petChoiseLast p{
+        height: 44px;
+        font-size: 16px;
+        margin: 61px 0 75px 0;
+    }
+    .margin65-0-0-35{
+        margin: 55px 0 0 35px;
+    }
+
+    /*finance section*/
+    .financeBottom {
+        min-height: 77px;
+    }
+    .frontImgFinance {
+        width: 158px;
+        height: 126px;
+        top: 30px;
+        left: calc(50vw - 79px);
+    }
+    .frontImgFinance::before {
+        width: 118px;
+        height: 86px;
+        left: 26px;
+    }
+    .financeWraper {
+        margin: 87px auto 0 auto;
+    }
+    .financeWraper h4 {
+        width: 530px;
+        font-size: 24px;
+    }
+    .financeWraper > p {
+        width: 530px;
+        font-size: 16px;
+        margin: 16px auto 0 auto;
+    }
+    .financeListInfo {
+        width: 275px;
+        margin: 80px 0 0 0;
+    }
+    .financeListInfo p{
+        height: 24px;
+        width: 275px;
+        font-size: 24px;
+    }
+    .financeListInfo ul {
+        height: 141px;
+        max-width: 275px;
+    }
+    .financeListInfo ul li {
+        font-size: 14px;
+    }
+    .financeListAdress{
+        width: 275px;
+        margin: 80px 0 0 0;
+    }
+    .point {
+        height: 24px;
+        width: 274px;
+        font-size: 24px;
+    }
+    .financeListAdress ul li {
+        font-size: 14px;
+    }
+    .financeListAdress ul {
+        height: 300px;
+        max-width: 275px;
+        list-style: none;
+        padding-left: 0;
+        margin: 24px 0 0 0;
+    }
+    .seeMap {
+        margin: 40px 0 41px 0;
+    }
+
+    /* Things Section*/
+    .frontImgThings {
+        width: 158px;
+        left: calc(50% - 79px);
+        top: 45px;
+    }
+    .frontImgThings::before {
+        width: 118px;
+        height: 86px;
+        top: calc(50% - 55px);
+        left: calc(50% - 59px);
+    }
+    .things article {
+        max-width: 490px;
+        margin: 87px auto 0 auto;
+    }
+    .thingFeed h4 {
+        font-size: 24px;
+    }
+    .thingFeed ul {
+        max-width: 4810px;
+        height: 178px;
+    }
+    .thingMedicines h4{
+        font-size: 24px;
+    }
+    .thingOther h4 {
+        font-size: 24px;
+    }
+
+    .thingsBottom {
+        min-height: 102px;
+    }
+
+    /* AutoHelp Section*/
+
+    .frontImgCarHelp{
+        left: calc(50vw - 79px);
+        width: 158px;
+    }
+    .frontImgCarHelp::before {
+        width: 110px;
+        height: 110px;
+        top: 0;
+        left: calc(50% - 50px);
+    }
+    .carHelp article {
+        max-width: 481px;
+        margin: 68px auto 0 auto;
+    }
+    .carHelp h4 {
+        font-size: 24px;
+    }
+    .car_help_position_button {
+        margin-top: 38px;
+    }
+
+    /* Volunteering Section*/
+
+
+    .VolunteeringBottom {
+        min-height: 80px;
+        border-bottom: 1px solid #EEBF3A;
+    }
+    .frontImgVolunteering {
+        width: 158px;
+        height: 126px;
+        top: 30px;
+        left: calc(50vw - 79px);
+    }
+    .frontImgVolunteering::before{
+        width: 100px;
+        height: 108px;
+        background-size: 100% 100%;
+        left: calc(50% - 55px);
+    }
+    .wrapVolunteering {
+        margin: 87px auto 0 auto;
+        min-height: 431px;
+    }
+    .VolunteeringText {
+        max-width: 323px;
+        padding-top: 0;
+        margin: 0 0 162px 525px;
+    }
+    .VolunteeringText h4 {
+        font-size: 24px;
+    }
+    .VolunteeringText span {
+        padding: 1px 0 29px 0;
+    }
+    .VolunteeringIMG1 {
+        width: 348px;
+        height: 348px;
+        right: calc(-348px / 2);
+        top: 23px;
+        left: 88px;
+    }
+    .VolunteeringIMG1Substrate {
+        width: 390px;
+        height: 390px;
+        left: 70px;
+    }
+    .VolunteeringIMG1Substrate::before {
+        height: 390px;
+        right: 50%;
+    }
+
+    /* News Section*/
+
+    .news h4 {
+        font-size: 24px;
+        margin: 36px 0 0 0;
+    }
+    .novelty {
+        margin-top: 26px;
+    }
+    .novelty img {
+        width: 130px;
+        height: 130px;
+    }
+    .allNews {
+        margin: 25px 0 36px 0;
+    }
+
+    /* News Section*/
+
+    .we article {
+        padding-top: 48px;
+    }
+    .we h4 {
+        font-size: 24px;
+    }
+    .weHead {
+        font-size: 16px;
+    }
+    .weBody {
+        max-width:481px;
+
+        font-size: 14px;
+    }
+    .weSocial {
+        margin-top: 32px;
+        padding-bottom: 40px;
+    }
+    .weHead {
+       max-width:481px;
+    }
+    /* thank Section*/
+
+    .thank {
+        height: 555px;
+    }
+    .darkened {
+        width: 460px;
+        height: 390px;
+        margin-top: 89px;
+        background-size: 100% 100%;
+    }
+    .thankText p {
+        width: 259px;
+        height: 118px;
+        font-size: 48px;
+        line-height: 58px;
+        top: 227px;
+        left: 100px;
+    }
+    .thankText::after {
+        width: 67px;
+        height: 67px;
+        top: 279px;
+        left: 368px;
+        background-size: 100% 100%;
+    }
+
+
+    /* footer Section*/
+
+    footer {
+        min-height: 101px;
+    }
+    .wrap-footer-list {
+        flex-direction: column;
+    }
+    .about-footer {
+        padding-left: 0;
+    }
+    .wrap-footer-list ul {
+        padding: 24px 0 0 0;
+    }
+    .bold-text-footer{
+        margin-left: 89px;
+    }
+    .wrap-footer-list ul li {
+        margin-left: 29px;
+    }
+    .about-footer{
+        margin-left: 89px;
+    }
+    .copy {
+        padding-bottom: 0;
+        margin: 0;
+        position: absolute;
+        top: 67px;
+        left: 75%;
+    }
+
+}
+
+@media (max-width: 1130px) {
+    .listPetCard{
+        margin: 32px 21px 0 0;
+    }
+    .wrap_listPetCard {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:1024px)	{
+    h1 {
+        width: 311px;
+        font-size: 42px;
+        margin: 3px 0 0 110px;
+    }
+    .circleSochNav a {
+        height: 40px;
+        width: 40px;
+    }
+    .litleGrayHead {
+        width: 311px;
+        height: 32px;
+        font-size: 14px;
+        margin: 6px 0 0 110px;
+    }
+    .litleBoldBlackHead {
+        width: 311px;
+        height: 80px;
+        font-size: 14px;
+        margin: 8px 0 0 110px;
+    }
+    .bigStyleHead {
+        width: 204px;
+        height: 114px;
+        font-size: 16px;
+        margin: 40px 0 0 110px;
+        line-height: 19px;
+    }
+    .opacityHead {
+        top: 193px;
+    }
+    .opacityTextOne {
+        width: 340px;
+        height: 110px;
+        background-size: 100% 100%;
+    }
+    .opacityTextTwo {
+        width: 304px;
+        height: 61px;
+        background-size: 100% 100%;
+    }
+    .opacityTextThree {
+        width: 270px;
+        height: 61px;
+        background-size: 100% 100%;
+        margin: 0 0 0 151px;
+    }
+    .firstPictureHead {
+        width: 344px;
+        height: 385px;
+        background-size: 100% 100%;
+        left: 314px;
+    }
+    .secondPictureHead {
+        height: 222px;
+        width: 235px;
+        background-size: 100% 100%;
+        left: 350px;
+        top: 256px;
+    }
+    .WrapperHead {
+        min-height: 535px;
+        max-width: 768px;
+    }
+    nav {
+        justify-content: flex-end;
+    }
+    .second_nav_block{
+        display: none;
+    }
+    .first_nav_block{
+        display: none;
+    }
+    .three_nav_block {
+        top: 24px;
+        margin: 0 157px 0 0;
+    }
+    .circleSochNav {
+        width: 40px;
+        height: 40px;
+    }
+    .VkLogoNav {
+        top: 12px;
+        left: 7px;
+        width: 25px;
+        height: 15px;
+    }
+    .instLogoNav {
+        position: absolute;
+        top: 8px;
+        left: 9px;
+        width: 22px;
+        height: 22px;
+    }
+    .circleSochNav::after {
+        width: 50px;
+        height: 50px;
+        left: -5px;
+        top: -5px;
+    }
+    .burger{
+        display:block;
+        position: absolute;
+        top: 34px;
+        left: 115px;
+    }
+
+/*InfoForVisitor section*/
+
+    .WrapInfoIMG {
+        margin: 24px 0 0 0;
+        height: 273px;
+        max-width: 204px;
+    }
+    .wrapInfoForVisitor {
+        width: 264px;
+        left: 408px;
+        top: 0;
+    }
+    .wrapInfoForVisitor h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .wrapInfoForVisitor p {
+        width: 100%;
+        margin: 24px 0 0 0;
+        font-size: 14px;
+    }
+    .infoForVisitor {
+        height: 500px;
+    }
+    .infoSectionImg1 {
+        width: 244px;
+        height: 244px;
+        top: 16px;
+        right: calc(-244px / 2);
+    }
+    .infoSectionImg1Substrate {
+        width: 273px;
+        height: 273px;
+        left: calc(100% - 137px);
+    }
+    .infoSectionImg2Substrate {
+        height: 129px;
+        width: 129px;
+        left: 226px;
+        top: 148px;
+    }
+    .infoSectionImg2 {
+        width: 120px;
+        height: 120px;
+        top: calc(100% - 120px);
+        left: calc(100% + 26px);
+    }
+
+    /*howHelp section*/
+
+
+    .howHelp {
+        min-height: 617px;
+    }
+    .wrapper_card {
+        margin: 32px 0 0 0;
+
+    }
+    .wrapper_card {
+        width: 518px;
+        margin: 32px auto 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .howHelpCenterIMG {
+        height: 97px;
+        width: 114px;
+        left: calc(50vw - 57px);
+        top: 44px;
+    }
+    .howHelpCenterIMG:before {
+        width: 74px;
+        height: 62px;
+        left: calc(100% - 92px);
+        top: calc(50% - 30px);
+    }
+
+    /*pet_Сhoice section*/
+    .pet_Сhoice_Option {
+        margin: 71px 0 0 0;
+        height: 302px;
+        width: 275px;
+    }
+
+    .listPetCard{
+        margin: 32px 21px 0 0;
+    }
+    .pet_Сhoice_Option h3 {
+        width: 189px;
+        height: 54px;
+        font-size: 24px;
+        margin: 4px 0 0 0;
+    }
+    .pet_Сhoice_Option p {
+        width: 190px;
+        font-size: 14px;
+    }
+    .petChoiseLast p {
+        width: 379px;
+        height: 60px;
+        font-size: 14px;
+        margin: 53px 0 74px 0;
+        line-height: 20px;
+    }
+    .circleSoch {
+        width: 32px;
+        height: 32px;
+    }
+    .circleSoch a {
+        height: 24px;
+        width: 24px;
+    }
+    .VkLogo {
+        top: 11px;
+        left: 5px;
+        width: 20px;
+        height: 12px;
+    }
+    .circleSoch::after {
+        width: 40px;
+        height: 40px;
+        left: -4px;
+        top: -4px;
+    }
+    .instLogo {
+        top: 6px;
+        left: 6px;
+        width: 20px;
+        height: 20px;
+    }
+    .pet_choise_Soc_control{
+        margin: 64px 0 0 0;
+
+    }
+    /*finance section*/
+
+    .financeBottom {
+        min-height: 43px;
+    }
+    .frontImgFinance {
+        width: 114px;
+        height: 74px;
+        top: 0;
+        left: calc(50vw - 57px);
+    }
+    .frontImgFinance::before {
+        width: 55px;
+        height: 40px;
+        left: 30px;
+        top: 20px;
+    }
+    .financeWraper {
+        margin: 51px auto 0 auto;
+    }
+    .financeWraper h4 {
+        width: 358px;
+        font-size: 20px;
+    }
+    .financeWraper > p {
+        width: 358px;
+        font-size: 16px;
+    }
+    .financeListInfo {
+        width: 237px;
+        margin: 40px 0 0 0;
+    }
+    .financeListInfo p {
+        height: 24px;
+        width: 237px;
+        font-size: 20px;
+    }
+    .financeListInfo ul {
+        height: 151px;
+        max-width: 275px;
+    }
+    .financeListInfo ul {
+        height: 164px;
+        max-width: 237px;
+        margin: 24px 0 29px 0;
+    }
+    .financeListAdress {
+        margin: 40px 0 0 0;
+    }
+    .point {
+        height: 24px;
+        font-size: 20px;
+    }
+    .financeListAdress ul {
+        height: 320px;
+        max-width: 237px;
+    }
+    .seeMap {
+        margin: 32px 0 20px 0;
+    }
+
+    /*things section*/
+
+    .thingsBottom {
+        min-height: 63px;
+    }
+    .frontImgThings {
+        width: 114px;
+        left: calc(50% - 57px);
+        top: 45px;
+        height: 50px;
+    }
+    .frontImgThings::before {
+        width: 54px;
+        height: 44px;
+        top: calc(50% - 34px);
+        left: calc(50% - 25px);
+    }
+    .thingFeed h4 {
+        font-size: 20px;
+    }
+    .thingFeed {
+        min-height: 216px;
+        max-width: 399px;
+    }
+    .thingFeed ul {
+        max-width: 4810px;
+        height: 160px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .thingFeed ul li {
+        padding-top: 0;
+    }
+    .thingMedicines h4 {
+        font-size: 20px;
+    }
+    .thingMedicines p {
+        max-width: 398px;
+        font-size: 14px;
+    }
+    .thingOther h4 {
+        font-size: 20px;
+    }
+    .thingOther ul {
+        max-width: 398px;
+        font-size: 14px;
+    }
+    .thingsBottom {
+        min-height: 63px;
+    }
+
+    .frontImgCarHelp {
+        left: calc(50vw - 57px);
+        width: 114px;
+    }
+    .frontImgCarHelp::before {
+        width: 74px;
+        height: 55px;
+        top: 30px;
+        left: calc(50% - 36px);
+    }
+    .carHelp article {
+        max-width: 398px;
+        margin: 52px auto 0 auto;
+    }
+    .carHelp h4 {
+        font-size: 20px;
+    }
+    .carHelp p {
+        font-size: 14px;
+    }
+
+    /*Volunteering section*/
+
+    .VolunteeringBottom {
+        min-height: 62px;
+    }
+
+    .frontImgVolunteering {
+        width: 114px;
+        left: calc(50vw - 55px);
+        height: 70px;
+    }
+    .frontImgVolunteering::before {
+        width: 76px;
+        height: 62px;
+        background-size: 100% 100%;
+        left: calc(50% - 37px);
+    }
+
+    .wrapVolunteering {
+        margin: 67px auto 0 auto;
+        min-height: 536px;
+        max-width: 768px;
+    }
+    .VolunteeringIMG1 {
+        width: 270px;
+        height: 270px;
+        right: 0;
+        top: 17px;
+        left: 88px;
+    }
+    .VolunteeringIMG1Substrate {
+        width: 300px;
+        height: 300px;
+        left: 70px;
+    }
+    .VolunteeringIMG1Substrate::before {
+        height: 300px;
+        right: 50%;
+    }
+    .VolunteeringText h4 {
+        font-size: 20px;
+    }
+    .VolunteeringText p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 140%;
+        color: #242424;
+        margin: 24px 0 24px 0;
+    }
+    .VolunteeringText {
+        max-width: 217px;
+        margin: 0 0 0 398px;
+    }
+    .news h4 {
+        margin: 24px 0 0 0;
+    }
+    .novelty {
+        justify-content: center;
+    }
+    .novelty p {
+        font-size: 14px;
+        margin: 0 0 0 16px;
+        width: 304px;
+    }
+    .novelty span {
+        padding-top: 0;
+    }
+    .novelty img {
+        width: 104px;
+        height: 104px;
+        margin: 18px 0 0 0 ;
+    }
+    .news article {
+        max-width: 426px;
+    }
+
+    /*we section*/
+
+    .we article {
+        max-width: 446px;
+        padding-top: 48px;
+    }
+    .we h4 {
+        font-size: 20px;
+    }
+    .weHead {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .we h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .weBody {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .weBody span {
+        padding-top: 3px;
+    }
+
+    /*thank section*/
+
+    .thank {
+        height: 416px;
+    }
+
+    .darkened {
+        width: 345px;
+        height: 292px;
+        margin-top: 67px;
+        background-size: 100% 100%;
+    }
+    .thankText p {
+        width: 194px;
+        height: 86px;
+        font-size: 36px;
+        line-height: 44px;
+        top: 170px;
+        left: 74px;
+    }
+    .thankText::after {
+        width: 50px;
+        height: 50px;
+        top: 209px;
+        left: 268px;
+        background-size: 100% 100%;
+    }
+
+
+
+        /*footer section*/
+
+    .copy {
+        padding-bottom: 0;
+        margin: 24px auto 0 auto;
+       position: initial;
+    }
+
+    .wrap-footer-list ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrap-footer-list ul li {
+        margin: 0 56px 15px 0;
+    }
+    .wrap-footer-list {
+        flex-direction: row;
+    }
+
+    .wrap-footer-list {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+
+@media (max-width:768px)	{
+    .yellowButton a {
+        height: 22px;
+
+    }
+
+    /*Head section*/
+    .circleSochNav a {
+        display: block;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+    .VkLogoNav {
+        top: 8px;
+        left: 5px;
+        width: 15px;
+        height: 9px;
+    }
+    .margimLeft34px {
+        margin-left: 22px;
+    }
+    .WrapTextHead {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+    }
+    .three_nav_block {
+        margin: 0 127px 0 0;
+    }
+    .burger svg {
+        width: 24px;
+        height: 16px;
+    }
+    .circleSochNav::after {
+        width: 32px;
+        height: 32px;
+        left: -4px;
+        top: -4px;
+    }
+    .circleSochNav {
+        width: 24px;
+        height: 24px;
+    }
+    .instLogoNav {
+        top: 5px;
+        left: 5px;
+        width: 14px;
+        height: 14px;
+    }
+    .burger {
+        top: 32px;
+        left: 133px;
+    }
+    .close_nav{
+        width: 24px;
+        height: 16px;
+        border-bottom: 2px solid black;
+    }
+    .close_nav:active, .close_nav.activ_burger{
+        border: 0;
+        height: 26px;
+    }
+    .close_nav:before{
+        height: 2px;
+    }
+    .close_nav:after{
+        height: 2px;
+    }
+
+    .WrapperHead {
+        min-height: 566px;
+        max-width: 768px;
+    }
+    .firstPictureHead {
+        width: 312px;
+        height: 357px;
+        background-size: 100% 100%;
+        left: 328px;
+    }
+    .secondPictureHead {
+        height: 165px;
+        width: 157px;
+        background-size: 100% 100%;
+        left: 380px;
+        top: 251px;
+    }
+    h1 {
+        width: 282px;
+        font-size: 30px;
+        margin: 3px 0 0 129px;
+    }
+    .litleGrayHead {
+        width: 282px;
+        height: 28px;
+        font-size: 12px;
+        margin: -15px 0 0 129px;
+        line-height: 14px;
+    }
+    .litleBoldBlackHead {
+        width: 269px;
+        height: 100px;
+        font-size: 14px;
+        margin: 20px 0 0 129px;
+    }
+    .bigStyleHead {
+        width: 381px;
+        height: 57px;
+        margin: 175px auto 0 130px;
+        text-align: center;
+    }
+    /*infoForVisitor section*/
+
+    .infoForVisitor {
+        height: 552px;
+    }
+    .WrapInfoIMG {
+        margin: 16px 0 0 0;
+        height: 193px;
+        max-width: 303px;
+        width: 100%;
+        background: #ffc41e;
+    }
+    .infoSectionImg1 {
+        width: 173px;
+        height: 173px;
+        top: 11px;
+        right: -85px;
+    }
+    .infoSectionImg1Substrate {
+        width: 193px;
+        height: 193px;
+        left: 206px;
+    }
+    .infoSectionImg2 {
+        width: 85px;
+        height: 85px;
+        top: 113px;
+        left: 323px;
+    }
+    .infoSectionImg2Substrate {
+        height: 91px;
+        width: 91px;
+        left: 320px;
+        top: 110px;
+    }
+    .WrapInfoIMG::before {
+        display: none
+    }
+    .wrapInfoForVisitor {
+        width: 382px;
+        left: 0;
+        top: 0;
+        margin: 221px 129px 0 206px;
+    }
+    .wrapInfoForVisitor h2 {
+        font-size: 16px;
+    }
+
+
+        /*howHelp section*/
+    .howHelpHeading {
+        font-size: 18px;
+        padding: 32px 0 0 0;
+    }
+    .wrapper_card {
+        width: 580px;
+        margin: 10px auto 0 auto;
+    }
+    .how_help_card {
+        height: 148px;
+        width: 142px;
+        position: relative;
+        margin: 24px 0 0 16px;
+    }
+    .how_help_img {
+        width: 80px;
+        height: 80px;
+        margin: 0 0 0 30px;
+    }
+    .how_help_img a {
+        width: 80px;
+        height: 80px;
+    }
+    .how_help_img svg {
+        height: 44px;
+        width: 45px;
+        margin: 16px 0 0 18px;
+    }
+    .how_help_card p {
+         margin: 8px 0 0 0;
+         width: 142px;
+     }
+    .howHelp {
+        min-height: 476px;
+    }
+
+
+    .pet_choise_info {
+       
+        max-width: 470px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .pet_Сhoice_Option {
+        margin: 50px 0 0 0;
+        height: 100%;
+        width: 100%;
+    }
+    .pet_Сhoice_Option h3 {
+        width: 100%;
+        height: 24px;
+        font-size: 16px;
+        margin: 4px 0 0 0;
+        text-align: center;
+    }
+    .pet_Сhoice_Option p {
+        width: 100%;
+        font-size: 14px;
+        margin: 16px auto 0 auto;
+        height: 100%;
+    }
+
+    /*listPet section*/
+
+
+
+    .howHelpCenterIMG::before {
+        width: 54px;
+        height: 52px;
+        left: calc(100% - 96px);
+        top: calc(50% - 28px);
+    }
+    .howHelpCenterIMG {
+        height: 58px;
+        width: 142px;
+        left: calc(50vw - 71px);
+        top: 29px;
+    }
+    .pet_choise_Soc_control {
+        margin: 17px auto 25px auto;
+        width: 120px;
+    }
+    .petChoiseLast {
+        flex-direction: column;
+    }
+    .petChoiseLast p {
+        width: 382px;
+        margin: 40px auto 0 auto;
+    }
+    .control_list_pet{
+        height: 100%;
+    }
+    .white_Button {
+        height: 22px;
+        max-width: 232px;
+        margin: 27px auto 0 auto;
+    }
+    .white_Button::after {
+        width: 242px;
+        height: 30px;    
+        top: -4px;
+        left: -4px;
+    }
+    .white_Button a {
+        height: 22px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .control_arrow {
+        display: none;
+    }
+    .blackColorListPet {
+        height: 84px;
+        width: 272px;
+       
+    }
+    .grayColorListPet {
+        margin: 6px 16px 0 16px;
+        width: 273px;
+        height: 16px;
+    }
+    .listPetCard h4 {
+        height: 28px;
+        margin: 12px 16px 0 16px;
+        padding-bottom: 6px;
+        width: 273px;
+    }
+    .listPetCard img {
+        height: 284px;
+        width: 272px;
+        margin: 14px 14px 0 14px;
+    }
+    .listPetCard {
+        margin: 20px 20px 0 0;
+        width: 100%;
+max-width: 300px;
+min-height: 495px;
+    }
+    .allPets {
+        height: 40px;
+        margin: 16px auto 0 auto;
+        width: 223px;
+    }
+    .listPet h3 {
+        width: 382px;
+        font-size: 19px;
+        margin: 36px auto 0 auto;
+    }
+
+
+    /*finance section*/
+    .seeMap {
+        margin: 8px auto 20px auto;
+    }
+    .financeListAdress ul {
+        height: 160px;
+        max-width: 100%;
+        margin: 16px 0 0 0;
+    }
+    .point {
+        width: 100%;
+    }
+    .financeListAdress {
+        margin: 32px 0 0 0;
+        width: 382px;
+    }
+    .financeListInfo ul {
+        height: 151px;
+        max-width: 100%;
+        margin: 16px 0 29px 0;
+    }
+    .financeListAdress ul li {
+line-height: 100%;    }
+    .financeListInfo p {
+        width: 100%;
+    }
+    .financeListInfo {
+        width: 382px;
+    }
+    .wrapFinanceLists {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .financeWraper > p {
+        width: 382px;
+        font-size: 16px;
+        height: 89px;
+    }
+    .financeWraper h4 {
+        width: 382px;
+        font-size: 16px;
+        height: 24px;
+    }
+    .financeWraper {
+        margin: 47px auto 0 auto;
+        max-width: 382px;
+    }
+    .frontImgFinance::before {
+        width: 63px;
+        height: 47px;
+        left: 41px;
+        top: 16px;
+    }
+    .financeBottom {
+        min-height: 39px;
+    }
+    .frontImgFinance {
+        width: 142px;
+        height: 69px;
+        top: 0;
+        left: calc(50% - 70px);
+    }
+ 
+ 
+ 
+    /*things section*/
+
+ .thingOther ul {
+    max-width: 382px;
+    font-size: 14px;
+    height: 142px;
+    margin: 16px 0 0 0;
+}
+ .thingOther h4 {
+    font-size: 16px;
+    height: 20px;
+}
+ .thingMedicines p {
+    max-width: 383px;
+    font-size: 14px;
+    height: 100px;
+}
+ .thingMedicines h4 {
+    font-size: 16px;
+    height: 20px;
+}
+ .thingFeed ul {
+    max-width: 389px;
+    height: 180px;
+}
+ .thingFeed h4 {
+    font-size: 16px;
+    height: 20px;
+}
+ .things article {
+    max-width: 381px;
+    margin: 48px auto 0 auto;
+}
+ .frontImgThings::before {
+    width: 63px;
+    height: 47px;
+    top: calc(50% - 37px);
+    left: calc(50% - 30px);
+}
+.frontImgThings {
+    width: 142px;
+    left: calc(50% - 71px);
+    top: 53px;
+    height: 28px;
+}
+    .thingsBottom {
+        min-height: 55px;
+    }
+
+
+ /*carHelp section*/
+
+ .thingTransfer {
+    margin: 10px auto 0 auto;
+   
+}
+ .frontImgCarHelp::before {
+    width: 63px;
+    height: 47px;
+    top: 35px;
+    left: calc(50% - 27px);
+}
+ .frontImgCarHelp {
+    left: calc(50vw - 71px);
+    width: 142px;
+    height: 73px;
+    top: 6px;
+}
+
+ .carHelp article {
+    max-width: 382px;
+    margin: 48px auto 0 auto;
+}
+    .carHelp h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .yellowButton::after {
+        width: 174px;
+        height: 30px;
+        top: -4px;
+        left: -5px;
+    }
+    .yellowButton a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .yellowButton {
+     
+        height: 22px;
+        max-width: 164px;
+        width: 164px;
+    }
+
+
+ /*Volunteering section*/
+ .VolunteeringText {
+    max-width: 385px;
+    margin: 70px auto 0 129px;
+    width: 387px;
+    min-height: 231px;
+}
+.VolunteeringText h4 {
+    font-size: 18px;
+    text-align: center;
+}
+.VolunteeringText p {
+    margin: 16px 0 0 0;
+    max-width: 382px;
+}
+.yellowButton{
+    margin: 16px auto 0 auto;
+}
+.VolunteeringText span {
+    padding: 1px 0 0 0;
+}
+
+ .VolunteeringIMG1 {
+    position: relative;
+    width: 189px;
+    height: 189px;
+    right: 0;
+    top: 12px;
+    left: 190px;
+}
+.VolunteeringIMG1Substrate {
+    width: 212px;
+    height: 212px;
+    left: 178px;
+}
+.VolunteeringIMG1Substrate::before {
+    height: 212px;
+}
+ .wrapVolunteering {
+    margin: 47px auto 0 auto;
+    min-height: 561px;
+    max-width: 640px;
+}
+ .frontImgVolunteering {
+    width: 142px;
+    left: calc(50vw - 71px);
+    height: 25px;
+}
+ .frontImgVolunteering::before {
+    width: 63px;
+    height: 43px;
+    background-size: 100% 100%;
+    left: calc(50% - 29px);
+    top: -10px;
+}
+    .VolunteeringBottom {
+        min-height: 43px;
+    }
+
+    .frontImgVolunteering {
+        width: 142px;
+        left: calc(50vw - 71px);
+        height: 25px;
+    }
+ /*news section*/
+
+
+ .allNews {
+    margin: 16px 0 16px 120px;
+}
+ .news article {
+        max-width: 382px;
+    }
+
+ /*we section*/
+
+ .we_control_cociabottom {
+    margin-top: 9px;
+}
+ .instLogo {
+    top: 5px;
+    left: 5px;
+    width: 14px;
+    height: 14px;
+}
+ .circleSoch {
+    width: 24px;
+    height: 24px;
+}
+ .circleSoch::after {
+    width: 32px;
+    height: 32px;
+    left: -4px;
+    top: -4px;
+}
+ .VkLogo {
+    top: 8px;
+    left: 4px;
+    width: 15px;
+    height: 9px;
+}
+.weSocial p {
+    width: 282px;
+    height: 42px;
+}
+ .weSocial {
+    margin-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+}
+ .weBody {
+    margin: 18px 0 0 0;
+}
+ .we h5 {
+    line-height: 21px;
+    margin: 32px 0 0 0;
+}
+ .we h4 {
+    font-size: 16px;
+}
+    .we article {
+        max-width: 382px;
+        padding-top: 32px;
+    }
+
+    /*thank section*/
+    .thankText::after {
+        width: 42px;
+        height: 42px;
+        top: 176px;
+        left: 188px;
+        background-size: 100% 100%;
+    }
+    .thank {
+        height: 360px;
+    }
+    .darkened {
+        width: 250px;
+        height: 217px;
+        margin-top: 74px;
+        background-size: 100% 100%;
+    }
+    .thankText p {
+        width: 158px;
+        height: 78px;
+        font-size: 30px;
+        line-height: 36px;
+        top: 142px;
+        left: 30px;
+    }
+    .circleSoch a {
+         height: 24px;
+         width: 24px;
+     }
+
+    /*footer section*/
+
+    .footer_two_item{
+    padding: 1px 0 0 0 !important;
+    }
+
+    .bold-text-footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:670px)	{
+    .wrapInfoForVisitor {
+        margin: 221px 0 0 129px;
+    }
+}
+
+@media (max-width:640px)	{
+    /*head section*/
+
+
+
+    .WrapperHead {
+        max-width: 360px;
+        min-height: 553px;
+    }
+    .secondPictureHead {
+        height: 157px;
+        width: 165px;
+        background-size: 100% 100%;
+        left: 144px;
+        top: 251px;
+    }
+    .firstPictureHead {
+        width: 225px;
+        height: 357px;
+        background-size: 100% 100%;
+        left: 135px;
+    }
+    h1 {
+        width: 247px;
+        font-size: 30px;
+        margin: 20px 0 0 30px;
+    }
+    .litleGrayHead {
+        width: 211px;
+        height: 28px;
+        margin: -19px 0 0 30px;
+        line-height: 14px;
+    }
+    .litleBoldBlackHead {
+        width: 158px;
+        height: 160px;
+        margin: 20px 0 0 30px;
+    }
+    .opacityHead {
+        top: 270px;
+    }
+    .opacityTextOne {
+        width: 175px;
+        height: 56px;
+        background-size: 100% 100%;
+    }
+    .opacityTextTwo {
+        width: 156px;
+        height: 31px;
+        background-size: 100% 100%;
+    }
+    .opacityTextThree {
+        width: 138px;
+        height: 31px;
+        background-size: 100% 100%;
+        margin: 0 0 0 79px;
+    }
+    .bigStyleHead {
+        width: 300px;
+        height: 76px;
+        margin: 92px auto 0 auto;
+    }
+    .burger {
+        top: 32px;
+        left: 34px;
+    }
+    .three_nav_block {
+        margin: 0 30px 0 0;
+    }
+    /*infoForVisitor section*/
+
+    .infoForVisitor {
+        height: 632px;
+    }
+    .WrapInfoIMG {
+        margin: 16px 0 0 0;
+        height: 193px;
+        max-width: 144px;
+        width: 100%;
+        background: #ffc41e;
+    }
+    .infoSectionImg1Substrate {
+        left: 46px;
+    }
+    .infoSectionImg2 {
+        top: 129px;
+        left: 163px;
+    }
+    .infoSectionImg2Substrate {
+        left: 160px;
+        top: 126px;
+    }
+    .wrapInfoForVisitor {
+        margin: 241px 0 0 114px;
+        width: 300px;
+    }
+
+    .wrapInfoForVisitor p {
+        margin: 16px 0 0 0;
+    }
+    .wrapper_card {
+        width: 360px;
+        margin: 0 auto 0 auto;
+    }
+
+    /*infoForVisitor section*/
+    .circleSoch a {
+        height: 24px;
+        width: 24px;
+    }
+    .pet_choise_info {
+        max-width: 360px;
+    }
+    .pet_Сhoice_Option h3 {
+        margin: 0 0 0 0;
+    }
+    .pet_Сhoice_Option p {
+        width: 300px;
+    }
+    .pet_Сhoice_Option{
+        margin: 41px 0 0 0;
+    }
+    .listPetCard{
+        margin: 20px 6px 0 0 ;
+    }
+    .listPet h3 {
+        width: 192px;
+    }
+    .petChoiseLast p {
+        width: 300px;
+        height: 80px;
+    }
+    .pet_choise_Soc_control {
+        margin: 6px auto 8px auto;
+    }
+    .margimLeft34px {
+        margin-left: 56px;
+    }
+    /*finance section*/
+
+    .financeWraper {
+        max-width: 300px;
+    }
+    .financeWraper h4 {
+        width: 300px;
+    }
+    .financeWraper > p {
+        width: 100%;
+    }
+    .financeListInfo {
+        width: 100%;
+    }
+    .financeListAdress {
+        width: 300px;
+    }
+    .financeListAdress ul {
+        height: 240px;
+    }
+    .seeMap {
+        margin: 5px auto 20px auto;
+        width: 212px;
+    }
+    .things article {
+        max-width: 300px;
+    }
+
+        /*thingS section*/
+
+
+    .thingFeed ul {
+        max-width: 100%;
+        height: 220px;
+    }
+    .thingMedicines p {
+        max-width: 100%;
+        height: 120px;
+    }
+    .thingOther {
+        min-height: 100%;
+        max-width: 360px;
+        margin: 40px auto 0 auto;
+    }
+    .thingOther ul {
+        max-width: 100%;
+        height: 206px;
+    }
+    .thingOther ul li {
+        padding-top: 0;
+    }
+    .thingTransfer {
+        margin: 16px auto 0 auto;
+    }
+    .thingsBottom {
+        min-height: 63px;
+    }
+
+
+    /*carHelp section*/
+
+    .carHelp article {
+        max-width: 300px;
+        margin: 48px auto 0 auto;
+    }
+
+    /*carHelp section*/
+    .VolunteeringIMG1 {
+        left: 53px;
+    }
+    .VolunteeringIMG1Substrate {
+        left: 38px;
+    }
+    .VolunteeringText {
+        max-width: 300px;
+        margin: 35px auto 0 auto;
+        width: 300px;
+        min-height: 100%;
+    }
+    .wrapVolunteering {
+        margin: 47px auto 0 auto;
+        min-height: 588px;
+        max-width: 360px;
+    }
+
+
+    /*news section*/
+
+    .news article {
+        max-width: 360px;
+    }
+    .news h4 {
+        margin: 17px 0 0 0;
+        font-size: 16px;
+    }
+
+    .novelty img {
+        width: 80px;
+        height: 80px;
+        margin: 0;
+    }
+    .novelty p {
+        width: 205px;
+        min-height: 80px;
+        height: 100%;
+    }
+    .allNews {
+        margin: 16px auto 16px auto;
+    }
+    .margimLeft34px {
+        margin-left: 34px;
+    }
+
+    /*we section*/
+
+    .we article {
+        max-width: 300px;
+    }
+    .weSocial p {
+        width: 211px;
+    }
+    .we_soch_conrol {
+        margin-left: 21px;
+    }
+
+    /*thank section*/
+
+    .thank {
+        height: 267px;
+        width: 100%;
+    }
+    .darkened {
+        width: 256px;
+        height: 217px;
+        margin-top: 39px;
+        background-size: cover;
+    }
+    .thankText p {
+        top: 107px;
+    }
+    .thankText::after {
+        top: 142px;
+    }
+    /*footer section*/
+    .bold-text-footer {
+        margin-left: 30px;
+    }
+    .wrap-footer-list ul li {
+        margin: 0 0 20px 0;
+    }
+    .about-footer {
+        margin-left: 0;
+    }
+    .copy {
+        margin: 4px auto 0 auto;
+        position: initial;
+        padding: 0 0 16px 0;
+    }
+
+}
+
+
+
+
+@media (max-width:430px)	{
+.wrapInfoForVisitor {
+        margin: 241px 0 0 40px;
+        width: 300px;
+    }
+
+}
