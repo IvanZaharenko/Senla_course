@@ -3,4 +3,5 @@ import '../scss/app.scss';
 /* Your JS Code goes here */
 
 /* Demo JS */
-alert('sdfs');
+// alert('sdfs');
+console.log('sdfsf');

@@ -4,17 +4,19 @@
   "version": "5.2.2",
   "description": "",
   "browserslist": [
-    "last 2 versions",
-    "> 5%"
+    "Chrome",
+    "Safari",
+    "IE",
+    "Edge",
+    "Firefox."
   ],
-  "bugs": {
-  },
-  "contributors": [
-  ],
+  "bugs": {},
+  "contributors": [],
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
+    "babel-eslint": "^8.2.3",
     "ajv": "^7.0.3",
     "autoprefixer": "^10.2.3",
     "babel-loader": "^8.2.2",
@@ -24,10 +26,12 @@
     "css-minimizer-webpack-plugin": "^1.2.0",
     "eslint": "^7.18.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-jest-enzyme": "^6.0.2",
+    "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^21.18.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react": "^7.9.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.1",
     "image-minimizer-webpack-plugin": "^2.2.0",
@@ -72,6 +76,8 @@
     "production": "webpack --config configuration/webpack.prod.config.js --mode=production",
     "lint:sass": "sass-lint -v -q",
     "lint:js": "eslint --ext .js src/js/",
+    "lint": "eslint --debug src/",
+    "lint:write": "eslint --debug src/ --fix",
     "stats": "webpack --config configuration/webpack.prod.config.js --mode=production --json > dist/stats.json && webpack-bundle-analyzer dist/stats.json"
   },
   "target": "web"
